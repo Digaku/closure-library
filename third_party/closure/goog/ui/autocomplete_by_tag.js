@@ -44,7 +44,8 @@ goog.ui.AutoComplete.CustomHandler.prototype.selectRow = function(row) {
 };
 
 
-goog.ui.AutoComplete.ByTag = function(data, input, opt_multi, opt_useSimilar) {
+goog.ui.AutoComplete.ByTag = function(url, input, opt_multi, opt_useSimilar) {
+	
   var matcher = new goog.ui.AutoComplete.ArrayMatcher(data, !opt_useSimilar);
   var renderer = new goog.ui.AutoComplete.Renderer();
 

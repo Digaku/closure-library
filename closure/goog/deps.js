@@ -760,5 +760,7 @@ goog.addDependency('../../third_party/closure/goog/osapi/osapi.js', ['goog.osapi
 goog.addDependency('../../third_party/closure/goog/silverlight/silverlight.js', ['goog.silverlight'], []);
 goog.addDependency('../../third_party/closure/goog/silverlight/supporteduseragent.js', ['goog.silverlight.supportedUserAgent'], []);
 goog.addDependency('../../third_party/closure/goog/ui/loading.js', ['goog.ui.Loading'], []);
-goog.addDependency('../../third_party/closure/goog/ui/autocomplete_by_tag.js', ['goog.ui.AutoComplete.ByTag'], ['goog.ui.AutoComplete', 'goog.ui.AutoComplete.ArrayMatcher', 'goog.ui.AutoComplete.Renderer', 'goog.ui.AutoComplete.InputHandler']);
+goog.addDependency('../../third_party/closure/goog/ui/fullscreen_loading.js', ['goog.ui.FullscreenLoading'], ['goog.dom', 'goog.style', 'goog.ui.Component']);
+
+
 
