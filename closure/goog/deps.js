@@ -761,6 +761,6 @@ goog.addDependency('../../third_party/closure/goog/silverlight/silverlight.js', 
 goog.addDependency('../../third_party/closure/goog/silverlight/supporteduseragent.js', ['goog.silverlight.supportedUserAgent'], []);
 goog.addDependency('../../third_party/closure/goog/ui/loading.js', ['goog.ui.Loading'], []);
 goog.addDependency('../../third_party/closure/goog/ui/fullscreen_loading.js', ['goog.ui.FullscreenLoading'], ['goog.dom', 'goog.style', 'goog.ui.Component']);
-
+goog.addDependency('../../third_party/closure/goog/ui/flash_status.js', ['goog.ui.FlashStatus'], ['goog.dom', 'goog.style', 'goog.ui.Component']);
 
 
