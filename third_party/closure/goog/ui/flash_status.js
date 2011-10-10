@@ -58,7 +58,7 @@ goog.ui.FlashStatus.prototype.build_element_ = function(default_status){
 	'padding: 5px;">' +
 	'</div>';
 	
-	this.text_elm_ = goog.dom.htmlToDocumentFragment('<div id="FlashStatusText" style="padding: 5px; font-weight: bold;">' + status_ + '</div>');
+	this.text_elm_ = goog.dom.htmlToDocumentFragment('<div id="FlashStatusText" style="text-align: center; padding: 5px; font-weight: bold;">' + status_ + '</div>');
 	
 	elm = goog.dom.htmlToDocumentFragment( rv );
 	
