@@ -54,7 +54,7 @@ goog.ui.FlashStatus.prototype.build_element_ = function(default_status){
 	'border-radius:5px;' +
 	'-webkit-border-radius:5px;' +
 	'border: 1px solid #CACACA;' +
-	'z-index: 1000;' +
+	'z-index: 5001;' +
 	'padding: 5px;">' +
 	'</div>';
 	
