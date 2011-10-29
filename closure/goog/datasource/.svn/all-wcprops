@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 47
-/svn/!svn/ver/850/trunk/closure/goog/datasource
+V 48
+/svn/!svn/ver/1301/trunk/closure/goog/datasource
 END
 datamanager.js
 K 25
@@ -36,8 +36,8 @@ END
 jsxmlhttpdatasource.js
 K 25
 svn:wc:ra_dav:version-url
-V 70
-/svn/!svn/ver/850/trunk/closure/goog/datasource/jsxmlhttpdatasource.js
+V 71
+/svn/!svn/ver/1301/trunk/closure/goog/datasource/jsxmlhttpdatasource.js
 END
 datasource.js
 K 25

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 43
-/svn/!svn/ver/850/trunk/closure/goog/pubsub
+V 44
+/svn/!svn/ver/1302/trunk/closure/goog/pubsub
 END
 pubsub_perf.html
 K 25
@@ -18,6 +18,6 @@ END
 pubsub.js
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/svn/!svn/ver/850/trunk/closure/goog/pubsub/pubsub.js
+V 54
+/svn/!svn/ver/1302/trunk/closure/goog/pubsub/pubsub.js
 END

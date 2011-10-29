@@ -1,15 +1,15 @@
 10
 
 dir
-1277
+1349
 http://closure-library.googlecode.com/svn/trunk/closure/goog/ui/editor
 http://closure-library.googlecode.com/svn
 
 
 
-2011-08-19T16:22:39.000000Z
-1236
-bills@google.com
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-aab41e66465ebd6e8802eb805e804bac
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:51.000000Z
+7a91e181558549b629bd14db44166075
+2011-09-22T17:21:12.000000Z
+1292
+marcosalmeida@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-15781
+18308
 
 toolbarcontroller.js
 file
@@ -66,11 +66,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-bb1f16dea79ea5a9065d9c542fd4f13b
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:51.000000Z
+1aa8a137789467feff2d982c62f325b1
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-9034
+9032
 
 defaulttoolbar.js
 file
@@ -100,7 +100,7 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
+2011-09-10T17:46:44.000000Z
 af2aff6884ab864a738810022858882d
 2011-05-19T23:37:42.000000Z
 948
@@ -134,11 +134,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-6635173067314cc2a0a32b8c76a9dd3e
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:51.000000Z
+1109c60d154b31385ea8ea303ba32e1b
+2011-09-22T17:21:12.000000Z
+1292
+marcosalmeida@google.com
 has-props
 
 
@@ -160,7 +160,7 @@ has-props
 
 
 
-3802
+4053
 
 equationeditorokevent.js
 file
@@ -168,7 +168,7 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
+2011-09-10T17:46:44.000000Z
 98bf468fe5a0edebae19ed80e2a7efb3
 2011-08-19T16:22:39.000000Z
 1236
@@ -202,11 +202,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-5f30c38094ce74e18fecfe8ccd442800
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:51.000000Z
+cdbe26087e2561ccc98b59ecd55a969f
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -228,7 +228,7 @@ has-props
 
 
 
-5290
+5288
 
 toolbarfactory.js
 file
@@ -236,11 +236,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-454fa68c1af465dff033717374fd520b
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:51.000000Z
+c0162de5903cf899b2d30762d527651e
+2011-09-13T18:35:07.000000Z
+1279
+bolinfest@google.com
 has-props
 
 
@@ -262,7 +262,7 @@ has-props
 
 
 
-18100
+18157
 
 abstractdialog_test.html
 file
@@ -270,7 +270,7 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
+2011-09-10T17:46:44.000000Z
 75c6deca389749877dfc0e8a42e94dde
 2011-04-12T20:35:47.000000Z
 850
@@ -304,11 +304,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-fed6a6c6619a826e64bd341589dceefa
-2011-08-17T23:52:41.000000Z
-1228
-nicksantos@google.com
+2011-10-24T15:56:51.000000Z
+7acd5b765d8d28095034ccf43971e2bd
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -330,7 +330,7 @@ has-props
 
 
 
-16173
+16171
 
 equationeditordialog.js
 file
@@ -338,11 +338,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-c38a97beacf409a9b6116f5146c7deae
-2011-08-19T16:22:39.000000Z
-1236
-bills@google.com
+2011-10-24T15:56:51.000000Z
+f15fce4dc733349fc88e4b77270b7cf9
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -364,7 +364,7 @@ has-props
 
 
 
-3757
+3753
 
 linkdialog.js
 file
@@ -372,11 +372,11 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
-3041bf87d4613d6c49a18f8b9009ec77
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:51.000000Z
+dd114f8728e28785e9e737b771bca0bb
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -398,7 +398,7 @@ has-props
 
 
 
-26867
+29589
 
 toolbarfactory_test.html
 file
@@ -406,7 +406,7 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
+2011-09-10T17:46:44.000000Z
 bcdd2db516a5174ea4b618a035ff2edf
 2011-04-12T20:35:47.000000Z
 850
@@ -440,7 +440,7 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
+2011-09-10T17:46:44.000000Z
 5b43cfcf9c08e17caa36b9c4c4dfe3ff
 2011-04-12T20:35:47.000000Z
 850
@@ -474,7 +474,7 @@ file
 
 
 
-2011-08-23T08:10:17.000000Z
+2011-09-10T17:46:44.000000Z
 c307ae66a01bbb98e1cae0998afaac28
 2011-04-12T20:35:47.000000Z
 850

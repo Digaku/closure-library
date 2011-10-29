@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/1270/trunk/closure/goog/testing/fs
+/svn/!svn/ver/1302/trunk/closure/goog/testing/fs
 END
 filesystem.js
 K 25
@@ -73,7 +73,7 @@ entry.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1270/trunk/closure/goog/testing/fs/entry.js
+/svn/!svn/ver/1302/trunk/closure/goog/testing/fs/entry.js
 END
 filewriter_test.html
 K 25

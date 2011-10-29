@@ -1,15 +1,15 @@
 10
 
 dir
-1277
+1349
 http://closure-library.googlecode.com/svn/trunk/closure/goog/dom/browserrange
 http://closure-library.googlecode.com/svn
 
 
 
-2011-06-21T16:36:03.000000Z
-1063
-gboyer@google.com
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
-a71f95096f6526f5daf597c2b05a137e
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:44.000000Z
+32608ce8361ab2120e925718aa1b0fff
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-2959
+2957
 
 browserrange_test.html
 file
@@ -66,7 +66,7 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
+2011-09-10T17:46:42.000000Z
 4a9a88346a273235b90033519740e3e5
 2011-06-21T16:36:03.000000Z
 1063
@@ -100,11 +100,11 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
-7221deaf315c4dbf96b0bd7b9637f48f
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:44.000000Z
+9407d5f3c9c71c5130e17839c835b95c
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-11245
+11213
 
 ierange.js
 file
@@ -134,11 +134,11 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
-78a75be6d87d16c8107db3dff28fc273
-2011-06-21T16:36:03.000000Z
-1063
-gboyer@google.com
+2011-10-24T15:56:44.000000Z
+eb304502f6e395215255b5e3e8b1efe1
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -160,7 +160,7 @@ has-props
 
 
 
-32000
+31968
 
 abstractrange.js
 file
@@ -168,7 +168,7 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
+2011-09-10T17:46:42.000000Z
 42ae08c7c773bf5b8a4bcdbca52e24bf
 2011-04-12T20:35:47.000000Z
 850
@@ -202,7 +202,7 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
+2011-09-10T17:46:42.000000Z
 ebf0a85b8094f733efe8281159181b5c
 2011-04-12T20:35:47.000000Z
 850
@@ -236,11 +236,11 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
-9f47af121db08069d4f3bf28f49ee129
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:44.000000Z
+998fea2cccd1859ec457b0e3fcab4ec2
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -262,7 +262,7 @@ has-props
 
 
 
-4151
+4147
 
 operarange.js
 file
@@ -270,11 +270,11 @@ file
 
 
 
-2011-08-23T08:05:49.000000Z
-35897bca66bb5d0c1ce0be8cc5900288
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-10-24T15:56:44.000000Z
+5ba06fc0409e11cdf2fee7030958c5ac
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
 has-props
 
 
@@ -296,5 +296,5 @@ has-props
 
 
 
-2938
+2936
 

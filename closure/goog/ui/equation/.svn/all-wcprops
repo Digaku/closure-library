@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation
 END
 texpane.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/texpane.js
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation/texpane.js
 END
 texeditor.js
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/texeditor.js
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation/texeditor.js
 END
 mathpalette.js
 K 25
@@ -21,17 +21,23 @@ svn:wc:ra_dav:version-url
 V 64
 /svn/!svn/ver/1236/trunk/closure/goog/ui/equation/mathpalette.js
 END
-imagerenderer.js
-K 25
-svn:wc:ra_dav:version-url
-V 66
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/imagerenderer.js
-END
 arrowpalette.js
 K 25
 svn:wc:ra_dav:version-url
 V 65
 /svn/!svn/ver/1236/trunk/closure/goog/ui/equation/arrowpalette.js
+END
+imagerenderer.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1286/trunk/closure/goog/ui/equation/imagerenderer.js
+END
+equationeditordialog.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation/equationeditordialog.js
 END
 greekpalette.js
 K 25
@@ -39,17 +45,11 @@ svn:wc:ra_dav:version-url
 V 65
 /svn/!svn/ver/1236/trunk/closure/goog/ui/equation/greekpalette.js
 END
-equationeditordialog.js
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/equationeditordialog.js
-END
 menupalette.js
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/menupalette.js
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation/menupalette.js
 END
 symbolpalette.js
 K 25
@@ -63,17 +63,17 @@ svn:wc:ra_dav:version-url
 V 64
 /svn/!svn/ver/1236/trunk/closure/goog/ui/equation/changeevent.js
 END
-palettemanager.js
-K 25
-svn:wc:ra_dav:version-url
-V 67
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/palettemanager.js
-END
 comparisonpalette.js
 K 25
 svn:wc:ra_dav:version-url
 V 70
 /svn/!svn/ver/1236/trunk/closure/goog/ui/equation/comparisonpalette.js
+END
+palettemanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation/palettemanager.js
 END
 editorpane.js
 K 25
@@ -85,11 +85,11 @@ equationeditor.js
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/equationeditor.js
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation/equationeditor.js
 END
 palette.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1236/trunk/closure/goog/ui/equation/palette.js
+/svn/!svn/ver/1302/trunk/closure/goog/ui/equation/palette.js
 END

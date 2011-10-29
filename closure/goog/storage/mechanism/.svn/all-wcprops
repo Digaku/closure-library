@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/1014/trunk/closure/goog/storage/mechanism
+/svn/!svn/ver/1302/trunk/closure/goog/storage/mechanism
 END
 errorcode.js
 K 25
@@ -18,14 +18,14 @@ END
 ieuserdata.js
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/svn/!svn/ver/938/trunk/closure/goog/storage/mechanism/ieuserdata.js
+V 69
+/svn/!svn/ver/1302/trunk/closure/goog/storage/mechanism/ieuserdata.js
 END
 html5localstorage.js
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/svn/!svn/ver/927/trunk/closure/goog/storage/mechanism/html5localstorage.js
+V 76
+/svn/!svn/ver/1302/trunk/closure/goog/storage/mechanism/html5localstorage.js
 END
 prefixedmechanism_test.js
 K 25
@@ -36,8 +36,8 @@ END
 prefixedmechanism.js
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/svn/!svn/ver/938/trunk/closure/goog/storage/mechanism/prefixedmechanism.js
+V 76
+/svn/!svn/ver/1302/trunk/closure/goog/storage/mechanism/prefixedmechanism.js
 END
 iterablemechanism_test.js
 K 25
