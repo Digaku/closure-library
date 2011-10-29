@@ -53,10 +53,16 @@ mt.ui.MTInputHandler.prototype.parseToken = function() {
 	var caret = this.getCursorPosition();
 	var text = this.getValue();
 	
-	var matches = /\s@(\w+)$/.exec(text);
+	var matches = /.?@(\w+)$/.exec(text);
 	
 	if(matches && matches.length > 1){
-		rv = matches[1];
+		
+		var t1 = matches[0].match(new RegExp('^[ ]?@' + goog.string.regExpEscape(matches[1]) + '$'))
+		
+		if (t1 && t1.length > 0){
+			rv = matches[1];
+		}
+
 	}
 	
   return rv;
