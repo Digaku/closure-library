@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/!svn/ver/1302/trunk/closure/goog/graphics
+/svn/!svn/ver/1472/trunk/closure/goog/graphics
 END
 groupelement.js
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/850/trunk/closure/goog/graphics/groupelement.js
+V 62
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/groupelement.js
 END
 font.js
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/svn/!svn/ver/850/trunk/closure/goog/graphics/font.js
+V 54
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/font.js
 END
 paths_test.html
 K 25
@@ -24,38 +24,38 @@ END
 pathelement.js
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/850/trunk/closure/goog/graphics/pathelement.js
+V 61
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/pathelement.js
 END
 ellipseelement.js
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/svn/!svn/ver/850/trunk/closure/goog/graphics/ellipseelement.js
+V 64
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/ellipseelement.js
 END
 rectelement.js
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/850/trunk/closure/goog/graphics/rectelement.js
+V 61
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/rectelement.js
 END
 stroke.js
 K 25
 svn:wc:ra_dav:version-url
-V 55
-/svn/!svn/ver/850/trunk/closure/goog/graphics/stroke.js
+V 56
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/stroke.js
 END
 vmlelement.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1302/trunk/closure/goog/graphics/vmlelement.js
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/vmlelement.js
 END
 svgelement.js
 K 25
 svn:wc:ra_dav:version-url
-V 59
-/svn/!svn/ver/850/trunk/closure/goog/graphics/svgelement.js
+V 60
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/svgelement.js
 END
 affinetransform_test.html
 K 25
@@ -66,8 +66,8 @@ END
 strokeandfillelement.js
 K 25
 svn:wc:ra_dav:version-url
-V 69
-/svn/!svn/ver/850/trunk/closure/goog/graphics/strokeandfillelement.js
+V 70
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/strokeandfillelement.js
 END
 paths.js
 K 25
@@ -79,19 +79,19 @@ vmlgraphics.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1302/trunk/closure/goog/graphics/vmlgraphics.js
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/vmlgraphics.js
 END
 svggraphics.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1302/trunk/closure/goog/graphics/svggraphics.js
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/svggraphics.js
 END
 solidfill.js
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/!svn/ver/850/trunk/closure/goog/graphics/solidfill.js
+V 59
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/solidfill.js
 END
 path_test.html
 K 25
@@ -108,8 +108,8 @@ END
 abstractgraphics.js
 K 25
 svn:wc:ra_dav:version-url
-V 65
-/svn/!svn/ver/850/trunk/closure/goog/graphics/abstractgraphics.js
+V 66
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/abstractgraphics.js
 END
 canvaselement.js
 K 25
@@ -120,20 +120,20 @@ END
 fill.js
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/svn/!svn/ver/850/trunk/closure/goog/graphics/fill.js
+V 54
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/fill.js
 END
 lineargradient.js
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/svn/!svn/ver/974/trunk/closure/goog/graphics/lineargradient.js
+V 64
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/lineargradient.js
 END
 element.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1302/trunk/closure/goog/graphics/element.js
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/element.js
 END
 canvasgraphics.js
 K 25
@@ -150,18 +150,18 @@ END
 path.js
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/svn/!svn/ver/850/trunk/closure/goog/graphics/path.js
+V 54
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/path.js
 END
 textelement.js
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/850/trunk/closure/goog/graphics/textelement.js
+V 61
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/textelement.js
 END
 graphics.js
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/!svn/ver/850/trunk/closure/goog/graphics/graphics.js
+V 58
+/svn/!svn/ver/1472/trunk/closure/goog/graphics/graphics.js
 END

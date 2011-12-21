@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/1336/trunk/closure/goog/net
+/svn/!svn/ver/1477/trunk/closure/goog/net
 END
 ipaddress_test.html
 K 25
@@ -25,13 +25,7 @@ imageloader.js
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/1302/trunk/closure/goog/net/imageloader.js
-END
-xhrmonitor.js
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/!svn/ver/850/trunk/closure/goog/net/xhrmonitor.js
+/svn/!svn/ver/1472/trunk/closure/goog/net/imageloader.js
 END
 tmpnetwork.js
 K 25
@@ -49,7 +43,7 @@ browsertestchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/1185/trunk/closure/goog/net/browsertestchannel.js
+/svn/!svn/ver/1388/trunk/closure/goog/net/browsertestchannel.js
 END
 ipaddress.js
 K 25
@@ -78,8 +72,8 @@ END
 channelrequest.js
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/!svn/ver/850/trunk/closure/goog/net/channelrequest.js
+V 59
+/svn/!svn/ver/1397/trunk/closure/goog/net/channelrequest.js
 END
 iframeio_test.html
 K 25
@@ -90,8 +84,8 @@ END
 httpstatus.js
 K 25
 svn:wc:ra_dav:version-url
-V 54
-/svn/!svn/ver/884/trunk/closure/goog/net/httpstatus.js
+V 55
+/svn/!svn/ver/1439/trunk/closure/goog/net/httpstatus.js
 END
 bulkloader.js
 K 25
@@ -103,7 +97,7 @@ filedownloader_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1141/trunk/closure/goog/net/filedownloader_test.html
+/svn/!svn/ver/1434/trunk/closure/goog/net/filedownloader_test.html
 END
 xmlhttpfactory.js
 K 25
@@ -127,13 +121,13 @@ xhrio.js
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/1336/trunk/closure/goog/net/xhrio.js
+/svn/!svn/ver/1453/trunk/closure/goog/net/xhrio.js
 END
 jsonp.js
 K 25
 svn:wc:ra_dav:version-url
-V 49
-/svn/!svn/ver/850/trunk/closure/goog/net/jsonp.js
+V 50
+/svn/!svn/ver/1452/trunk/closure/goog/net/jsonp.js
 END
 crossdomainrpc_test_response.html
 K 25
@@ -163,13 +157,13 @@ xmlhttp.js
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/1302/trunk/closure/goog/net/xmlhttp.js
+/svn/!svn/ver/1472/trunk/closure/goog/net/xmlhttp.js
 END
-xhrmonitor_test.html
+jsloader.js
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/850/trunk/closure/goog/net/xhrmonitor_test.html
+V 53
+/svn/!svn/ver/1452/trunk/closure/goog/net/jsloader.js
 END
 browserchannel_test.html
 K 25
@@ -186,14 +180,14 @@ END
 xhrlite_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/!svn/ver/850/trunk/closure/goog/net/xhrlite_test.html
+V 59
+/svn/!svn/ver/1472/trunk/closure/goog/net/xhrlite_test.html
 END
 channelrequest_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 65
-/svn/!svn/ver/850/trunk/closure/goog/net/channelrequest_test.html
+V 66
+/svn/!svn/ver/1383/trunk/closure/goog/net/channelrequest_test.html
 END
 xhrlitepool.js
 K 25
@@ -204,8 +198,8 @@ END
 iframe_xhr_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/850/trunk/closure/goog/net/iframe_xhr_test.html
+V 62
+/svn/!svn/ver/1395/trunk/closure/goog/net/iframe_xhr_test.html
 END
 iframeloadmonitor.js
 K 25
@@ -217,7 +211,7 @@ browserchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1243/trunk/closure/goog/net/browserchannel.js
+/svn/!svn/ver/1399/trunk/closure/goog/net/browserchannel.js
 END
 iframeloadmonitor_test_frame.html
 K 25
@@ -270,14 +264,14 @@ END
 jsonp_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/!svn/ver/850/trunk/closure/goog/net/jsonp_test.html
+V 57
+/svn/!svn/ver/1452/trunk/closure/goog/net/jsonp_test.html
 END
 xhrio_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1069/trunk/closure/goog/net/xhrio_test.html
+/svn/!svn/ver/1472/trunk/closure/goog/net/xhrio_test.html
 END
 imageloader_testimg3.gif
 K 25
@@ -339,11 +333,17 @@ svn:wc:ra_dav:version-url
 V 55
 /svn/!svn/ver/850/trunk/closure/goog/net/mockxhrlite.js
 END
+jsloader_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1452/trunk/closure/goog/net/jsloader_test.html
+END
 iframeio.js
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/1302/trunk/closure/goog/net/iframeio.js
+/svn/!svn/ver/1395/trunk/closure/goog/net/iframeio.js
 END
 xhrmanager.js
 K 25
@@ -354,8 +354,8 @@ END
 cookies.js
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/970/trunk/closure/goog/net/cookies.js
+V 52
+/svn/!svn/ver/1472/trunk/closure/goog/net/cookies.js
 END
 iframeloadmonitor_test_frame2.html
 K 25

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1302/trunk/closure/goog/dom/browserrange
+/svn/!svn/ver/1472/trunk/closure/goog/dom/browserrange
 END
 geckorange.js
 K 25
@@ -25,7 +25,7 @@ ierange.js
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/1302/trunk/closure/goog/dom/browserrange/ierange.js
+/svn/!svn/ver/1472/trunk/closure/goog/dom/browserrange/ierange.js
 END
 abstractrange.js
 K 25

@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/net/xpc
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-14T19:06:32.000000Z
+1477
+dpb@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-10-24T15:56:46.000000Z
-ab4c7d80adfc6bda433625cf7f830679
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:48.000000Z
+c62fdd9adccdf1db5738eb994d6d423a
+2011-10-27T21:00:19.000000Z
+1362
+junyin@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-24698
+25019
 
 crosspagechannel_test.html
 file
@@ -307,11 +307,11 @@ file
 
 
 
-2011-10-24T15:56:46.000000Z
-ce7426a19dfe3d3a95e5134b69c45f4e
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:48.000000Z
+09cb6b5db328c49d539274c3b1805819
+2011-12-14T19:06:32.000000Z
+1477
+dpb@google.com
 has-props
 
 
@@ -333,7 +333,7 @@ has-props
 
 
 
-20959
+21370
 
 nativemessagingtransport.js
 file

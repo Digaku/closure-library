@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/!svn/ver/1336/trunk/closure/goog/testing
+/svn/!svn/ver/1472/trunk/closure/goog/testing
 END
 continuationtestcase.js
 K 25
@@ -31,7 +31,7 @@ testcase.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1277/trunk/closure/goog/testing/testcase.js
+/svn/!svn/ver/1472/trunk/closure/goog/testing/testcase.js
 END
 recordfunction_test.html
 K 25
@@ -115,7 +115,7 @@ mockclock.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/1302/trunk/closure/goog/testing/mockclock.js
+/svn/!svn/ver/1366/trunk/closure/goog/testing/mockclock.js
 END
 mockrange.js
 K 25
@@ -139,7 +139,7 @@ asserts.js
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/1302/trunk/closure/goog/testing/asserts.js
+/svn/!svn/ver/1472/trunk/closure/goog/testing/asserts.js
 END
 performancetable.css
 K 25
@@ -163,7 +163,7 @@ performancetimer_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/1251/trunk/closure/goog/testing/performancetimer_test.html
+/svn/!svn/ver/1472/trunk/closure/goog/testing/performancetimer_test.html
 END
 singleton_test.html
 K 25
@@ -205,7 +205,7 @@ performancetimer.js
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/1251/trunk/closure/goog/testing/performancetimer.js
+/svn/!svn/ver/1472/trunk/closure/goog/testing/performancetimer.js
 END
 propertyreplacer.js
 K 25
@@ -216,8 +216,8 @@ END
 deferredtestcase_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 71
-/svn/!svn/ver/850/trunk/closure/goog/testing/deferredtestcase_test.html
+V 72
+/svn/!svn/ver/1434/trunk/closure/goog/testing/deferredtestcase_test.html
 END
 dom_test.html
 K 25
@@ -318,14 +318,14 @@ END
 performancetable.js
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/svn/!svn/ver/850/trunk/closure/goog/testing/performancetable.js
+V 65
+/svn/!svn/ver/1472/trunk/closure/goog/testing/performancetable.js
 END
 asserts_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/1239/trunk/closure/goog/testing/asserts_test.html
+/svn/!svn/ver/1472/trunk/closure/goog/testing/asserts_test.html
 END
 mockstorage.js
 K 25

@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/messaging
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-89364eb68a3796299d92bc46fbdd0c4e
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:45.000000Z
+42d91c97d974e0b68c2da7de2f3162c2
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-11199
+11133
 
 messaging_test.html
 file
@@ -440,11 +440,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-9414e478b2d61f0610b14023552d4daf
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:45.000000Z
+608cd59eb159b224270766edcefe24c6
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 has-props
 
 
@@ -466,7 +466,7 @@ has-props
 
 
 
-2190
+2124
 
 multichannel.js
 file
@@ -508,11 +508,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-6c1e824d4303750d8931d677e97fe776
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:45.000000Z
+ba61fc4b09fab35a858ce9ec486903ec
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 has-props
 
 
@@ -534,7 +534,7 @@ has-props
 
 
 
-1943
+1877
 
 portoperator_test.html
 file
@@ -542,11 +542,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-2f3ad618447ae7c6db0578d90d3f5670
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:45.000000Z
+94d68a454f5b2b2000b9d3a428151774
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 has-props
 
 
@@ -568,7 +568,7 @@ has-props
 
 
 
-3365
+3299
 
 abstractchannel.js
 file
@@ -681,11 +681,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-f5a2c30febd665148e60cb64a6f977b2
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:45.000000Z
+398ddea0f1ec087674b9081b877afb9c
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 has-props
 
 
@@ -707,7 +707,7 @@ has-props
 
 
 
-1512
+1446
 
 portoperator.js
 file
@@ -749,11 +749,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-4ecee0fd408737585608baf98a022075
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:45.000000Z
+80fc88ab6530a60292d74ee28b212368
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 has-props
 
 
@@ -775,7 +775,7 @@ has-props
 
 
 
-3242
+3176
 
 bufferedchannel_test.html
 file
@@ -783,11 +783,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-61121df07da2326c13a05364ad6aa6fb
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:45.000000Z
+fca6c86e6a6e0b2085f3c8a18cfbd9ca
+2011-11-30T22:16:21.000000Z
+1434
+chrishenry@google.com
 has-props
 
 
@@ -809,5 +809,5 @@ has-props
 
 
 
-6917
+6851
 

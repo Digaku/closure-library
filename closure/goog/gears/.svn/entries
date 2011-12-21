@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/gears
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 
 
 
@@ -66,11 +66,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-a657553abbae9df1ebcf8668dc525daf
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:52.000000Z
+2f078d103464d967ed6f082430e84b19
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-3995
+4037
 
 loggerserver.js
 file
@@ -100,11 +100,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-b30711ab92ec4afe5ab26c93f7d7ebd0
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:52.000000Z
+ffeaa5dbb75f5a1668d717a21ec2a15e
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-4589
+4632
 
 managedresourcestore_test.html
 file
@@ -168,11 +168,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-9352f7df0bd25d3405c35eb8795af139
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:52.000000Z
+9da376e049cf5d34dc12fc9405ab4d33
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-5435
+5478
 
 urlcapture_test.html
 file
@@ -270,11 +270,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-c227f8e421fd42ad8c1fa9d5b3230f95
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:52.000000Z
+4beaf04ef0749285a6329cb3a8450f84
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -296,7 +296,7 @@ has-props
 
 
 
-3900
+3943
 
 managedresourcestore.js
 file
@@ -338,11 +338,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-d911e478d75e1a7b6fcb58af0d294460
-2011-08-17T23:52:41.000000Z
-1228
-nicksantos@google.com
+2011-12-21T12:07:52.000000Z
+1af42235293ec34abeb5116f11b3be5b
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -364,7 +364,7 @@ has-props
 
 
 
-5165
+5206
 
 statustype.js
 file
@@ -440,11 +440,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-ecb6fde480ee0a8862971a132241fd1f
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:52.000000Z
+9259130539a23fa08e73ae947e4338ca
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -466,7 +466,7 @@ has-props
 
 
 
-5653
+5695
 
 urlcapture.js
 file
@@ -508,11 +508,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-c17c9b2fb7b5c8cac98685bfd572e7d3
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:52.000000Z
+b0cac98b3d5cdd47ff3fd01fa3f0bae5
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -534,7 +534,7 @@ has-props
 
 
 
-16096
+16095
 
 gears_test.html
 file
@@ -644,11 +644,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-42c28293b3322a9acd6777675e65b683
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:52.000000Z
+305ac5fb2ceaff974a14d11fe5941971
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -670,7 +670,7 @@ has-props
 
 
 
-4946
+4988
 
 fakeworkerpool.js
 file
@@ -678,11 +678,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-a3a979cd21b5c1a9bdc2ba450f177e79
-2011-08-17T23:52:41.000000Z
-1228
-nicksantos@google.com
+2011-12-21T12:07:52.000000Z
+f790014c85f484835b8c2307e492dc74
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -704,7 +704,7 @@ has-props
 
 
 
-7769
+7810
 
 database_test.html
 file
@@ -746,11 +746,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-79f6853c403b51fc348a8ec9b81d9ebb
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:52.000000Z
+b72b083c7f83066a6a4ecb4e76b93d2d
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -772,7 +772,7 @@ has-props
 
 
 
-2875
+2917
 
 logstore.js
 file
@@ -814,11 +814,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-b171bd75a44e2deb397967ccfdc2d053
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:52.000000Z
+b8551ef63f204fb0b6da5c1fdf041241
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -840,7 +840,7 @@ has-props
 
 
 
-6065
+6108
 
 gears.js
 file
@@ -848,11 +848,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-663b793b9c893f6f486bedafecb78c92
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:52.000000Z
+2af23c8f29c26c40143eacbbfb043d72
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -874,7 +874,7 @@ has-props
 
 
 
-6964
+6961
 
 workerchannel.js
 file
@@ -916,11 +916,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-8cbc2bfdcb2fe16cce24ae4e406dd4f1
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:52.000000Z
+6c3db522875eef7bc626985aea7a77cc
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -942,5 +942,5 @@ has-props
 
 
 
-6892
+6935
 

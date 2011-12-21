@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/ui/editor
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 
 
 
@@ -66,11 +66,11 @@ file
 
 
 
-2011-10-24T15:56:51.000000Z
-1aa8a137789467feff2d982c62f325b1
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:10:22.000000Z
+4f3d98102d3c286c002276027f4510a9
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-9032
+9123
 
 defaulttoolbar.js
 file
@@ -100,11 +100,11 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
-af2aff6884ab864a738810022858882d
-2011-05-19T23:37:42.000000Z
-948
-nicksantos@google.com
+2011-12-21T12:10:22.000000Z
+3d71e10ad11b183ec17d24d5146d6e3f
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-39426
+39517
 
 messages.js
 file
@@ -236,11 +236,11 @@ file
 
 
 
-2011-10-24T15:56:51.000000Z
-c0162de5903cf899b2d30762d527651e
-2011-09-13T18:35:07.000000Z
-1279
-bolinfest@google.com
+2011-12-21T12:10:22.000000Z
+67a3502cac2309d8be7c64c0cb62b809
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -262,7 +262,7 @@ has-props
 
 
 
-18157
+18248
 
 abstractdialog_test.html
 file

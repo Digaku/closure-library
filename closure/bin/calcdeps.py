@@ -526,7 +526,7 @@ def main():
   else:
     out = sys.stdout
 
-  if options.output_mode == 'deps':
+  if options.output_mode == 'deps':	
     result = PrintDeps(search_paths, ExpandDirectories(options.deps or []), out)
     if not result:
       logging.error('Could not find Closure Library in the specified paths')

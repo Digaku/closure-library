@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/proto2
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-11-21T19:41:31.000000Z
+1417
+jschorr@google.com
 
 
 
@@ -304,11 +304,11 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
-3dc1950532ba0635c2946e78cde7f8e6
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:47.000000Z
+47c6bc3f81d2a4b0b48e225bbc499197
+2011-11-21T19:41:31.000000Z
+1417
+jschorr@google.com
 has-props
 
 
@@ -440,11 +440,11 @@ file
 
 
 
-2011-10-24T15:56:46.000000Z
-968c743f67ff8a940a656866194e6d9c
-2011-09-19T08:25:34.000000Z
-1286
-pallosp@google.com
+2011-12-21T12:07:47.000000Z
+e9cd494cae384b947c01b6b69930d4c8
+2011-11-21T19:41:31.000000Z
+1417
+jschorr@google.com
 has-props
 
 
@@ -466,7 +466,7 @@ has-props
 
 
 
-26590
+26597
 
 objectserializer_test.html
 file

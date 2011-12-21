@@ -384,7 +384,8 @@ goog.ui.PopupBase.prototype.getLastHideTime = function() {
  */
 goog.ui.PopupBase.prototype.ensureNotVisible_ = function() {
   if (this.isVisible_) {
-    throw Error('Can not change this state of the popup while showing.');
+    //throw Error('Can not change this state of the popup while showing.');
+	return
   }
 };
 

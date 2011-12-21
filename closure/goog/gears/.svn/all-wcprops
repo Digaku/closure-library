@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/1302/trunk/closure/goog/gears
+/svn/!svn/ver/1472/trunk/closure/goog/gears
 END
 database.js
 K 25
@@ -12,14 +12,14 @@ END
 loggerclient_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 65
-/svn/!svn/ver/850/trunk/closure/goog/gears/loggerclient_test.html
+V 66
+/svn/!svn/ver/1472/trunk/closure/goog/gears/loggerclient_test.html
 END
 loggerserver.js
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1302/trunk/closure/goog/gears/loggerserver.js
+/svn/!svn/ver/1472/trunk/closure/goog/gears/loggerserver.js
 END
 managedresourcestore_test.html
 K 25
@@ -31,7 +31,7 @@ worker.js
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/1302/trunk/closure/goog/gears/worker.js
+/svn/!svn/ver/1472/trunk/closure/goog/gears/worker.js
 END
 urlcapture_test.html
 K 25
@@ -43,7 +43,7 @@ loggerclient.js
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1302/trunk/closure/goog/gears/loggerclient.js
+/svn/!svn/ver/1472/trunk/closure/goog/gears/loggerclient.js
 END
 basestore_test.html
 K 25
@@ -55,7 +55,7 @@ fakeworkerpool_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/1228/trunk/closure/goog/gears/fakeworkerpool_test.html
+/svn/!svn/ver/1472/trunk/closure/goog/gears/fakeworkerpool_test.html
 END
 managedresourcestore.js
 K 25
@@ -84,14 +84,14 @@ END
 multipartformdata_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 70
-/svn/!svn/ver/850/trunk/closure/goog/gears/multipartformdata_test.html
+V 71
+/svn/!svn/ver/1472/trunk/closure/goog/gears/multipartformdata_test.html
 END
 basestore.js
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/1302/trunk/closure/goog/gears/basestore.js
+/svn/!svn/ver/1472/trunk/closure/goog/gears/basestore.js
 END
 gears_test.html
 K 25
@@ -114,14 +114,14 @@ END
 workerpool_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/svn/!svn/ver/850/trunk/closure/goog/gears/workerpool_test.html
+V 64
+/svn/!svn/ver/1472/trunk/closure/goog/gears/workerpool_test.html
 END
 fakeworkerpool.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1228/trunk/closure/goog/gears/fakeworkerpool.js
+/svn/!svn/ver/1472/trunk/closure/goog/gears/fakeworkerpool.js
 END
 database_test.html
 K 25
@@ -132,8 +132,8 @@ END
 loggerserver_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 65
-/svn/!svn/ver/850/trunk/closure/goog/gears/loggerserver_test.html
+V 66
+/svn/!svn/ver/1472/trunk/closure/goog/gears/loggerserver_test.html
 END
 logstore.js
 K 25
@@ -144,14 +144,14 @@ END
 multipartformdata.js
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/svn/!svn/ver/850/trunk/closure/goog/gears/multipartformdata.js
+V 64
+/svn/!svn/ver/1472/trunk/closure/goog/gears/multipartformdata.js
 END
 gears.js
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/850/trunk/closure/goog/gears/gears.js
+V 52
+/svn/!svn/ver/1472/trunk/closure/goog/gears/gears.js
 END
 workerchannel.js
 K 25
@@ -163,5 +163,5 @@ workerpool.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1302/trunk/closure/goog/gears/workerpool.js
+/svn/!svn/ver/1472/trunk/closure/goog/gears/workerpool.js
 END

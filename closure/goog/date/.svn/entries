@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/date
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 
 
 
@@ -134,11 +134,11 @@ file
 
 
 
-2011-09-10T17:46:41.000000Z
-d1f08c1a05d68402d5f5be2576b9f189
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:44.000000Z
+e0fa87ae916566ebac095958501f4fff
+2011-12-08T19:12:56.000000Z
+1461
+jacobly@google.com
 has-props
 
 
@@ -160,7 +160,7 @@ has-props
 
 
 
-13157
+13304
 
 date.js
 file
@@ -168,11 +168,11 @@ file
 
 
 
-2011-09-10T17:46:41.000000Z
-d0827ca14bb9db412d0d2f2731d4298e
-2011-09-06T21:26:02.000000Z
-1270
-nicksantos@google.com
+2011-12-21T12:07:44.000000Z
+4d944c0a94926e94f962592ad539865d
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-47413
+47500
 
 utcdatetime_test.html
 file
@@ -270,11 +270,11 @@ file
 
 
 
-2011-09-10T17:46:41.000000Z
-38e0275a7e22cefe556566c2ed5b9a34
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:44.000000Z
+c54aa13f452bdf3513b23f05143d22af
+2011-12-08T19:12:56.000000Z
+1461
+jacobly@google.com
 has-props
 
 
@@ -296,7 +296,7 @@ has-props
 
 
 
-4255
+5184
 
 datelike.js
 file

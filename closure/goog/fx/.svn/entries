@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/fx
 http://closure-library.googlecode.com/svn
 
 
 
-2011-10-18T12:47:53.000000Z
-1348
-steineldar@google.com
+2011-12-16T18:34:38.000000Z
+1485
+nicksantos@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-10-24T15:56:43.000000Z
-a1117f76d79f9a01ae435050fb7f6659
-2011-10-03T10:41:25.000000Z
-1316
-steineldar@google.com
+2011-12-21T12:07:44.000000Z
+b1ba1fd91daaf44cfaa64b0a5ddc6f88
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-2401
+2441
 
 dragdropgroup_test.html
 file
@@ -168,11 +168,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-3207a625a5dc1c48f6b8592694f1f317
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:44.000000Z
+c01c6977478ccd382f30bd9297c3d829
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -194,10 +194,44 @@ has-props
 
 
 
-2854
+2896
 
 anim
 dir
+
+animationqueue_test.html
+file
+
+
+
+
+2011-12-21T12:07:44.000000Z
+497a8852ae8b982dd3e83821f3c3499a
+2011-11-02T11:16:27.000000Z
+1365
+steineldar@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9182
 
 dragger.js
 file
@@ -273,11 +307,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-74f6e33cbf904fc4fdeeb71908c0021a
-2011-08-03T16:19:23.000000Z
-1186
-pweis@google.com
+2011-12-21T12:07:44.000000Z
+72a9a462e16129200f3929caf78a1278
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -299,7 +333,7 @@ has-props
 
 
 
-17817
+20489
 
 draglistgroup_test.html
 file
@@ -341,11 +375,11 @@ file
 
 
 
-2011-10-24T15:56:43.000000Z
-6ea69a3de271ddf8ad9b5368f08f5524
-2011-10-11T10:31:58.000000Z
-1331
-steineldar@google.com
+2011-12-21T12:07:44.000000Z
+7dea940c079f22799098abc426da5fae
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -367,7 +401,7 @@ has-props
 
 
 
-11329
+11328
 
 dragdropgroup.js
 file
@@ -375,11 +409,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-a9fc78229aa139774ee64e14f243e813
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:44.000000Z
+585d933d587c6058c0e41c095fab2f3b
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -401,7 +435,7 @@ has-props
 
 
 
-3060
+3101
 
 cssspriteanimation.js
 file
@@ -409,11 +443,11 @@ file
 
 
 
-2011-10-24T15:56:43.000000Z
-3ed3831b907bd30347845fbdc8400929
-2011-10-11T10:31:58.000000Z
-1331
-steineldar@google.com
+2011-12-21T12:07:44.000000Z
+873e28cad6b1af7702a80ed9125a4305
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -435,7 +469,7 @@ has-props
 
 
 
-3879
+3922
 
 dom.js
 file
@@ -477,11 +511,11 @@ file
 
 
 
-2011-10-24T15:56:43.000000Z
-a3154d20f576c3d951733b9151f64de9
-2011-09-22T17:21:12.000000Z
-1292
-marcosalmeida@google.com
+2011-12-21T12:07:44.000000Z
+c45a1b60e7b00e80a4b11c4f04f7af7d
+2011-11-29T17:09:16.000000Z
+1429
+lyczak@google.com
 has-props
 
 
@@ -503,7 +537,7 @@ has-props
 
 
 
-11649
+12792
 
 animationqueue.js
 file
@@ -511,10 +545,10 @@ file
 
 
 
-2011-10-24T15:56:43.000000Z
-342f7e0e50cdabbd71ae8bba5b89e520
-2011-10-11T10:31:58.000000Z
-1331
+2011-12-21T12:07:44.000000Z
+70894287f43c67875084636f4a4c0189
+2011-11-02T11:16:27.000000Z
+1365
 steineldar@google.com
 has-props
 
@@ -537,7 +571,7 @@ has-props
 
 
 
-8876
+7289
 
 transitionbase.js
 file
@@ -613,11 +647,11 @@ file
 
 
 
-2011-10-24T15:56:43.000000Z
-bf2e526691a7a773438dc5b451ea23e3
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:44.000000Z
+13e0c5091e3a40e10aaeaf70dfc9ec44
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -639,7 +673,7 @@ has-props
 
 
 
-45139
+46637
 
 dragscrollsupport.js
 file
@@ -647,11 +681,11 @@ file
 
 
 
-2011-10-24T15:56:43.000000Z
-c8650d3c17df3bae668b9f1da1bb6030
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:44.000000Z
+cf83c121a8b37be6e9bd0b95fc273c7e
+2011-11-29T17:09:16.000000Z
+1429
+lyczak@google.com
 has-props
 
 
@@ -673,7 +707,7 @@ has-props
 
 
 
-8507
+8951
 
 transition.js
 file
@@ -718,11 +752,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-37cdebd599c2d9ec3b7c40bfa750d4e3
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:44.000000Z
+5ca5a2711c84dce53b55a0d0411b388f
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -744,7 +778,7 @@ has-props
 
 
 
-1633
+1675
 
 dragger_test.html
 file

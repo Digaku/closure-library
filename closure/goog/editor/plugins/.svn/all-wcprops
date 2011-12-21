@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/1335/trunk/closure/goog/editor/plugins
+/svn/!svn/ver/1487/trunk/closure/goog/editor/plugins
 END
 undoredostate_test.html
 K 25
@@ -21,11 +21,17 @@ svn:wc:ra_dav:version-url
 V 66
 /svn/!svn/ver/1335/trunk/closure/goog/editor/plugins/blockquote.js
 END
+linkshortcutplugin.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1487/trunk/closure/goog/editor/plugins/linkshortcutplugin.js
+END
 basictextformatter.js
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/1302/trunk/closure/goog/editor/plugins/basictextformatter.js
+/svn/!svn/ver/1385/trunk/closure/goog/editor/plugins/basictextformatter.js
 END
 equationeditorplugin.js
 K 25
@@ -49,7 +55,7 @@ linkdialogplugin_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/svn/!svn/ver/1292/trunk/closure/goog/editor/plugins/linkdialogplugin_test.html
+/svn/!svn/ver/1398/trunk/closure/goog/editor/plugins/linkdialogplugin_test.html
 END
 abstractbubbleplugin_test.html
 K 25
@@ -85,7 +91,7 @@ linkdialogplugin.js
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/1302/trunk/closure/goog/editor/plugins/linkdialogplugin.js
+/svn/!svn/ver/1398/trunk/closure/goog/editor/plugins/linkdialogplugin.js
 END
 abstractbubbleplugin.js
 K 25
@@ -139,7 +145,7 @@ linkbubble.js
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1302/trunk/closure/goog/editor/plugins/linkbubble.js
+/svn/!svn/ver/1487/trunk/closure/goog/editor/plugins/linkbubble.js
 END
 undoredomanager.js
 K 25
@@ -219,11 +225,17 @@ svn:wc:ra_dav:version-url
 V 73
 /svn/!svn/ver/1335/trunk/closure/goog/editor/plugins/blockquote_test.html
 END
+linkshortcutplugin_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1487/trunk/closure/goog/editor/plugins/linkshortcutplugin_test.html
+END
 linkbubble_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 72
-/svn/!svn/ver/850/trunk/closure/goog/editor/plugins/linkbubble_test.html
+V 73
+/svn/!svn/ver/1438/trunk/closure/goog/editor/plugins/linkbubble_test.html
 END
 emoticons.js
 K 25

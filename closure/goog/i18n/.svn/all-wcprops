@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/1347/trunk/closure/goog/i18n
+/svn/!svn/ver/1479/trunk/closure/goog/i18n
 END
 datetimesymbols.js
 K 25
@@ -18,8 +18,8 @@ END
 numberformatsymbols.js
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/svn/!svn/ver/850/trunk/closure/goog/i18n/numberformatsymbols.js
+V 65
+/svn/!svn/ver/1479/trunk/closure/goog/i18n/numberformatsymbols.js
 END
 datetimepatterns.js
 K 25
@@ -54,14 +54,14 @@ END
 numberformat_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/svn/!svn/ver/850/trunk/closure/goog/i18n/numberformat_test.html
+V 65
+/svn/!svn/ver/1374/trunk/closure/goog/i18n/numberformat_test.html
 END
 numberformatsymbolsext.js
 K 25
 svn:wc:ra_dav:version-url
-V 67
-/svn/!svn/ver/850/trunk/closure/goog/i18n/numberformatsymbolsext.js
+V 68
+/svn/!svn/ver/1479/trunk/closure/goog/i18n/numberformatsymbolsext.js
 END
 bidiformatter.js
 K 25
@@ -102,8 +102,8 @@ END
 currency_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/850/trunk/closure/goog/i18n/currency_test.html
+V 61
+/svn/!svn/ver/1374/trunk/closure/goog/i18n/currency_test.html
 END
 bidiformatter_test.html
 K 25
@@ -114,8 +114,8 @@ END
 currencycodemap.js
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/850/trunk/closure/goog/i18n/currencycodemap.js
+V 61
+/svn/!svn/ver/1472/trunk/closure/goog/i18n/currencycodemap.js
 END
 charlistdecompressor_test.html
 K 25
@@ -156,8 +156,8 @@ END
 currency.js
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/svn/!svn/ver/850/trunk/closure/goog/i18n/currency.js
+V 54
+/svn/!svn/ver/1374/trunk/closure/goog/i18n/currency.js
 END
 datetimeformat_test.html
 K 25
@@ -193,7 +193,7 @@ numberformat.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/1017/trunk/closure/goog/i18n/numberformat.js
+/svn/!svn/ver/1374/trunk/closure/goog/i18n/numberformat.js
 END
 uchar.js
 K 25

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/1304/trunk/closure/goog/crypt
+/svn/!svn/ver/1434/trunk/closure/goog/crypt
 END
 crypt_perf.html
 K 25
@@ -126,8 +126,8 @@ END
 blobhasher_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/svn/!svn/ver/926/trunk/closure/goog/crypt/blobhasher_test.html
+V 64
+/svn/!svn/ver/1434/trunk/closure/goog/crypt/blobhasher_test.html
 END
 sha1_perf.html
 K 25

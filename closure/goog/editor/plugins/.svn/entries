@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/editor/plugins
 http://closure-library.googlecode.com/svn
 
 
 
-2011-10-12T17:53:53.000000Z
-1335
-dhawkey@google.com
+2011-12-17T00:27:15.000000Z
+1487
+mariakhomenko@google.com
 
 
 
@@ -128,20 +128,17 @@ has-props
 
 16383
 
-equation
-dir
-
-basictextformatter.js
+linkshortcutplugin.js
 file
 
 
 
 
-2011-10-24T15:56:47.000000Z
-89ebe094680f7720aec775ee15789494
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:50.000000Z
+5903fa66dcc65fe5fa2c229ae4d59d5e
+2011-12-17T00:27:15.000000Z
+1487
+mariakhomenko@google.com
 has-props
 
 
@@ -163,7 +160,44 @@ has-props
 
 
 
-64274
+1723
+
+equation
+dir
+
+basictextformatter.js
+file
+
+
+
+
+2011-12-21T12:07:50.000000Z
+4a0d715810e4efd3116d271c322df59a
+2011-11-12T00:28:26.000000Z
+1385
+nicksantos@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+64276
 
 equationeditorplugin.js
 file
@@ -273,11 +307,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-1e71427e86f3567e5be5e5b11627f2e2
-2011-09-22T17:21:12.000000Z
-1292
-marcosalmeida@google.com
+2011-12-21T12:07:50.000000Z
+3e762053ac926ce58787cd2fd3404401
+2011-11-16T19:27:26.000000Z
+1398
+jliem@google.com
 has-props
 
 
@@ -299,7 +333,7 @@ has-props
 
 
 
-15676
+17884
 
 abstractbubbleplugin_test.html
 file
@@ -477,11 +511,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-4473b46c2cc2aed8a322a0be27554cf3
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:50.000000Z
+0680e6f0418544a1e65ab44fae3bfc9d
+2011-11-16T19:27:26.000000Z
+1398
+jliem@google.com
 has-props
 
 
@@ -503,7 +537,7 @@ has-props
 
 
 
-8812
+11966
 
 abstractbubbleplugin.js
 file
@@ -783,11 +817,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-13d7776c20bfc124e1ccf6258e196eef
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:50.000000Z
+8b027ebded20c9d567f52ce6294afbc0
+2011-12-17T00:27:15.000000Z
+1487
+mariakhomenko@google.com
 has-props
 
 
@@ -809,7 +843,7 @@ has-props
 
 
 
-14254
+17247
 
 undoredomanager.js
 file
@@ -1253,17 +1287,17 @@ has-props
 
 6699
 
-linkbubble_test.html
+linkshortcutplugin_test.html
 file
 
 
 
 
-2011-09-10T17:46:42.000000Z
-b76fd15daceacc1224f679726b0e1d5c
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:50.000000Z
+b316565905c5a39b6d8e20c1037c9c74
+2011-12-17T00:27:15.000000Z
+1487
+mariakhomenko@google.com
 has-props
 
 
@@ -1285,7 +1319,41 @@ has-props
 
 
 
-8793
+2447
+
+linkbubble_test.html
+file
+
+
+
+
+2011-12-21T12:07:50.000000Z
+3af47b1fd552f19540f7c9a3e5fbb273
+2011-12-01T01:12:36.000000Z
+1438
+danielwh@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10757
 
 emoticons.js
 file

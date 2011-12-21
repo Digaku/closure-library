@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/graphics
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-4ed7821abf491cc5812f8e3a7fbf045a
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+200070693948fe70bb910077f06e6bed
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-1757
+1844
 
 paths_test.html
 file
@@ -100,11 +100,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-e9d7c154fdf1dfb3d027230619f8ee31
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+2da9ff3f2a44e9922a120771255029dd
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-1507
+1549
 
 groupelement.js
 file
@@ -134,11 +134,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-91aacc28a5978da307e49e7763198a66
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+d9c280ac23d3de52291daf8d75742c5a
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -160,7 +160,7 @@ has-props
 
 
 
-1712
+1799
 
 stroke.js
 file
@@ -168,11 +168,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-da103858da74b23a6ed1f264a4298838
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+998b943583f576e9ca2846e016a5926f
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-1458
+1501
 
 rectelement.js
 file
@@ -202,11 +202,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-48cd29997f33c080c3f586db0413ad7f
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+2a2ade28659e156542a4972b1c9bafa4
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -228,7 +228,7 @@ has-props
 
 
 
-2009
+2096
 
 ellipseelement.js
 file
@@ -236,11 +236,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-c0d54469afc174e8c2265bd23bb8f09a
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+88a02cb59aa2026599558b0ab88d9f29
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -262,7 +262,7 @@ has-props
 
 
 
-2041
+2128
 
 vmlelement.js
 file
@@ -270,11 +270,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-507509fa8a609a3b084e3c6e5b3e8295
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:51.000000Z
+f1c6c0c9b0cd6b9308f2eea6e0f58fb7
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -296,7 +296,7 @@ has-props
 
 
 
-11961
+12048
 
 svgelement.js
 file
@@ -304,11 +304,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-d939169852633d2d459bd1c399f8d7b0
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+e43a2389ad6e178669caceeca95c79bf
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -330,7 +330,7 @@ has-props
 
 
 
-8872
+8959
 
 strokeandfillelement.js
 file
@@ -338,11 +338,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-a6f669478f0ff063f76c8076039d8217
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+4badb251ebbd461092bfb26b842353bd
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -364,7 +364,7 @@ has-props
 
 
 
-3084
+3171
 
 affinetransform_test.html
 file
@@ -406,11 +406,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-4503147ed81ec27f4682634f748b73a4
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:51.000000Z
+25d0a2688fe04d7a11e1c66b4a5ff0fe
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -432,7 +432,7 @@ has-props
 
 
 
-29268
+29353
 
 paths.js
 file
@@ -474,11 +474,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-3a1150ddc376a70a0be37d0ff1c604eb
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:51.000000Z
+04d25a8fa7311764daa2c84e60cea2b0
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -500,7 +500,7 @@ has-props
 
 
 
-26495
+26582
 
 solidfill.js
 file
@@ -508,11 +508,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-69c83125d5547c1165700c39bef18868
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+fb52a360a45f7283af06800e46ab0d62
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -534,7 +534,7 @@ has-props
 
 
 
-1734
+1777
 
 path_test.html
 file
@@ -610,11 +610,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-eba7d89a8733cefd7c5969c78d665afb
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+2a4351cfb538c283194d5177ecbac793
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -636,7 +636,7 @@ has-props
 
 
 
-13937
+13980
 
 ext
 dir
@@ -681,11 +681,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-f59ba55889deb69d07cda3f63b62b0a2
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+650691287dcab644a631569ce1f9a5d1
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -707,7 +707,7 @@ has-props
 
 
 
-813
+856
 
 lineargradient.js
 file
@@ -715,11 +715,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-1d542534707006456b632d971f6dd9c9
-2011-05-27T01:07:41.000000Z
-974
-fhzhang@google.com
+2011-12-21T12:07:51.000000Z
+303fc931080c3088c469e9a7da11c681
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -741,7 +741,7 @@ has-props
 
 
 
-3950
+3993
 
 element.js
 file
@@ -749,11 +749,11 @@ file
 
 
 
-2011-10-24T15:56:47.000000Z
-ff95d19e9d10b95429da5ada533f55d3
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2011-12-21T12:07:51.000000Z
+4d62c943daa1368115f0340b3c41c4d6
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -775,7 +775,7 @@ has-props
 
 
 
-4364
+4451
 
 canvasgraphics.js
 file
@@ -851,11 +851,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-4c5c2133513b91b4d06337666d091333
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+cee7ecbc14f2a7e3b422dfca261c84c3
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -877,7 +877,7 @@ has-props
 
 
 
-15729
+15822
 
 textelement.js
 file
@@ -885,11 +885,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-7cf259ba2c8d11e34092f1129bd9a786
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+de693916e3f4bee7999c9de7f532b66a
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -911,7 +911,7 @@ has-props
 
 
 
-1763
+1850
 
 graphics.js
 file
@@ -919,11 +919,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-74f4a2ef1295031698ba9c96eff7d8b5
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:51.000000Z
+f19990c2405c13e52a8225a159aa3ad6
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -945,5 +945,5 @@ has-props
 
 
 
-4866
+4909
 

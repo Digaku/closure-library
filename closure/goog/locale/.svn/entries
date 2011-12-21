@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/locale
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-06T22:56:00.000000Z
-1271
-cibu@google.com
+2011-11-14T17:58:19.000000Z
+1387
+nicksantos@google.com
 
 
 
@@ -66,11 +66,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-bb78e3fba236a0a24d80ef9263293f5c
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2011-12-21T12:07:00.000000Z
+ac1825d9164d72db59e5edb0e8da5c99
+2011-11-14T17:58:19.000000Z
+1387
+nicksantos@google.com
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-4562
+4611
 
 genericfontnames.js
 file
@@ -304,11 +304,11 @@ file
 
 
 
-2011-09-10T17:46:43.000000Z
-e86dc4310f8856adc6675b2235a7389e
-2011-08-08T20:51:21.000000Z
-1197
-mimisun@google.com
+2011-12-21T12:07:00.000000Z
+7cf4fbb5e7fc690993421f41f94573e6
+2011-11-14T17:58:19.000000Z
+1387
+nicksantos@google.com
 has-props
 
 
@@ -330,7 +330,7 @@ has-props
 
 
 
-13558
+13607
 
 timezonedetection_test.html
 file

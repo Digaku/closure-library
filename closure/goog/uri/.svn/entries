@@ -1,15 +1,15 @@
 10
 
 dir
-1349
+1492
 http://closure-library.googlecode.com/svn/trunk/closure/goog/uri
 http://closure-library.googlecode.com/svn
 
 
 
-2011-07-07T22:59:13.000000Z
-1106
-zunger@google.com
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 
 
 
@@ -100,11 +100,11 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
-161e4192e944f58a15d07ecf9ff5c251
-2011-06-30T22:03:20.000000Z
-1085
-erikwright@google.com
+2011-12-21T12:07:00.000000Z
+5ea46a6e0cdc1375b0dea5a544d5fc20
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-42798
+42799
 
 utils.js
 file
@@ -134,11 +134,11 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
-6cad34ebcf4c9be7802b50d80bbe70ad
-2011-06-21T09:04:53.000000Z
-1061
-nicksay@google.com
+2011-12-21T12:07:00.000000Z
+8df3601a9d24df26e5d6ce8db9a75d18
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -160,5 +160,5 @@ has-props
 
 
 
-32745
+33569
 
