@@ -85,7 +85,11 @@ mt.ui.InputToken = (function() {
       return self.lastValue_ = self.inputElm_.value;
     });
     cancel_input_ = function(e) {
-      if (e.keyCode === 13 || e.keyCode === 8) return true;
+      if (e.keyCode === 13) {
+        e.preventDefault();
+        return true;
+      }
+      if (e.keyCode === 8) return true;
       if (self.inputElm_.value.length >= self.item_max_chars_) {
         e.preventDefault();
         return false;
