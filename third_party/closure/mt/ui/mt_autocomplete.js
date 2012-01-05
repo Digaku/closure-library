@@ -35,8 +35,15 @@ mt.ui.MTInputHandler.prototype.selectRow = function(row, opt_multi) {
 	
 	new_content = new_content.replace(new RegExp(goog.string.regExpEscape(token) + '$'), row.toString())
 	
-	el.value = new_content;
+	/*el.value = new_content;*/
+	
+	this.setValue(new_content);
+	
+
 	el.focus();
+	this.setCursorPosition(this.getValue().length);
+
+	
 	this.rowJustSelected_ = true;
 	return false;
 };
@@ -68,6 +75,25 @@ mt.ui.MTInputHandler.prototype.parseToken = function() {
   return rv;
 };
 
+
+mt.ui.MTInputHandler.prototype.content_editable_ = function(){
+	return this.activeElement_.contentEditable && this.activeElement_.contentEditable == "true";
+};
+
+mt.ui.MTInputHandler.prototype.getValue = function() {
+	if(this.content_editable_()){
+		return this.activeElement_.innerText;
+	}
+	return mt.ui.MTInputHandler.superClass_.getValue();
+};
+
+mt.ui.MTInputHandler.prototype.setValue = function(value) {
+	if(this.content_editable_()){
+		value = '<span class="label success">' + value + '</span>';
+		return this.activeElement_.innerHTML = value;
+	}
+	return mt.ui.MTInputHandler.superClass_.setValue(value);
+};
 
 /**
  * @constructor
