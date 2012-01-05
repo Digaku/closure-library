@@ -32,7 +32,8 @@ mt.ui.InputToken = (function() {
   function InputToken(elm, opt_domHelper) {
     this.opt_domHelper = opt_domHelper;
     goog.ui.Component.call(this, this.opt_domHelper);
-    this.renderers_ = [];
+    this.items_ = [];
+    this.item_max_chars_ = 100;
     if (elm) {
       if (typeof elm === "string") elm = goog.dom.getElement(elm);
       this.decorateInternal(elm);
@@ -47,7 +48,7 @@ mt.ui.InputToken = (function() {
   };
 
   InputToken.prototype.decorateInternal = function(elm) {
-    var clear, self;
+    var cancel_input_, clear, self, tabindex;
     InputToken.superClass_.decorateInternal.call(this, elm);
     this.setElementInternal(elm);
     goog.dom.classes.add(elm, goog.getCssName("mt-input-token"));
@@ -65,16 +66,34 @@ mt.ui.InputToken = (function() {
       "float": "left"
     });
     this.inputElm_.setAttribute("type", "text");
+    tabindex = elm.getAttribute("tabindex");
+    if (tabindex) {
+      this.inputElm_.setAttribute("tabindex", tabindex);
+      elm.removeAttribute("tabindex");
+    }
     elm.appendChild(this.inputElm_);
     self = this;
+    self.lastValue_ = this.inputElm_.value;
     goog.events.listen(this.inputElm_, goog.events.EventType.KEYUP, function(e) {
-      console.log(e);
       if (e.keyCode === 13) {
         self.add(goog.string.trim(self.inputElm_.value));
         self.inputElm_.value = "";
-        return self.inputElm_.focus();
+        self.inputElm_.focus();
+      } else if (e.keyCode === 8) {
+        if (self.lastValue_.length === 0) self.remove(self.getLastItem().text);
       }
+      return self.lastValue_ = self.inputElm_.value;
     });
+    cancel_input_ = function(e) {
+      if (e.keyCode === 13 || e.keyCode === 8) return true;
+      if (self.inputElm_.value.length >= self.item_max_chars_) {
+        e.preventDefault();
+        return false;
+      }
+      return true;
+    };
+    goog.events.listen(this.inputElm_, goog.events.EventType.KEYPRESS, cancel_input_);
+    goog.events.listen(this.inputElm_, goog.events.EventType.KEYDOWN, cancel_input_);
     clear = goog.dom.createDom("div");
     goog.style.setStyle(clear, {
       "clear": "both"
@@ -82,18 +101,26 @@ mt.ui.InputToken = (function() {
     return elm.appendChild(clear);
   };
 
+  InputToken.prototype.getLastItem = function() {
+    return this.items_[this.items_.length - 1];
+  };
+
+  InputToken.prototype.setMaxItemChars = function(max) {
+    return this.item_max_chars_ = max;
+  };
+
   InputToken.prototype.add = function(text) {
-    var celm, renderer, self;
-    renderer = new mt.ui.InputTokenRenderer(text);
+    var celm, item, self;
+    item = new mt.ui.InputTokenRenderer(text);
     celm = goog.dom.createElement("div");
     celm.innerHTML = text;
     goog.style.setStyle(celm, {
       "max-height": "17px",
       "overflow": "hidden"
     });
-    renderer.decorateInternal(celm);
+    item.decorateInternal(celm);
     this.itemsWrappers_.appendChild(celm);
-    this.renderers_.push(renderer);
+    this.items_.push(item);
     self = this;
     goog.events.listen(celm, goog.events.EventType.CLICK, function(e) {
       return self.remove(e.target.innerHTML);
@@ -101,13 +128,13 @@ mt.ui.InputToken = (function() {
   };
 
   InputToken.prototype.remove = function(text) {
-    var i, renderer, _len, _ref;
-    _ref = this.renderers_;
+    var i, item, _len, _ref;
+    _ref = this.items_;
     for (i = 0, _len = _ref.length; i < _len; i++) {
-      renderer = _ref[i];
-      if (renderer.text === text) {
-        this.renderers_.splice(i, 1);
-        renderer.dispose();
+      item = _ref[i];
+      if (item.text === text) {
+        this.items_.splice(i, 1);
+        item.dispose();
       }
     }
   };
