@@ -94,6 +94,9 @@ mt.ui.InputToken = (function() {
     };
     goog.events.listen(this.inputElm_, goog.events.EventType.KEYPRESS, cancel_input_);
     goog.events.listen(this.inputElm_, goog.events.EventType.KEYDOWN, cancel_input_);
+    goog.events.listen(elm, goog.events.EventType.CLICK, function(e) {
+      return self.inputElm_.focus();
+    });
     clear = goog.dom.createDom("div");
     goog.style.setStyle(clear, {
       "clear": "both"
