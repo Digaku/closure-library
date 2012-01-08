@@ -75,10 +75,14 @@ mt.ui.InputToken = (function() {
     self = this;
     self.lastValue_ = this.inputElm_.value;
     goog.events.listen(this.inputElm_, goog.events.EventType.KEYUP, function(e) {
+      var v;
       if (e.keyCode === 13) {
-        self.add(goog.string.trim(self.inputElm_.value));
-        self.inputElm_.value = "";
-        self.inputElm_.focus();
+        v = goog.string.trim(self.inputElm_.value);
+        if (v.length > 0) {
+          self.add(v);
+          self.inputElm_.value = "";
+          self.inputElm_.focus();
+        }
       } else if (e.keyCode === 8) {
         if (self.lastValue_.length === 0) self.remove(self.getLastItem().text);
       }

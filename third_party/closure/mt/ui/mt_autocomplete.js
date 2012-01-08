@@ -84,7 +84,7 @@ mt.ui.MTInputHandler.prototype.getValue = function() {
 	if(this.content_editable_()){
 		return this.activeElement_.innerText;
 	}
-	return mt.ui.MTInputHandler.superClass_.getValue();
+	return mt.ui.MTInputHandler.superClass_.getValue.call(this);
 };
 
 mt.ui.MTInputHandler.prototype.setValue = function(value) {
@@ -92,7 +92,7 @@ mt.ui.MTInputHandler.prototype.setValue = function(value) {
 		value = '<span class="label success">' + value + '</span>';
 		return this.activeElement_.innerHTML = value;
 	}
-	return mt.ui.MTInputHandler.superClass_.setValue(value);
+	return mt.ui.MTInputHandler.superClass_.setValue.call(this,value);
 };
 
 /**
