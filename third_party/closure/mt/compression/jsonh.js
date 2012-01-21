@@ -32,6 +32,7 @@ goog.require("goog.array");
  * @constructor
  */
 mt.compression.Jsonh = function(list){
+	/*@reserved*/
 	this.list_ = list;
 };
 
