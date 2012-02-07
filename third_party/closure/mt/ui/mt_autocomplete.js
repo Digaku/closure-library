@@ -2,6 +2,7 @@
 
 goog.provide('mt.ui.MTInputHandler');
 goog.provide('mt.ui.MTAutoComplete');
+goog.provide('mt.ui.MTAutoCompleteChannel');
 
 goog.require('goog.string');
 goog.require('goog.ui.AutoComplete');
@@ -111,4 +112,54 @@ mt.ui.MTAutoComplete = function(data, input, opt_multi, opt_useSimilar) {
 };
 
 goog.inherits(mt.ui.MTAutoComplete, goog.ui.AutoComplete);
+
+/**
+ * @constructor
+ * @extends {mt.ui.MTInputHandler}
+ */
+mt.ui.MTInputHandlerChannel = function() {
+	mt.ui.MTInputHandler.call(this);
+}
+
+goog.inherits(mt.ui.MTInputHandlerChannel, mt.ui.MTInputHandler);
+
+/**
+ * Parses a text area or input box for the currently highlighted token.
+ * @return {string} Token to complete.
+ * @protected
+ */
+
+mt.ui.MTInputHandlerChannel.prototype.parseToken = function() {
+	var rv = "";
+	
+	var caret = this.getCursorPosition();
+	var text = this.getValue();
+	
+	var matches = /.?#([\w\-\._]+)$/.exec(text);
+	
+	if(matches && matches.length > 1){
+		
+		var t1 = matches[0].match(new RegExp('^[ ]?#' + goog.string.regExpEscape(matches[1]) + '$'))
+		
+		if (t1 && t1.length > 0){
+			rv = matches[1];
+		}
+
+	}
+	
+	return rv;
+};
+
+mt.ui.MTAutoCompleteChannel = function(data, input, opt_multi, opt_useSimilar) {
+	var matcher = new goog.ui.AutoComplete.ArrayMatcher(data, !opt_useSimilar);
+	var renderer = new goog.ui.AutoComplete.Renderer();
+	var inputhandler = new mt.ui.MTInputHandlerChannel();
+
+	goog.ui.AutoComplete.call(this, matcher, renderer, inputhandler);
+
+	inputhandler.attachAutoComplete(this);
+	inputhandler.attachInputs(input);
+}
+
+goog.inherits(mt.ui.MTAutoCompleteChannel, goog.ui.AutoComplete);
 
