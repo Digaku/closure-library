@@ -34,7 +34,7 @@ def _GetJavaVersion():
   return _VERSION_REGEX.search(version_line).group(1)
 
 
-def Compile(compiler_jar_path, source_paths, flags=None):
+def Compile(compiler_jar_path, source_paths, flags=None, jvm_opts=None):
   """Prepares command-line call to Closure Compiler.
 
   Args:
@@ -53,7 +53,13 @@ def Compile(compiler_jar_path, source_paths, flags=None):
                   'Please visit http://www.java.com/getjava')
     return
 
-  args = ['java', '-jar', compiler_jar_path]
+  args = ['java']
+
+  if jvm_opts:
+	args += jvm_opts
+	  
+
+  args += ['-jar', compiler_jar_path]
   for path in source_paths:
     args += ['--js', path]
 

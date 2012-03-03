@@ -101,6 +101,8 @@ def _GetOptionsParser():
                     action='store',
                     help=('If specified, write output to this path instead of '
                           'writing to standard output.'))
+  parser.add_option('--debug_mode',
+                    dest='debug_mode', default='false', help='Add jvm debug options')
 
   return parser
 
@@ -183,6 +185,11 @@ def main():
     out = open(options.output_file, 'w')
   else:
     out = sys.stdout
+  
+  if options.debug_mode=='true':
+	jvm_opts = ['-Xdebug', '-Xrunjdwp:transport=dt_socket,server=n,address=127.0.0.1:8989,suspend=y,onuncaught=n']
+  else:
+	jvm_opts = None
 
   sources = set()
 
@@ -238,7 +245,8 @@ def main():
     compiled_source = jscompiler.Compile(
         options.compiler_jar,
         [js_source.GetPath() for js_source in deps],
-        options.compiler_flags)
+        options.compiler_flags,
+		jvm_opts)
 
     if compiled_source is None:
       logging.error('JavaScript compilation failed.')

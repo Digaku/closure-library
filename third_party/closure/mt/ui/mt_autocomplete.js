@@ -1,6 +1,6 @@
 // Copyright (C) 2011 Ansvia
 
-goog.provide('mt.ui.MTInputHandler');
+goog.provide('mt.ui.MTInputHandlerPrefix');
 goog.provide('mt.ui.MTAutoComplete');
 goog.provide('mt.ui.MTAutoCompleteChannel');
 
@@ -12,13 +12,18 @@ goog.require('goog.ui.AutoComplete.ArrayMatcher');
 
 /**
  * @constructor
+ * @param {String} prefix to trigger autocomplete.
+ *                  for example in Mindtalk use `@` and `#`.
  * @extends {goog.ui.AutoComplete.InputHandler}
  */
-mt.ui.MTInputHandler = function() {
+mt.ui.MTInputHandlerPrefix = function(prefix) {
+    this.prefix_ = prefix;
 	goog.ui.AutoComplete.InputHandler.call(this);
 }
 
-goog.inherits(mt.ui.MTInputHandler, goog.ui.AutoComplete.InputHandler);
+goog.inherits(mt.ui.MTInputHandlerPrefix, goog.ui.AutoComplete.InputHandler);
+
+
 
 /**
  * Selects the given row.  Implements the SelectionHandler interface.
@@ -27,26 +32,43 @@ goog.inherits(mt.ui.MTInputHandler, goog.ui.AutoComplete.InputHandler);
  *	   auto-complete?  Overrides previous setting of opt_multi on constructor.
  * @return {boolean} Whether to suppress the update event.
  */
-mt.ui.MTInputHandler.prototype.selectRow = function(row, opt_multi) {
-	//console.log(row);
-	//this.setTokenText(row.toString(), opt_multi);
-	var el = this.activeElement_;
-	var token = this.ac_.token_;
-	var new_content = this.getValue();
-	
-	new_content = new_content.replace(new RegExp(goog.string.regExpEscape(token) + '$'), row.toString())
-	
-	/*el.value = new_content;*/
-	
-	this.setValue(new_content);
-	
+mt.ui.MTInputHandlerPrefix.prototype.selectRow = function(row, opt_multi) {
+    var el = this.activeElement_;
+    var token = this.ac_.token_;
+    var text = this.getValue();
+    var cursor = this.getCursorPosition();
+    var tail = "";
 
-	el.focus();
-	this.setCursorPosition(this.getValue().length);
+    // save tail if any
+    if(text.length > (cursor + 1)){
+        tail = text.slice(cursor);
+    }
 
-	
-	this.rowJustSelected_ = true;
-	return false;
+    var head = text.slice(0, cursor);
+
+    // get body
+    var body = "";
+
+    var i = head.lastIndexOf(this.prefix_);
+
+    body = head.slice(i, cursor);
+
+    head = head.slice(0, i);
+
+    body = body.replace(new RegExp(goog.string.regExpEscape(token)), row.toString());
+
+    var new_content =  head + body + tail;
+
+    //new_content = new_content.replace(new RegExp(goog.string.regExpEscape(token) + '$'), row.toString())
+
+    el.value = new_content;
+    el.focus();
+
+    cursor = cursor + (row.toString().length - token.length);
+
+    this.setCursorPosition(cursor);
+
+    this.rowJustSelected_ = true;
 };
 
 
@@ -55,46 +77,48 @@ mt.ui.MTInputHandler.prototype.selectRow = function(row, opt_multi) {
  * @return {string} Token to complete.
  * @protected
  */
-mt.ui.MTInputHandler.prototype.parseToken = function() {
-	var rv = "";
-	
-	var caret = this.getCursorPosition();
-	var text = this.getValue();
-	
-	var matches = /.?@(\w+)$/.exec(text);
-	
-	if(matches && matches.length > 1){
-		
-		var t1 = matches[0].match(new RegExp('^[ ]?@' + goog.string.regExpEscape(matches[1]) + '$'))
-		
-		if (t1 && t1.length > 0){
-			rv = matches[1];
-		}
+mt.ui.MTInputHandlerPrefix.prototype.parseToken = function() {
+    var rv = "", cursor, text, matches, i;
 
-	}
-	
-  return rv;
+    cursor = this.getCursorPosition();
+    text = this.getValue();
+    text = text.slice(0, cursor);
+
+    i = text.lastIndexOf(this.prefix_);
+
+    text = text.slice(i, cursor);
+
+    var re = new RegExp( goog.string.regExpEscape(this.prefix_) + '(\\w+)$' );
+
+    matches = re.exec(text);
+
+    if(matches && matches.length > 1){
+        rv = matches[1];
+    }
+
+    return rv;
 };
 
 
-mt.ui.MTInputHandler.prototype.content_editable_ = function(){
-	return this.activeElement_.contentEditable && this.activeElement_.contentEditable == "true";
+mt.ui.MTInputHandlerPrefix.prototype.content_editable_ = function(){
+    return this.activeElement_.contentEditable && this.activeElement_.contentEditable == "true";
 };
 
-mt.ui.MTInputHandler.prototype.getValue = function() {
-	if(this.content_editable_()){
-		return this.activeElement_.innerText;
-	}
-	return mt.ui.MTInputHandler.superClass_.getValue.call(this);
+mt.ui.MTInputHandlerPrefix.prototype.getValue = function() {
+    if(this.content_editable_()){
+        return this.activeElement_.innerText;
+    }
+    return mt.ui.MTInputHandlerPrefix.superClass_.getValue.call(this);
 };
 
-mt.ui.MTInputHandler.prototype.setValue = function(value) {
-	if(this.content_editable_()){
-		value = '<span class="label success">' + value + '</span>';
-		return this.activeElement_.innerHTML = value;
-	}
-	return mt.ui.MTInputHandler.superClass_.setValue.call(this,value);
+mt.ui.MTInputHandlerPrefix.prototype.setValue = function(value) {
+    if(this.content_editable_()){
+        value = '<span class="' + goog.getCssName('label') + ' ' + goog.getCssName("success") +  '">' + value + '</span>';
+        return this.activeElement_.innerHTML = value;
+    }
+    return mt.ui.MTInputHandlerPrefix.superClass_.setValue.call(this,value);
 };
+
 
 /**
  * @constructor
@@ -103,7 +127,7 @@ mt.ui.MTInputHandler.prototype.setValue = function(value) {
 mt.ui.MTAutoComplete = function(data, input, opt_multi, opt_useSimilar) {
 	var matcher = new goog.ui.AutoComplete.ArrayMatcher(data, !opt_useSimilar);
 	var renderer = new goog.ui.AutoComplete.Renderer();
-	var inputhandler = new mt.ui.MTInputHandler();
+	var inputhandler = new mt.ui.MTInputHandlerPrefix('@');
 
 	goog.ui.AutoComplete.call(this, matcher, renderer, inputhandler);
 
@@ -113,47 +137,15 @@ mt.ui.MTAutoComplete = function(data, input, opt_multi, opt_useSimilar) {
 
 goog.inherits(mt.ui.MTAutoComplete, goog.ui.AutoComplete);
 
+
 /**
  * @constructor
- * @extends {mt.ui.MTInputHandler}
+ * @extends {goog.ui.AutoComplete}
  */
-mt.ui.MTInputHandlerChannel = function() {
-	mt.ui.MTInputHandler.call(this);
-}
-
-goog.inherits(mt.ui.MTInputHandlerChannel, mt.ui.MTInputHandler);
-
-/**
- * Parses a text area or input box for the currently highlighted token.
- * @return {string} Token to complete.
- * @protected
- */
-
-mt.ui.MTInputHandlerChannel.prototype.parseToken = function() {
-	var rv = "";
-	
-	var caret = this.getCursorPosition();
-	var text = this.getValue();
-	
-	var matches = /.?#([\w\-\._]+)$/.exec(text);
-	
-	if(matches && matches.length > 1){
-		
-		var t1 = matches[0].match(new RegExp('^[ ]?#' + goog.string.regExpEscape(matches[1]) + '$'))
-		
-		if (t1 && t1.length > 0){
-			rv = matches[1];
-		}
-
-	}
-	
-	return rv;
-};
-
 mt.ui.MTAutoCompleteChannel = function(data, input, opt_multi, opt_useSimilar) {
 	var matcher = new goog.ui.AutoComplete.ArrayMatcher(data, !opt_useSimilar);
 	var renderer = new goog.ui.AutoComplete.Renderer();
-	var inputhandler = new mt.ui.MTInputHandlerChannel();
+	var inputhandler = new mt.ui.MTInputHandlerPrefix('#');
 
 	goog.ui.AutoComplete.call(this, matcher, renderer, inputhandler);
 

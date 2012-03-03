@@ -1520,4 +1520,3 @@ goog.scope = function(fn) {
   fn.call(goog.global);
 };
 
-
