@@ -1,8 +1,6 @@
-
 /*
 Copyright (C) 2012 Ansvia
 */
-
 goog.provide("mt.ui.InputToken");
 
 goog.require("goog.string");
@@ -36,17 +34,16 @@ mt.ui.InputTokenEventChange = function(items) {
 goog.inherits(mt.ui.InputTokenEventChange, goog.events.Event);
 
 mt.ui.InputToken = (function() {
-
   /*
-  	@constructor
+      @constructor
   */
-
   function InputToken(elm, opt_domHelper) {
     this.opt_domHelper = opt_domHelper;
     goog.ui.Component.call(this, this.opt_domHelper);
     this.items_ = [];
     this.item_max_chars_ = 100;
     this.max_item = 5;
+    this.dispatchKeyCode_ = 13;
     this.eh_ = new goog.events.EventHandler(this);
     if (elm) {
       if (typeof elm === "string") elm = goog.dom.getElement(elm);
@@ -57,14 +54,19 @@ mt.ui.InputToken = (function() {
 
   goog.inherits(InputToken, goog.ui.Component);
 
+  InputToken.prototype.setDispatchKeyCode = function(key) {
+    return this.dispatchKeyCode_ = key;
+  };
+
   InputToken.prototype.enterDocument = function() {
     var cancel_input_, self;
+    console.log("in enterDocument");
     mt.ui.InputToken.superClass_.enterDocument.call(this);
     self = this;
     self.lastValue_ = this.inputElm_.value;
     goog.events.listen(this.inputElm_, goog.events.EventType.KEYUP, function(e) {
       var v;
-      if (e.keyCode === 13) {
+      if (e.keyCode === self.dispatchKeyCode_) {
         v = goog.string.trim(self.inputElm_.value);
         if (v.length > 0) {
           self.add(v);
@@ -167,7 +169,7 @@ mt.ui.InputToken = (function() {
   };
 
   /*
-  		@private
+       @private
   */
 
   InputToken.prototype.add_ = function(text, initial) {
@@ -197,7 +199,7 @@ mt.ui.InputToken = (function() {
   };
 
   /*
-  	@private
+     @private
   */
 
   InputToken.prototype.remove_ = function(text, initial) {
