@@ -1,11 +1,15 @@
 /*
 Copyright (C) 2012 Ansvia
 */
+var __indexOf = Array.prototype.indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
+
 goog.provide("mt.ui.InputToken");
 
 goog.require("goog.string");
 
 goog.require("goog.dom");
+
+goog.require("goog.array");
 
 goog.require("goog.ui.Component");
 
@@ -43,7 +47,7 @@ mt.ui.InputToken = (function() {
     this.items_ = [];
     this.item_max_chars_ = 100;
     this.max_item = 5;
-    this.dispatchKeyCode_ = 13;
+    this.dispatchKeyCodes_ = 13;
     this.eh_ = new goog.events.EventHandler(this);
     if (elm) {
       if (typeof elm === "string") elm = goog.dom.getElement(elm);
@@ -54,8 +58,8 @@ mt.ui.InputToken = (function() {
 
   goog.inherits(InputToken, goog.ui.Component);
 
-  InputToken.prototype.setDispatchKeyCode = function(key) {
-    return this.dispatchKeyCode_ = key;
+  InputToken.prototype.setDispatchKeyCodes = function(key) {
+    return this.dispatchKeyCodes_ = key;
   };
 
   InputToken.prototype.enterDocument = function() {
@@ -65,8 +69,8 @@ mt.ui.InputToken = (function() {
     self = this;
     self.lastValue_ = this.inputElm_.value;
     goog.events.listen(this.inputElm_, goog.events.EventType.KEYUP, function(e) {
-      var v;
-      if (e.keyCode === self.dispatchKeyCode_) {
+      var v, _ref;
+      if (_ref = e.keyCode, __indexOf.call(self.dispatchKeyCodes_, _ref) >= 0) {
         v = goog.string.trim(self.inputElm_.value);
         if (v.length > 0) {
           self.add(v);
@@ -176,6 +180,7 @@ mt.ui.InputToken = (function() {
     var celm, item, self;
     if (initial == null) initial = true;
     if (this.items_.length >= this.getMaxItem()) return;
+    if (this.hasToken(text)) return;
     item = new mt.ui.InputTokenRenderer(text);
     celm = goog.dom.createElement("div");
     celm.innerHTML = text;
@@ -199,7 +204,7 @@ mt.ui.InputToken = (function() {
   };
 
   /*
-     @private
+      @private
   */
 
   InputToken.prototype.remove_ = function(text, initial) {
@@ -231,6 +236,14 @@ mt.ui.InputToken = (function() {
 
   InputToken.prototype.remove = function(text) {
     this.remove_(text, false);
+  };
+
+  InputToken.prototype.hasToken = function(text) {
+    var items;
+    items = goog.array.filter(this.items_, function(item) {
+      return item.text === text;
+    });
+    return items.length > 0;
   };
 
   return InputToken;

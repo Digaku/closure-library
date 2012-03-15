@@ -24,23 +24,22 @@ goog.ui.Loading = function(elm_id, opt_base_url, opt_place_inner, opt_domHelpers
 	this.orig_elm = elm;
 	this.base_url_ = opt_base_url;
 	this.opt_place_inner_ = opt_place_inner || false;
-	
-	//this.setElementInternal(goog.dom.getElement(elm_id));
+
 	this.decorateInternal(this.orig_elm);
-	
 };
 
 goog.inherits(goog.ui.Loading, goog.ui.Component);
 
 
-
 goog.ui.Loading.prototype.decorateInternal = function(element){
 	goog.ui.Loading.superClass_.decorateInternal.call(this, element);
 	
-	var elem = this.getElement(),
-		wrapper = this.dom_.createElement('span'),
+	var wrapper = this.dom_.createElement('span'),
 		anim = this.dom_.createElement('span');
-	
+
+    // copy wrapper style from orig elm style
+    wrapper.style = this.orig_elm.style
+
 	if(this.opt_place_inner_){
 		this.orig_innerHTML = this.orig_elm.innerHTML;
 		this.orig_elm.innerHTML = '';
@@ -50,13 +49,13 @@ goog.ui.Loading.prototype.decorateInternal = function(element){
 		goog.dom.insertSiblingBefore(wrapper, this.orig_elm);
 		this.orig_elm.style.display = 'none';
 	}
-	
+
 	if(this.base_url_){
-		anim.innerHTML = '<img src="'+ this.base_url_ + goog.ui.Loading.gif_file_ + '"/>';
+		anim.innerHTML = '<img src="' + this.base_url_ + goog.ui.Loading.gif_file_ + '"/>';
 	}else{
-		anim.innerHTML = '<img src="'+ this.gif_file_ +'" />';
+		anim.innerHTML = '<img src="' + this.gif_file_ +'" />';
 	}
-	
+
 	wrapper.appendChild(anim);
 	
 	this.wrapper_ = wrapper;
