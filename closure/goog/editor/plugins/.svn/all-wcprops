@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/1487/trunk/closure/goog/editor/plugins
+/svn/!svn/ver/1599/trunk/closure/goog/editor/plugins
 END
 undoredostate_test.html
 K 25
@@ -55,13 +55,13 @@ linkdialogplugin_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/svn/!svn/ver/1398/trunk/closure/goog/editor/plugins/linkdialogplugin_test.html
+/svn/!svn/ver/1565/trunk/closure/goog/editor/plugins/linkdialogplugin_test.html
 END
 abstractbubbleplugin_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/!svn/ver/850/trunk/closure/goog/editor/plugins/abstractbubbleplugin_test.html
+V 83
+/svn/!svn/ver/1599/trunk/closure/goog/editor/plugins/abstractbubbleplugin_test.html
 END
 listtabhandler_test.html
 K 25
@@ -84,20 +84,20 @@ END
 tagonenterhandler_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/!svn/ver/850/trunk/closure/goog/editor/plugins/tagonenterhandler_test.html
+V 80
+/svn/!svn/ver/1553/trunk/closure/goog/editor/plugins/tagonenterhandler_test.html
 END
 linkdialogplugin.js
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/1398/trunk/closure/goog/editor/plugins/linkdialogplugin.js
+/svn/!svn/ver/1565/trunk/closure/goog/editor/plugins/linkdialogplugin.js
 END
 abstractbubbleplugin.js
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/1302/trunk/closure/goog/editor/plugins/abstractbubbleplugin.js
+/svn/!svn/ver/1599/trunk/closure/goog/editor/plugins/abstractbubbleplugin.js
 END
 listtabhandler.js
 K 25
@@ -133,7 +133,7 @@ tagonenterhandler.js
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/1302/trunk/closure/goog/editor/plugins/tagonenterhandler.js
+/svn/!svn/ver/1553/trunk/closure/goog/editor/plugins/tagonenterhandler.js
 END
 undoredo_test.html
 K 25
@@ -174,8 +174,8 @@ END
 removeformatting_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 78
-/svn/!svn/ver/991/trunk/closure/goog/editor/plugins/removeformatting_test.html
+V 79
+/svn/!svn/ver/1583/trunk/closure/goog/editor/plugins/removeformatting_test.html
 END
 loremipsum_test.html
 K 25

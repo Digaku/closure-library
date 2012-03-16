@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/!svn/ver/1472/trunk/closure/goog/graphics
+/svn/!svn/ver/1597/trunk/closure/goog/graphics
 END
 groupelement.js
 K 25
@@ -26,6 +26,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 61
 /svn/!svn/ver/1472/trunk/closure/goog/graphics/pathelement.js
+END
+svggraphics_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1508/trunk/closure/goog/graphics/svggraphics_test.html
 END
 ellipseelement.js
 K 25
@@ -85,7 +91,7 @@ svggraphics.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1472/trunk/closure/goog/graphics/svggraphics.js
+/svn/!svn/ver/1508/trunk/closure/goog/graphics/svggraphics.js
 END
 solidfill.js
 K 25
@@ -133,7 +139,7 @@ element.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1472/trunk/closure/goog/graphics/element.js
+/svn/!svn/ver/1597/trunk/closure/goog/graphics/element.js
 END
 canvasgraphics.js
 K 25

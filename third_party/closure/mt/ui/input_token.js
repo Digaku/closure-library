@@ -218,7 +218,7 @@ mt.ui.InputToken = (function() {
     _ref = this.items_;
     for (i = 0, _len = _ref.length; i < _len; i++) {
       item = _ref[i];
-      if (item.text === text) {
+      if (item && item.text === text) {
         this.items_.splice(i, 1);
         item.dispose();
         changed_ = true;

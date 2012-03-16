@@ -118,9 +118,9 @@ goog.ui.RichTextSpellChecker.prototype.editorDom_;
  * Tag name porition of the marker for the text that does not need to be checked
  * for spelling.
  *
- * @type {string|undefined}
+ * @type {Array.<string|undefined>}
  */
-goog.ui.RichTextSpellChecker.prototype.excludeTag;
+goog.ui.RichTextSpellChecker.prototype.excludeTags;
 
 
 /**
@@ -228,7 +228,7 @@ goog.ui.RichTextSpellChecker.prototype.onDictionaryCharged_ = function(e) {
                        this.onDictionaryCharged_, true, this);
 
   // Now actually do the spell checking.
-  this.wordElements_ = {};
+  this.clearWordElements();
   this.initializeAsyncMode();
   this.elementsInserted_ = 0;
   var result = this.processNode_(this.rootNode_);
@@ -269,7 +269,7 @@ goog.ui.RichTextSpellChecker.prototype.finishCheck_ = function() {
   delete this.currentNode_;
   this.handler_.processPending();
 
-  if (!this.isVisible_) {
+  if (!this.isVisible()) {
     goog.events.listen(this.rootNode_, goog.events.EventType.CLICK,
                        this.onWordClick_, false, this);
   }
@@ -311,9 +311,24 @@ goog.ui.RichTextSpellChecker.prototype.isTextLeaf_ = function(node) {
 
 /** @override */
 goog.ui.RichTextSpellChecker.prototype.setExcludeMarker = function(marker) {
-  var parts = marker.split('.');
-  this.excludeTag = parts[0] || undefined;
-  this.excludeMarker = parts[1] || undefined;
+  if (marker) {
+    if (typeof marker == 'string') {
+      marker = [marker];
+    }
+
+    this.excludeTags = [];
+    this.excludeMarker = [];
+    for (var i = 0; i < marker.length; i++) {
+      var parts = marker[i].split('.');
+      if (parts.length == 2) {
+        this.excludeTags.push(parts[0]);
+        this.excludeMarker.push(parts[1]);
+      } else {
+        this.excludeMarker.push(parts[0]);
+        this.excludeTags.push(undefined);
+      }
+    }
+  }
 };
 
 
@@ -325,9 +340,19 @@ goog.ui.RichTextSpellChecker.prototype.setExcludeMarker = function(marker) {
  * @private
  */
 goog.ui.RichTextSpellChecker.prototype.isExcluded_ = function(node) {
-  return !!(this.excludeMarker && node.className &&
-      node.className.indexOf(this.excludeMarker) != -1 &&
-      (!this.excludeTag || node.tagName == this.excludeTag));
+  if (this.excludeMarker && node.className) {
+    for (var i = 0; i < this.excludeMarker.length; i++) {
+      var excludeTag = this.excludeTags[i];
+      var excludeClass = this.excludeMarker[i];
+      var isExcluded = !!(excludeClass &&
+          node.className.indexOf(excludeClass) != -1 &&
+          (!excludeTag || node.tagName == excludeTag));
+      if (isExcluded) {
+        return true;
+      }
+    }
+  }
+  return false;
 };
 
 
@@ -442,12 +467,8 @@ goog.ui.RichTextSpellChecker.prototype.processRange = function(node, text) {
 
 
 /**
- * Creates an element for a specified word and stores a reference to it.
- *
- * @param {string} word Word to create element for.
- * @param {goog.spell.SpellCheck.WordStatus} status Status of the word.
- * @return {HTMLSpanElement} The created element.
- * @private
+ * @override
+ * @suppress {accessControls}
  */
 goog.ui.RichTextSpellChecker.prototype.createWordElement_ = function(word,
                                                                      status) {
@@ -491,7 +512,7 @@ goog.ui.RichTextSpellChecker.prototype.resume = function() {
   this.restoreNode_(this.rootNode_);
 
   goog.events.unlisten(this.rootNode_, goog.events.EventType.CLICK,
-                     this.onWordClick_, false, this);
+                       this.onWordClick_, false, this);
 };
 
 

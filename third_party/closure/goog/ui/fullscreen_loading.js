@@ -25,6 +25,7 @@ goog.inherits(goog.ui.FullscreenLoading, goog.ui.Component);
 goog.ui.FullscreenLoading.loading_image_ = 'http://cdn01.digaku.com/data/c/6d781b369a10e4f8c97c9dbe81daca5e.gif';
 
 goog.ui.FullscreenLoading.prototype.render = function(){
+    //goog.ui.FullscreenLoading.superClass_.render.call(this)
 	
 	if(this.inDocument_){
 		throw Error(goog.ui.Component.Error.ALREADY_RENDERED);
@@ -38,7 +39,7 @@ goog.ui.FullscreenLoading.prototype.render = function(){
 	goog.dom.appendChild(document.body, this.element_);
 	goog.dom.appendChild(document.body, this.bgElm_);
 	
-	var doc = this.getDomHelper().getDocument();
+	var doc = goog.dom.getDocument();
 	var win = goog.dom.getWindow(doc) || window;
 	var css1 = {
 		'position': 'absolute',
@@ -89,7 +90,8 @@ goog.ui.FullscreenLoading.prototype.setVisible = function(state){
 };
 
 goog.ui.FullscreenLoading.prototype.dispose = function(){
-	goog.ui.FullscreenLoading.superClass_.disposeInternal();
+	goog.ui.FullscreenLoading.superClass_.dispose.call(this);
+
 	goog.dom.removeNode(this.element_);
 	goog.dom.removeNode(this.bgElm_);
 	

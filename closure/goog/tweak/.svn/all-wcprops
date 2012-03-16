@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/1302/trunk/closure/goog/tweak
+/svn/!svn/ver/1539/trunk/closure/goog/tweak
 END
 registry.js
 K 25
@@ -19,7 +19,7 @@ entries.js
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1302/trunk/closure/goog/tweak/entries.js
+/svn/!svn/ver/1539/trunk/closure/goog/tweak/entries.js
 END
 tweak.js
 K 25

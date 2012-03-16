@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/1472/trunk/closure/goog/demos
+/svn/!svn/ver/1601/trunk/closure/goog/demos
 END
 colorpicker.html
 K 25
@@ -348,8 +348,8 @@ END
 slider.html
 K 25
 svn:wc:ra_dav:version-url
-V 54
-/svn/!svn/ver/850/trunk/closure/goog/demos/slider.html
+V 55
+/svn/!svn/ver/1557/trunk/closure/goog/demos/slider.html
 END
 offline.html
 K 25
@@ -630,8 +630,8 @@ END
 colormenubutton.html
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/svn/!svn/ver/850/trunk/closure/goog/demos/colormenubutton.html
+V 64
+/svn/!svn/ver/1601/trunk/closure/goog/demos/colormenubutton.html
 END
 splitpane.html
 K 25

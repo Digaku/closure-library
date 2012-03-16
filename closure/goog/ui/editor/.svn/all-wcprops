@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/!svn/ver/1472/trunk/closure/goog/ui/editor
+/svn/!svn/ver/1597/trunk/closure/goog/ui/editor
 END
 linkdialog_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/1292/trunk/closure/goog/ui/editor/linkdialog_test.html
+/svn/!svn/ver/1565/trunk/closure/goog/ui/editor/linkdialog_test.html
 END
 toolbarcontroller.js
 K 25
@@ -55,7 +55,7 @@ bubble.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1302/trunk/closure/goog/ui/editor/bubble.js
+/svn/!svn/ver/1597/trunk/closure/goog/ui/editor/bubble.js
 END
 equationeditordialog.js
 K 25
@@ -67,7 +67,7 @@ linkdialog.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1302/trunk/closure/goog/ui/editor/linkdialog.js
+/svn/!svn/ver/1565/trunk/closure/goog/ui/editor/linkdialog.js
 END
 toolbarfactory_test.html
 K 25

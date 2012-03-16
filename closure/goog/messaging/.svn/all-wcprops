@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/!svn/ver/1434/trunk/closure/goog/messaging
+/svn/!svn/ver/1590/trunk/closure/goog/messaging
 END
 portchannel_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/!svn/ver/1434/trunk/closure/goog/messaging/portchannel_test.html
+/svn/!svn/ver/1582/trunk/closure/goog/messaging/portchannel_test.html
 END
 messaging_test.html
 K 25
@@ -25,19 +25,19 @@ loggerserver.js
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/1302/trunk/closure/goog/messaging/loggerserver.js
+/svn/!svn/ver/1506/trunk/closure/goog/messaging/loggerserver.js
 END
 portcaller.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1302/trunk/closure/goog/messaging/portcaller.js
+/svn/!svn/ver/1506/trunk/closure/goog/messaging/portcaller.js
 END
 deferredchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1302/trunk/closure/goog/messaging/deferredchannel.js
+/svn/!svn/ver/1566/trunk/closure/goog/messaging/deferredchannel.js
 END
 multichannel_test.html
 K 25
@@ -49,7 +49,7 @@ bufferedchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1302/trunk/closure/goog/messaging/bufferedchannel.js
+/svn/!svn/ver/1590/trunk/closure/goog/messaging/bufferedchannel.js
 END
 messagechannel.js
 K 25
@@ -61,7 +61,7 @@ portchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/1302/trunk/closure/goog/messaging/portchannel.js
+/svn/!svn/ver/1566/trunk/closure/goog/messaging/portchannel.js
 END
 messaging.js
 K 25
@@ -99,6 +99,12 @@ svn:wc:ra_dav:version-url
 V 70
 /svn/!svn/ver/1434/trunk/closure/goog/messaging/portoperator_test.html
 END
+respondingchannel_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1519/trunk/closure/goog/messaging/respondingchannel_test.html
+END
 abstractchannel.js
 K 25
 svn:wc:ra_dav:version-url
@@ -127,7 +133,7 @@ portoperator.js
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/1302/trunk/closure/goog/messaging/portoperator.js
+/svn/!svn/ver/1506/trunk/closure/goog/messaging/portoperator.js
 END
 deferredchannel_test.html
 K 25
@@ -135,9 +141,15 @@ svn:wc:ra_dav:version-url
 V 73
 /svn/!svn/ver/1434/trunk/closure/goog/messaging/deferredchannel_test.html
 END
+respondingchannel.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1519/trunk/closure/goog/messaging/respondingchannel.js
+END
 bufferedchannel_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/1434/trunk/closure/goog/messaging/bufferedchannel_test.html
+/svn/!svn/ver/1590/trunk/closure/goog/messaging/bufferedchannel_test.html
 END

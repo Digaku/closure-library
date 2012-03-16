@@ -53,6 +53,7 @@ goog.provide('goog.uri.utils.StandardQueryParam');
 
 goog.require('goog.asserts');
 goog.require('goog.string');
+goog.require('goog.userAgent');
 
 
 /**
@@ -236,10 +237,13 @@ goog.uri.utils.ComponentIndex = {
  *     arbitrary strings may still look like path names.
  */
 goog.uri.utils.split = function(uri) {
+
   // See @return comment -- never null.
   return /** @type {!Array.<string|undefined>} */ (
       uri.match(goog.uri.utils.splitRe_));
 };
+
+
 
 
 /**
@@ -932,8 +936,10 @@ goog.uri.utils.removeParam = function(uri, keyEncoded) {
 /**
  * Replaces all existing definitions of a parameter with a single definition.
  *
- * Repeated calls to this can exhibit quadratic behavior in IE6 due to the
- * way string append works, though it should be limited given the 2kb limit.
+ * Repeated calls to this can exhibit quadratic behavior due to the need to
+ * find existing instances and reconstruct the string, though it should be
+ * limited given the 2kb limit.  Consider using appendParams to append multiple
+ * parameters in bulk.
  *
  * @param {string} uri The original URI, which may already have query data.
  * @param {string} keyEncoded The key, which must already be URI encoded.

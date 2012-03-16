@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/1472/trunk/closure/goog/positioning
+/svn/!svn/ver/1602/trunk/closure/goog/positioning
 END
 viewportposition.js
 K 25
@@ -18,14 +18,14 @@ END
 anchoredposition.js
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/svn/!svn/ver/850/trunk/closure/goog/positioning/anchoredposition.js
+V 69
+/svn/!svn/ver/1498/trunk/closure/goog/positioning/anchoredposition.js
 END
 anchoredviewportposition.js
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/svn/!svn/ver/1472/trunk/closure/goog/positioning/anchoredviewportposition.js
+/svn/!svn/ver/1524/trunk/closure/goog/positioning/anchoredviewportposition.js
 END
 positioning_test_standard.html
 K 25
@@ -55,7 +55,7 @@ positioning_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/1472/trunk/closure/goog/positioning/positioning_test.html
+/svn/!svn/ver/1602/trunk/closure/goog/positioning/positioning_test.html
 END
 viewportclientposition_test.html
 K 25
@@ -67,7 +67,7 @@ menuanchoredposition.js
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/1472/trunk/closure/goog/positioning/menuanchoredposition.js
+/svn/!svn/ver/1524/trunk/closure/goog/positioning/menuanchoredposition.js
 END
 positioning_test_iframe1.html
 K 25
@@ -81,6 +81,12 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/!svn/ver/850/trunk/closure/goog/positioning/positioning_test_iframe2.html
 END
+anchoredposition_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1498/trunk/closure/goog/positioning/anchoredposition_test.html
+END
 anchoredviewportposition_test.html
 K 25
 svn:wc:ra_dav:version-url
@@ -91,7 +97,7 @@ positioning.js
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/1468/trunk/closure/goog/positioning/positioning.js
+/svn/!svn/ver/1602/trunk/closure/goog/positioning/positioning.js
 END
 viewportclientposition.js
 K 25

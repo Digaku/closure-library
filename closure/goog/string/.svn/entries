@@ -1,15 +1,15 @@
 10
 
 dir
-1492
+1651
 http://closure-library.googlecode.com/svn/trunk/closure/goog/string
 http://closure-library.googlecode.com/svn
 
 
 
-2011-12-01T01:00:04.000000Z
-1437
-danieldss@google.com
+2012-02-28T21:29:28.000000Z
+1625
+nicksantos@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-12-21T12:07:53.000000Z
-0256764b0750f9e4e06285d78d69d170
-2011-12-01T01:00:04.000000Z
-1437
-danieldss@google.com
+2012-03-16T10:57:27.000000Z
+dd4c9b3341c44240f7040526068047c5
+2012-02-23T20:47:56.000000Z
+1608
+lauriat@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-6122
+6727
 
 stringformat_test.html
 file
@@ -66,7 +66,7 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
+2012-02-16T10:46:35.000000Z
 c58c50d5629bf63847a1346ac9948c56
 2011-07-28T10:31:16.000000Z
 1171
@@ -100,7 +100,7 @@ file
 
 
 
-2011-12-21T12:07:53.000000Z
+2012-02-16T10:46:35.000000Z
 240a4defbd3fd2ea70cc00f6ae5310cb
 2011-11-23T17:10:17.000000Z
 1423
@@ -134,7 +134,7 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
+2012-02-16T10:46:35.000000Z
 22750f2e848c9c6a4f7da1fcf1cf44a5
 2011-04-12T20:35:47.000000Z
 850
@@ -168,33 +168,12 @@ file
 
 
 
-2011-08-23T08:08:37.000000Z
-e1cdf869920376f0537a84b964c02711
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+
+1d8668caf302fe58de48c3fdf3b696cb
+2012-01-04T13:41:02.000000Z
+1499
+dskloet@google.com
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2984
 
 linkify_test.html
 file
@@ -202,11 +181,11 @@ file
 
 
 
-2011-12-21T12:07:53.000000Z
-ea4174208c63c8fdd34a747e87de7231
-2011-12-01T01:00:04.000000Z
-1437
-danieldss@google.com
+2012-03-16T10:57:27.000000Z
+9cb344afd28a9acac3085ebb78d53458
+2012-02-23T20:47:56.000000Z
+1608
+lauriat@google.com
 has-props
 
 
@@ -228,7 +207,7 @@ has-props
 
 
 
-10706
+12226
 
 string_test.html
 file
@@ -236,11 +215,11 @@ file
 
 
 
-2011-12-21T12:07:53.000000Z
-61a5faeb3151a546256bec1d609483c3
-2011-11-23T17:10:17.000000Z
-1423
-dcs@google.com
+2012-03-16T10:58:07.000000Z
+fc70af7f717070ee5a2debee58ed829b
+2012-02-28T21:29:28.000000Z
+1625
+nicksantos@google.com
 has-props
 
 
@@ -262,7 +241,7 @@ has-props
 
 
 
-36044
+36225
 
 stringformat.js
 file
@@ -270,7 +249,7 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
+2012-02-16T10:46:35.000000Z
 04688f5eba9f41887faf623537e9815b
 2011-07-28T15:37:16.000000Z
 1172
@@ -304,7 +283,7 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
+2012-02-16T10:46:35.000000Z
 105d283f4850a607bb67cdb28be0fe7b
 2011-04-12T20:35:47.000000Z
 850

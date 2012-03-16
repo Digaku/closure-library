@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 44
-/svn/!svn/ver/1472/trunk/closure/goog/events
+/svn/!svn/ver/1629/trunk/closure/goog/events
 END
 events.js
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1472/trunk/closure/goog/events/events.js
+/svn/!svn/ver/1629/trunk/closure/goog/events/events.js
 END
 keycodes.js
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/1472/trunk/closure/goog/events/keycodes.js
+/svn/!svn/ver/1562/trunk/closure/goog/events/keycodes.js
 END
 event_test.html
 K 25
@@ -31,7 +31,7 @@ keynames.js
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/1472/trunk/closure/goog/events/keynames.js
+/svn/!svn/ver/1544/trunk/closure/goog/events/keynames.js
 END
 browserevent_test.html
 K 25
@@ -43,7 +43,7 @@ keyhandler_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/1309/trunk/closure/goog/events/keyhandler_test.html
+/svn/!svn/ver/1562/trunk/closure/goog/events/keyhandler_test.html
 END
 focushandler.js
 K 25
@@ -61,13 +61,13 @@ onlinelistener_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/!svn/ver/1472/trunk/closure/goog/events/onlinelistener_test.html
+/svn/!svn/ver/1586/trunk/closure/goog/events/onlinelistener_test.html
 END
 onlinehandler.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1472/trunk/closure/goog/events/onlinehandler.js
+/svn/!svn/ver/1586/trunk/closure/goog/events/onlinehandler.js
 END
 listener.js
 K 25
@@ -79,7 +79,7 @@ keyhandler.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/1472/trunk/closure/goog/events/keyhandler.js
+/svn/!svn/ver/1562/trunk/closure/goog/events/keyhandler.js
 END
 filedrophandler_test.html
 K 25
@@ -91,7 +91,7 @@ browserfeature.js
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/1426/trunk/closure/goog/events/browserfeature.js
+/svn/!svn/ver/1586/trunk/closure/goog/events/browserfeature.js
 END
 pastehandler_test.html
 K 25
@@ -193,7 +193,7 @@ keycodes_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/1296/trunk/closure/goog/events/keycodes_test.html
+/svn/!svn/ver/1562/trunk/closure/goog/events/keycodes_test.html
 END
 imehandler_test.html
 K 25

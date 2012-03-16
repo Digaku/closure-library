@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/1479/trunk/closure/goog/i18n
+/svn/!svn/ver/1615/trunk/closure/goog/i18n
 END
 datetimesymbols.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1280/trunk/closure/goog/i18n/datetimesymbols.js
+/svn/!svn/ver/1615/trunk/closure/goog/i18n/datetimesymbols.js
 END
 charpickerdata.js
 K 25
@@ -19,13 +19,13 @@ numberformatsymbols.js
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/1479/trunk/closure/goog/i18n/numberformatsymbols.js
+/svn/!svn/ver/1615/trunk/closure/goog/i18n/numberformatsymbols.js
 END
 datetimepatterns.js
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/850/trunk/closure/goog/i18n/datetimepatterns.js
+V 62
+/svn/!svn/ver/1615/trunk/closure/goog/i18n/datetimepatterns.js
 END
 datetimeparse_test.html
 K 25
@@ -55,13 +55,13 @@ numberformat_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/1374/trunk/closure/goog/i18n/numberformat_test.html
+/svn/!svn/ver/1526/trunk/closure/goog/i18n/numberformat_test.html
 END
 numberformatsymbolsext.js
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/1479/trunk/closure/goog/i18n/numberformatsymbolsext.js
+/svn/!svn/ver/1615/trunk/closure/goog/i18n/numberformatsymbolsext.js
 END
 bidiformatter.js
 K 25
@@ -127,7 +127,7 @@ datetimesymbolsext.js
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/1280/trunk/closure/goog/i18n/datetimesymbolsext.js
+/svn/!svn/ver/1615/trunk/closure/goog/i18n/datetimesymbolsext.js
 END
 datetimeparse.js
 K 25
@@ -180,8 +180,8 @@ END
 datetimepatternsext.js
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/svn/!svn/ver/850/trunk/closure/goog/i18n/datetimepatternsext.js
+V 65
+/svn/!svn/ver/1615/trunk/closure/goog/i18n/datetimepatternsext.js
 END
 bidi_test.html
 K 25
@@ -193,7 +193,7 @@ numberformat.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/1374/trunk/closure/goog/i18n/numberformat.js
+/svn/!svn/ver/1526/trunk/closure/goog/i18n/numberformat.js
 END
 uchar.js
 K 25

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/1442/trunk/closure/goog/math
+/svn/!svn/ver/1499/trunk/closure/goog/math
 END
 matrix.js
 K 25
@@ -19,7 +19,7 @@ rangeset.js
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1349/trunk/closure/goog/math/rangeset.js
+/svn/!svn/ver/1499/trunk/closure/goog/math/rangeset.js
 END
 coordinate3.js
 K 25
@@ -97,7 +97,7 @@ vec2.js
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/1442/trunk/closure/goog/math/vec2.js
+/svn/!svn/ver/1499/trunk/closure/goog/math/vec2.js
 END
 exponentialbackoff.js
 K 25
@@ -181,7 +181,7 @@ vec3.js
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/1177/trunk/closure/goog/math/vec3.js
+/svn/!svn/ver/1499/trunk/closure/goog/math/vec3.js
 END
 size_test.html
 K 25

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/1472/trunk/closure/goog/dom
+/svn/!svn/ver/1609/trunk/closure/goog/dom
 END
 dom_test.html
 K 25
@@ -36,8 +36,8 @@ END
 tagname.js
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/850/trunk/closure/goog/dom/tagname.js
+V 52
+/svn/!svn/ver/1510/trunk/closure/goog/dom/tagname.js
 END
 selection_test.html
 K 25
@@ -55,7 +55,7 @@ dom_test.js
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/1471/trunk/closure/goog/dom/dom_test.js
+/svn/!svn/ver/1609/trunk/closure/goog/dom/dom_test.js
 END
 savedrange.js
 K 25
@@ -72,8 +72,8 @@ END
 classes_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/!svn/ver/850/trunk/closure/goog/dom/classes_test.html
+V 59
+/svn/!svn/ver/1574/trunk/closure/goog/dom/classes_test.html
 END
 controlrange_test.html
 K 25
@@ -217,7 +217,7 @@ dom.js
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/1472/trunk/closure/goog/dom/dom.js
+/svn/!svn/ver/1609/trunk/closure/goog/dom/dom.js
 END
 abstractrange.js
 K 25
@@ -234,8 +234,8 @@ END
 range_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/!svn/ver/850/trunk/closure/goog/dom/range_test.html
+V 57
+/svn/!svn/ver/1584/trunk/closure/goog/dom/range_test.html
 END
 savedcaretrange_test.html
 K 25
@@ -282,8 +282,8 @@ END
 classes.js
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/850/trunk/closure/goog/dom/classes.js
+V 52
+/svn/!svn/ver/1574/trunk/closure/goog/dom/classes.js
 END
 savedcaretrange.js
 K 25
@@ -318,6 +318,6 @@ END
 tagname_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/!svn/ver/850/trunk/closure/goog/dom/tagname_test.html
+V 59
+/svn/!svn/ver/1510/trunk/closure/goog/dom/tagname_test.html
 END

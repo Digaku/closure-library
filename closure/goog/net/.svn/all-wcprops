@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/1477/trunk/closure/goog/net
+/svn/!svn/ver/1640/trunk/closure/goog/net
 END
 ipaddress_test.html
 K 25
@@ -43,7 +43,7 @@ browsertestchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/1388/trunk/closure/goog/net/browsertestchannel.js
+/svn/!svn/ver/1587/trunk/closure/goog/net/browsertestchannel.js
 END
 ipaddress.js
 K 25
@@ -73,7 +73,7 @@ channelrequest.js
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1397/trunk/closure/goog/net/channelrequest.js
+/svn/!svn/ver/1595/trunk/closure/goog/net/channelrequest.js
 END
 iframeio_test.html
 K 25
@@ -121,13 +121,13 @@ xhrio.js
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/1453/trunk/closure/goog/net/xhrio.js
+/svn/!svn/ver/1637/trunk/closure/goog/net/xhrio.js
 END
 jsonp.js
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/1452/trunk/closure/goog/net/jsonp.js
+/svn/!svn/ver/1600/trunk/closure/goog/net/jsonp.js
 END
 crossdomainrpc_test_response.html
 K 25
@@ -169,7 +169,7 @@ browserchannel_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1243/trunk/closure/goog/net/browserchannel_test.html
+/svn/!svn/ver/1640/trunk/closure/goog/net/browserchannel_test.html
 END
 mockiframeio.js
 K 25
@@ -187,7 +187,7 @@ channelrequest_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1383/trunk/closure/goog/net/channelrequest_test.html
+/svn/!svn/ver/1587/trunk/closure/goog/net/channelrequest_test.html
 END
 xhrlitepool.js
 K 25
@@ -211,7 +211,7 @@ browserchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1399/trunk/closure/goog/net/browserchannel.js
+/svn/!svn/ver/1640/trunk/closure/goog/net/browserchannel.js
 END
 iframeloadmonitor_test_frame.html
 K 25
@@ -253,7 +253,7 @@ channeldebug.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1248/trunk/closure/goog/net/channeldebug.js
+/svn/!svn/ver/1587/trunk/closure/goog/net/channeldebug.js
 END
 imageloader_testimg2.gif
 K 25
@@ -288,8 +288,8 @@ END
 cookies_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/!svn/ver/850/trunk/closure/goog/net/cookies_test.html
+V 59
+/svn/!svn/ver/1621/trunk/closure/goog/net/cookies_test.html
 END
 xhriopool.js
 K 25
@@ -355,7 +355,7 @@ cookies.js
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/1472/trunk/closure/goog/net/cookies.js
+/svn/!svn/ver/1621/trunk/closure/goog/net/cookies.js
 END
 iframeloadmonitor_test_frame2.html
 K 25

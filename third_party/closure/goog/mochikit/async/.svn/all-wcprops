@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/1472/trunk/third_party/closure/goog/mochikit/async
+/svn/!svn/ver/1499/trunk/third_party/closure/goog/mochikit/async
 END
 deferred_test.html
 K 25
@@ -12,8 +12,8 @@ END
 deferredlist.js
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/!svn/ver/850/trunk/third_party/closure/goog/mochikit/async/deferredlist.js
+V 80
+/svn/!svn/ver/1499/trunk/third_party/closure/goog/mochikit/async/deferredlist.js
 END
 deferred.js
 K 25
@@ -25,5 +25,5 @@ deferredlist_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/svn/!svn/ver/1434/trunk/third_party/closure/goog/mochikit/async/deferredlist_test.html
+/svn/!svn/ver/1499/trunk/third_party/closure/goog/mochikit/async/deferredlist_test.html
 END

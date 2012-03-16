@@ -1,15 +1,15 @@
 10
 
 dir
-1492
+1651
 http://closure-library.googlecode.com/svn/trunk/closure/goog/uri
 http://closure-library.googlecode.com/svn
 
 
 
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-03-09T19:05:50.000000Z
+1646
+chrishenry@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
-774ce6de023aef50ac0ec85db5b2eebe
-2011-06-30T22:03:20.000000Z
-1085
-erikwright@google.com
+2012-03-16T10:55:37.000000Z
+7c1b1f76ed160b6acb72a1162189c026
+2012-03-09T19:05:50.000000Z
+1646
+chrishenry@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-30331
+30528
 
 utils_test.html
 file
@@ -66,11 +66,11 @@ file
 
 
 
-2011-09-10T17:46:44.000000Z
-64bac2b33e1112b53ade8857a6ed5e28
-2011-07-07T22:59:13.000000Z
-1106
-zunger@google.com
+2012-03-16T10:55:37.000000Z
+86cb7b3a72279ace8635f951649514e4
+2012-01-18T19:09:20.000000Z
+1527
+nicksantos@google.com
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-20137
+20277
 
 uri.js
 file
@@ -100,11 +100,11 @@ file
 
 
 
-2011-12-21T12:07:00.000000Z
-5ea46a6e0cdc1375b0dea5a544d5fc20
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-03-16T10:55:37.000000Z
+2928f3167ce3b5c60fc3ef255a387aaa
+2012-03-09T19:05:50.000000Z
+1646
+chrishenry@google.com
 has-props
 
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-42799
+42580
 
 utils.js
 file
@@ -134,11 +134,11 @@ file
 
 
 
-2011-12-21T12:07:00.000000Z
-8df3601a9d24df26e5d6ce8db9a75d18
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-03-16T10:55:37.000000Z
+efd0456b7001c6be52095bc0950df9e8
+2012-01-19T20:36:58.000000Z
+1529
+gboyer@google.com
 has-props
 
 
@@ -160,5 +160,5 @@ has-props
 
 
 
-33569
+33706
 
