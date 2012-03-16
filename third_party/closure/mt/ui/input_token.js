@@ -58,8 +58,8 @@ mt.ui.InputToken = (function() {
 
   goog.inherits(InputToken, goog.ui.Component);
 
-  InputToken.prototype.setDispatchKeyCodes = function(key) {
-    return this.dispatchKeyCodes_ = key;
+  InputToken.prototype.setDispatchKeyCodes = function(keys) {
+    return this.dispatchKeyCodes_ = keys;
   };
 
   InputToken.prototype.enterDocument = function() {
@@ -69,7 +69,7 @@ mt.ui.InputToken = (function() {
     self = this;
     self.lastValue_ = this.inputElm_.value;
     goog.events.listen(this.inputElm_, goog.events.EventType.KEYUP, function(e) {
-      var v, _ref;
+      var lastItem, v, _ref;
       if (_ref = e.keyCode, __indexOf.call(self.dispatchKeyCodes_, _ref) >= 0) {
         v = goog.string.trim(self.inputElm_.value);
         if (v.length > 0) {
@@ -78,7 +78,10 @@ mt.ui.InputToken = (function() {
           self.inputElm_.focus();
         }
       } else if (e.keyCode === 8) {
-        if (self.lastValue_.length === 0) self.remove(self.getLastItem().text);
+        if (self.lastValue_.length === 0) {
+          lastItem = self.getLastItem();
+          if (lastItem) self.remove(lastItem.text);
+        }
       }
       return self.lastValue_ = self.inputElm_.value;
     });
@@ -103,7 +106,8 @@ mt.ui.InputToken = (function() {
 
   InputToken.prototype.exitDocument = function() {
     goog.events.unlisten(this.inputElm_);
-    return goog.events.unlisten(this.getElement());
+    goog.events.unlisten(this.getElement());
+    return goog.events.unlisten(this);
   };
 
   InputToken.prototype.decorate = function(elm) {
