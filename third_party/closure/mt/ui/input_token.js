@@ -7,8 +7,6 @@ goog.provide("mt.ui.InputToken");
 
 goog.require("goog.string");
 
-goog.require("goog.dom");
-
 goog.require("goog.array");
 
 goog.require("goog.ui.Component");
@@ -50,7 +48,7 @@ mt.ui.InputToken = (function() {
     this.dispatchKeyCodes_ = 13;
     this.eh_ = new goog.events.EventHandler(this);
     if (elm) {
-      if (typeof elm === "string") elm = goog.dom.getElement(elm);
+      if (typeof elm === "string") elm = this.dom_.getElement(elm);
       this.decorateInternal(elm);
       this.enterDocument();
     }
@@ -64,7 +62,6 @@ mt.ui.InputToken = (function() {
 
   InputToken.prototype.enterDocument = function() {
     var cancel_input_, self;
-    console.log("in enterDocument");
     mt.ui.InputToken.superClass_.enterDocument.call(this);
     self = this;
     self.lastValue_ = this.inputElm_.value;
@@ -111,7 +108,7 @@ mt.ui.InputToken = (function() {
   };
 
   InputToken.prototype.decorate = function(elm) {
-    if (typeof elm === "string") elm = goog.dom.getElement(elm);
+    if (typeof elm === "string") elm = this.dom_.getElement(elm);
     this.decorateInternal(elm);
     return this.enterDocument();
   };
@@ -124,17 +121,15 @@ mt.ui.InputToken = (function() {
     goog.style.setStyle(elm, {
       'min-height': '15px'
     });
-    this.itemsWrappers_ = goog.dom.createElement("div");
-    goog.dom.classes.add(this.itemsWrappers_, goog.getCssName("items"));
-    goog.style.setStyle(this.itemsWrappers_, {
-      "float": "left"
+    this.itemsWrappers_ = this.dom_.createDom("div", {
+      'class': goog.getCssName("items"),
+      "style": "float: left;"
     });
     elm.appendChild(this.itemsWrappers_);
-    this.inputElm_ = goog.dom.createElement("input");
-    goog.style.setStyle(this.inputElm_, {
-      "float": "left"
+    this.inputElm_ = this.dom_.createDom("input", {
+      'style': "float: left;",
+      'type': 'text'
     });
-    this.inputElm_.setAttribute("type", "text");
     tabindex = elm.getAttribute("tabindex");
     if (tabindex) {
       this.inputElm_.setAttribute("tabindex", tabindex);
@@ -142,7 +137,7 @@ mt.ui.InputToken = (function() {
     }
     elm.appendChild(this.inputElm_);
     self = this;
-    clear = goog.dom.createDom("div");
+    clear = this.dom_.createDom("div");
     goog.style.setStyle(clear, {
       "clear": "both"
     });
@@ -186,7 +181,7 @@ mt.ui.InputToken = (function() {
     if (this.items_.length >= this.getMaxItem()) return;
     if (this.hasToken(text)) return;
     item = new mt.ui.InputTokenRenderer(text);
-    celm = goog.dom.createElement("div");
+    celm = this.dom_.createElement("div");
     celm.innerHTML = text;
     goog.style.setStyle(celm, {
       "max-height": "17px",
