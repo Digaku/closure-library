@@ -7,9 +7,13 @@ goog.require('goog.dom');
 goog.require('goog.ui.Component');
 
 /**
+ * @param elm_id {String|HTMLElement}
+ * @param opt_base_url {String} web base url.
+ * @param opt_center {bool} whether on center position.
  * @constructor
+ * @extends {goog.ui.Component}
  */
-goog.ui.Loading = function(elm_id, opt_base_url, opt_place_inner, opt_domHelpers){
+goog.ui.Loading = function(elm_id, opt_base_url, opt_place_inner, opt_center, opt_domHelpers){
 	goog.ui.Component.call(this, opt_domHelpers);
 	
 	var elm;
@@ -24,7 +28,7 @@ goog.ui.Loading = function(elm_id, opt_base_url, opt_place_inner, opt_domHelpers
 	this.orig_elm = elm;
 	this.base_url_ = opt_base_url;
 	this.opt_place_inner_ = opt_place_inner || false;
-
+    this.opt_center = opt_center || false;
 	this.decorateInternal(this.orig_elm);
 };
 
@@ -34,11 +38,14 @@ goog.inherits(goog.ui.Loading, goog.ui.Component);
 goog.ui.Loading.prototype.decorateInternal = function(element){
 	goog.ui.Loading.superClass_.decorateInternal.call(this, element);
 	
-	var wrapper = this.dom_.createElement('span'),
+	var wrapper = this.dom_.createElement(this.opt_center ? 'div' : 'span'),
 		anim = this.dom_.createElement('span');
 
     // copy wrapper style from orig elm style
-    wrapper.style = this.orig_elm.style
+    wrapper.style = this.orig_elm.style;
+
+    if(this.opt_center)
+        wrapper.style['text-align'] = "center";
 
 	if(this.opt_place_inner_){
 		this.orig_innerHTML = this.orig_elm.innerHTML;
