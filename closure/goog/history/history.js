@@ -235,8 +235,10 @@ goog.History = function(opt_invisible, opt_blankPageUrl, opt_input,
     input = opt_input;
   } else {
     var inputId = 'history_state' + goog.History.historyCount_;
-    document.write(goog.string.subs(goog.History.INPUT_TEMPLATE_,
-                                    inputId, inputId));
+    //document.write();
+    var inputElm_ = goog.dom.htmlToDocumentFragment(goog.string.subs(goog.History.INPUT_TEMPLATE_,
+        inputId, inputId));
+    document.body.appendChild(inputElm_);
     input = goog.dom.getElement(inputId);
   }
 
