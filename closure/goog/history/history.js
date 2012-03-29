@@ -235,10 +235,17 @@ goog.History = function(opt_invisible, opt_blankPageUrl, opt_input,
     input = opt_input;
   } else {
     var inputId = 'history_state' + goog.History.historyCount_;
-    //document.write();
-    var inputElm_ = goog.dom.htmlToDocumentFragment(goog.string.subs(goog.History.INPUT_TEMPLATE_,
-        inputId, inputId));
-    document.body.appendChild(inputElm_);
+
+    var tmpl = goog.string.subs(goog.History.INPUT_TEMPLATE_,
+        inputId, inputId);
+
+    if(document.body){
+        document.body.appendChild(goog.dom.htmlToDocumentFragment(tmpl));
+    }
+    else{
+        document.write(tmpl);
+    }
+
     input = goog.dom.getElement(inputId);
   }
 
