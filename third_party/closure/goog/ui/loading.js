@@ -7,22 +7,22 @@ goog.require('goog.dom');
 goog.require('goog.ui.Component');
 
 /**
- * @param elm_id {String|HTMLElement}
+ * @param elm_or_id {String|HTMLElement}
  * @param opt_base_url {String} web base url.
  * @param opt_center {bool} whether on center position.
  * @constructor
  * @extends {goog.ui.Component}
  */
-goog.ui.Loading = function(elm_id, opt_base_url, opt_place_inner, opt_center, opt_domHelpers){
+goog.ui.Loading = function(elm_or_id, opt_base_url, opt_place_inner, opt_center, opt_domHelpers){
 	goog.ui.Component.call(this, opt_domHelpers);
 	
 	var elm;
 	
-	if(typeof elm_id == 'string'){
-		elm = goog.dom.getElement(elm_id);
+	if(typeof elm_or_id == 'string'){
+		elm = goog.dom.getElement(elm_or_id);
 	}
 	else{
-		elm = elm_id;
+		elm = elm_or_id;
 	}
 	
 	this.orig_elm = elm;
