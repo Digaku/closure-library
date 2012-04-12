@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/1649/trunk/closure/goog/testing/fs
+/svn/!svn/ver/1676/trunk/closure/goog/testing/fs
 END
 blob_test.html
 K 25
@@ -37,7 +37,7 @@ directoryentry_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/1434/trunk/closure/goog/testing/fs/directoryentry_test.html
+/svn/!svn/ver/1676/trunk/closure/goog/testing/fs/directoryentry_test.html
 END
 blob.js
 K 25
@@ -57,17 +57,17 @@ svn:wc:ra_dav:version-url
 V 61
 /svn/!svn/ver/850/trunk/closure/goog/testing/fs/filesystem.js
 END
-fileentry_test.html
-K 25
-svn:wc:ra_dav:version-url
-V 68
-/svn/!svn/ver/1434/trunk/closure/goog/testing/fs/fileentry_test.html
-END
 entry_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/1434/trunk/closure/goog/testing/fs/entry_test.html
+/svn/!svn/ver/1676/trunk/closure/goog/testing/fs/entry_test.html
+END
+fileentry_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1676/trunk/closure/goog/testing/fs/fileentry_test.html
 END
 filereader_test.html
 K 25
@@ -85,7 +85,7 @@ entry.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1649/trunk/closure/goog/testing/fs/entry.js
+/svn/!svn/ver/1676/trunk/closure/goog/testing/fs/entry.js
 END
 filereader.js
 K 25

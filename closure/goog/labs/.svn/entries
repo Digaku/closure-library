@@ -1,15 +1,15 @@
 10
 
 dir
-1651
+1732
 http://closure-library.googlecode.com/svn/trunk/closure/goog/labs
 http://closure-library.googlecode.com/svn
 
 
 
-2012-03-05T17:49:48.000000Z
-1635
-vbhasin@google.com
+2012-04-05T01:02:17.000000Z
+1716
+chrishenry@google.com
 
 
 
@@ -30,6 +30,12 @@ observe
 dir
 
 net
+dir
+
+object
+dir
+
+structs
 dir
 
 async

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/svn/!svn/ver/1647/trunk/closure/goog/fs
+/svn/!svn/ver/1676/trunk/closure/goog/fs
 END
 filesystem.js
 K 25
@@ -49,7 +49,7 @@ entry.js
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/1065/trunk/closure/goog/fs/entry.js
+/svn/!svn/ver/1676/trunk/closure/goog/fs/entry.js
 END
 filereader.js
 K 25

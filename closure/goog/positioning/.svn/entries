@@ -1,7 +1,7 @@
 10
 
 dir
-1651
+1732
 http://closure-library.googlecode.com/svn/trunk/closure/goog/positioning
 http://closure-library.googlecode.com/svn
 
@@ -25,40 +25,6 @@ mschidlowsky@google.com
 
 
 0b95b8e8-c90f-11de-9d4f-f947ee5921c8
-
-viewportposition.js
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-2df911babdfdec477ec13bab1a802549
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2402
 
 positioning_test_quirk.html
 file
@@ -94,17 +60,17 @@ has-props
 
 289
 
-anchoredposition.js
+viewportposition.js
 file
 
 
 
 
-2012-03-16T10:55:37.000000Z
-edeff6823c9f0dad9ef84a7f046f8c9c
-2011-12-29T22:38:37.000000Z
-1498
-ivaylobakalov@google.com
+2012-02-16T10:46:35.000000Z
+2df911babdfdec477ec13bab1a802549
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
 has-props
 
 
@@ -126,7 +92,7 @@ has-props
 
 
 
-3218
+2402
 
 anchoredviewportposition.js
 file
@@ -161,6 +127,40 @@ has-props
 
 
 6010
+
+anchoredposition.js
+file
+
+
+
+
+2012-03-16T10:55:37.000000Z
+edeff6823c9f0dad9ef84a7f046f8c9c
+2011-12-29T22:38:37.000000Z
+1498
+ivaylobakalov@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3218
 
 positioning_test_standard.html
 file
@@ -366,40 +366,6 @@ has-props
 
 6754
 
-menuanchoredposition.js
-file
-
-
-
-
-2012-03-16T10:55:37.000000Z
-c40d01dc14af53d192b971840620e06e
-2012-01-18T17:17:27.000000Z
-1524
-nicksantos@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2984
-
 positioning_test_iframe1.html
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 611
+
+menuanchoredposition.js
+file
+
+
+
+
+2012-03-16T10:55:37.000000Z
+c40d01dc14af53d192b971840620e06e
+2012-01-18T17:17:27.000000Z
+1524
+nicksantos@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2984
 
 positioning_test_iframe2.html
 file
@@ -468,40 +468,6 @@ has-props
 
 456
 
-anchoredposition_test.html
-file
-
-
-
-
-2012-03-16T10:55:37.000000Z
-7d087d677e089dc15960c17d3eae045d
-2011-12-29T22:38:37.000000Z
-1498
-ivaylobakalov@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2432
-
 anchoredviewportposition_test.html
 file
 
@@ -535,6 +501,40 @@ has-props
 
 
 4102
+
+anchoredposition_test.html
+file
+
+
+
+
+2012-03-16T10:55:37.000000Z
+7d087d677e089dc15960c17d3eae045d
+2011-12-29T22:38:37.000000Z
+1498
+ivaylobakalov@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2432
 
 positioning.js
 file

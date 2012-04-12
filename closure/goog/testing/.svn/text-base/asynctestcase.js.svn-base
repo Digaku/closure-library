@@ -308,6 +308,16 @@ goog.testing.AsyncTestCase.prototype.numControlExceptionsExpected_ = 0;
 
 
 /**
+ * The current step name.
+ * @return {!string} Step name.
+ * @protected
+ */
+goog.testing.AsyncTestCase.prototype.getCurrentStepName = function() {
+  return this.curStepName_;
+};
+
+
+/**
  * Preferred way of creating an AsyncTestCase. Creates one and initializes it
  * with the G_testRunner.
  * @param {string=} opt_name A descriptive name for the test case.
@@ -641,7 +651,7 @@ goog.testing.AsyncTestCase.prototype.startTimeoutTimer_ = function() {
 goog.testing.AsyncTestCase.prototype.stopTimeoutTimer_ = function() {
   if (this.timeoutHandle_) {
     this.dbgLog_('Clearing timeout timer with id ' + this.timeoutHandle_);
-    window.clearTimeout(this.timeoutHandle_);
+    this.clearTimeout(this.timeoutHandle_);
     this.timeoutHandle_ = 0;
   }
 };

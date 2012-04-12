@@ -1,7 +1,7 @@
 10
 
 dir
-1651
+1732
 http://closure-library.googlecode.com/svn/trunk/closure/goog/ui/equation
 http://closure-library.googlecode.com/svn
 
@@ -128,40 +128,6 @@ has-props
 
 1735
 
-imagerenderer.js
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-7deb6cb2c711f343995a241ba13f2b40
-2011-09-19T08:25:34.000000Z
-1286
-pallosp@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5681
-
 arrowpalette.js
 file
 
@@ -196,17 +162,17 @@ has-props
 
 1520
 
-greekpalette.js
+imagerenderer.js
 file
 
 
 
 
 2012-02-16T10:46:35.000000Z
-97480327ab59ff0ab9274716edc6c9fa
-2011-08-19T16:22:39.000000Z
-1236
-bills@google.com
+7deb6cb2c711f343995a241ba13f2b40
+2011-09-19T08:25:34.000000Z
+1286
+pallosp@google.com
 has-props
 
 
@@ -228,7 +194,7 @@ has-props
 
 
 
-1953
+5681
 
 equationeditordialog.js
 file
@@ -263,6 +229,40 @@ has-props
 
 
 3961
+
+greekpalette.js
+file
+
+
+
+
+2012-02-16T10:46:35.000000Z
+97480327ab59ff0ab9274716edc6c9fa
+2011-08-19T16:22:39.000000Z
+1236
+bills@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1953
 
 menupalette.js
 file
@@ -366,40 +366,6 @@ has-props
 
 1158
 
-palettemanager.js
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-00d7bcc6e2fb22435000dfa44ab377ae
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5564
-
 comparisonpalette.js
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 1635
+
+palettemanager.js
+file
+
+
+
+
+2012-02-16T10:46:35.000000Z
+00d7bcc6e2fb22435000dfa44ab377ae
+2011-09-27T00:20:47.000000Z
+1302
+bmccann@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5564
 
 editorpane.js
 file

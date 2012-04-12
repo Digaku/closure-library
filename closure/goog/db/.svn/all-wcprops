@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/svn/!svn/ver/1449/trunk/closure/goog/db
+/svn/!svn/ver/1688/trunk/closure/goog/db
 END
 transaction.js
 K 25
@@ -14,6 +14,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 46
 /svn/!svn/ver/1449/trunk/closure/goog/db/db.js
+END
+keyrange.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1688/trunk/closure/goog/db/keyrange.js
 END
 indexeddb.js
 K 25
@@ -37,11 +43,17 @@ db_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/1434/trunk/closure/goog/db/db_test.html
+/svn/!svn/ver/1688/trunk/closure/goog/db/db_test.html
+END
+cursor.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1688/trunk/closure/goog/db/cursor.js
 END
 objectstore.js
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/1284/trunk/closure/goog/db/objectstore.js
+/svn/!svn/ver/1688/trunk/closure/goog/db/objectstore.js
 END

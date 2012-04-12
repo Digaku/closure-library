@@ -46,6 +46,7 @@ mt.ui.InputToken = (function() {
     this.item_max_chars_ = 100;
     this.max_item = 5;
     this.dispatchKeyCodes_ = 13;
+    this.preventDefaultOnEnter_ = true;
     this.eh_ = new goog.events.EventHandler(this);
     if (elm) {
       if (typeof elm === "string") elm = this.dom_.getElement(elm);
@@ -86,7 +87,7 @@ mt.ui.InputToken = (function() {
     cancel_input_ = function(e) {
       var _ref;
       if (e.keyCode === 13) {
-        e.preventDefault();
+        if (self.preventDefaultOnEnter_) e.preventDefault();
         return true;
       }
       if (e.keyCode === 8) return true;

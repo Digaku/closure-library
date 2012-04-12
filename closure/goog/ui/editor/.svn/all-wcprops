@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/!svn/ver/1597/trunk/closure/goog/ui/editor
+/svn/!svn/ver/1689/trunk/closure/goog/ui/editor
 END
 linkdialog_test.html
 K 25
@@ -19,7 +19,7 @@ defaulttoolbar.js
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/1472/trunk/closure/goog/ui/editor/defaulttoolbar.js
+/svn/!svn/ver/1689/trunk/closure/goog/ui/editor/defaulttoolbar.js
 END
 messages.js
 K 25
