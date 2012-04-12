@@ -80,14 +80,19 @@ mt.ui.InputToken = (function() {
           if (lastItem) self.remove(lastItem.text);
         }
       }
-      return self.lastValue_ = self.inputElm_.value;
+      self.lastValue_ = self.inputElm_.value;
+      return true;
     });
     cancel_input_ = function(e) {
+      var _ref;
       if (e.keyCode === 13) {
         e.preventDefault();
         return true;
       }
       if (e.keyCode === 8) return true;
+      if ((_ref = e.keyCode) === 37 || _ref === 38 || _ref === 39 || _ref === 40) {
+        return true;
+      }
       if (self.inputElm_.value.length >= self.item_max_chars_) {
         e.preventDefault();
         return false;
