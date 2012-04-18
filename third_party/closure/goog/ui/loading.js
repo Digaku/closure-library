@@ -42,7 +42,7 @@ goog.ui.Loading.prototype.decorateInternal = function(element){
 		anim = this.dom_.createElement('span');
 
     // copy wrapper style from orig elm style
-    wrapper.style = this.orig_elm.style;
+    wrapper.style.cssText = this.orig_elm.style.cssText;
 
     if(this.opt_center)
         wrapper.style['text-align'] = "center";
