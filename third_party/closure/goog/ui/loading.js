@@ -4,6 +4,7 @@ goog.provide('goog.ui.Loading');
 
 
 goog.require('goog.dom');
+goog.require('goog.style');
 goog.require('goog.ui.Component');
 
 /**
@@ -45,7 +46,7 @@ goog.ui.Loading.prototype.decorateInternal = function(element){
     wrapper.style = this.orig_elm.style;
 
     if(this.opt_center)
-        wrapper.style['text-align'] = "center";
+        goog.style.setStyle(wrapper,{'text-align':'center'})
 
 	if(this.opt_place_inner_){
 		this.orig_innerHTML = this.orig_elm.innerHTML;
@@ -54,7 +55,7 @@ goog.ui.Loading.prototype.decorateInternal = function(element){
 	}
 	else{
 		goog.dom.insertSiblingBefore(wrapper, this.orig_elm);
-		this.orig_elm.style.display = 'none';
+        goog.style.showElement(this.orig_elm, false)
 	}
 
 	if(this.base_url_){

@@ -805,7 +805,7 @@ goog.addDependency("../../third_party/closure/goog/silverlight/supporteduseragen
 goog.addDependency("../../third_party/closure/goog/ui/autocomplete_by_tag.js", ['goog.ui.AutoComplete.ByTag'], ['goog.ui.AutoComplete', 'goog.ui.AutoComplete.ArrayMatcher', 'goog.ui.AutoComplete.Renderer', 'goog.ui.AutoComplete.InputHandler']);
 goog.addDependency("../../third_party/closure/goog/ui/flash_status.js", ['goog.ui.FlashStatus'], ['goog.dom', 'goog.style', 'goog.ui.Component', 'goog.fx.Transition.EventType', 'goog.fx.dom.FadeOutAndHide', 'goog.fx.dom.FadeInAndShow']);
 goog.addDependency("../../third_party/closure/goog/ui/fullscreen_loading.js", ['goog.ui.FullscreenLoading'], ['goog.dom', 'goog.style', 'goog.ui.Component']);
-goog.addDependency("../../third_party/closure/goog/ui/loading.js", ['goog.ui.Loading'], ['goog.dom', 'goog.ui.Component']);
+goog.addDependency("../../third_party/closure/goog/ui/loading.js", ['goog.ui.Loading'], ['goog.dom', 'goog.style', 'goog.ui.Component']);
 goog.addDependency("../../third_party/closure/mt/base.js", [], []);
 goog.addDependency("../../third_party/closure/mt/deps.js", [], []);
 goog.addDependency("../../third_party/closure/mt/compression/jsonh.js", ['mt.compression.Jsonh'], ['goog.array']);
