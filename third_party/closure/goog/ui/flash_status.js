@@ -34,9 +34,7 @@ goog.ui.FlashStatus = function(status, timeout, opt_domHelpers){
 	//this.decorateInternal(this.orig_elm);
 	
 	this.setVisible(true, this.default_status_);
-	
-	console.log('in goog.ui.FlashStatus constructor()');
-	
+
 };
 
 goog.inherits(goog.ui.FlashStatus, goog.ui.Component);
@@ -118,7 +116,6 @@ goog.ui.FlashStatus.prototype.setVisible = function(show, status){
 };
 
 goog.ui.FlashStatus.prototype.fadeIn_ = function(){
-	console.log(this.in_fadein_);
 	if(this.in_fadein_ == true || this.in_fadeout_ == true){
 		return;
 	}
@@ -159,8 +156,6 @@ goog.ui.FlashStatus.prototype.decorateInternal = function(element){
 
 goog.ui.FlashStatus.prototype.disposeInternal = function(){
 	goog.ui.FlashStatus.superClass_.disposeInternal.call(this);
-	
-	console.log('in goog.ui.FlashStatus disposeInternal()');
 };
 
 
