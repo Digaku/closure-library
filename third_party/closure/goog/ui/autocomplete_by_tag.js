@@ -40,7 +40,7 @@ goog.ui.AutoComplete.CustomHandler.prototype.selectRow = function(row) {
 //	alert(this.ac_.getTarget().value);
 	var input = this.ac_.getTarget();
 	input.value = input.value + " @" + row;
-  return; //suppressUpdate;
+    return false;
 };
 
 
