@@ -50,6 +50,8 @@ mt.ui.InputToken = (function() {
     this.eh_ = new goog.events.EventHandler(this);
     if (elm) {
       if (typeof elm === "string") elm = this.dom_.getElement(elm);
+      this.setElementInternal(elm);
+      this.createDom();
       this.decorateInternal(elm);
       this.enterDocument();
     }
@@ -122,7 +124,7 @@ mt.ui.InputToken = (function() {
   InputToken.prototype.decorateInternal = function(elm) {
     var clear, self, tabindex;
     InputToken.superClass_.decorateInternal.call(this, elm);
-    this.setElementInternal(elm);
+    if (!this.getElement()) this.setElementInternal(elm);
     goog.dom.classes.add(elm, goog.getCssName("mt-input-token"));
     goog.style.setStyle(elm, {
       'min-height': '15px'
@@ -150,6 +152,10 @@ mt.ui.InputToken = (function() {
     return elm.appendChild(clear);
   };
 
+  InputToken.prototype.getInputElement = function() {
+    return this.inputElm_;
+  };
+
   InputToken.prototype.getLastItem = function() {
     return this.items_[this.items_.length - 1];
   };
@@ -175,6 +181,16 @@ mt.ui.InputToken = (function() {
 
   InputToken.prototype.getMaxItem = function() {
     return this.max_items;
+  };
+
+  InputToken.prototype.clear = function() {
+    var item, _i, _len, _ref;
+    _ref = this.items_;
+    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+      item = _ref[_i];
+      item.dispose();
+    }
+    return this.items_ = [];
   };
 
   /*
