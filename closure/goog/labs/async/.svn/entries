@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/labs/async
 http://closure-library.googlecode.com/svn
 
 
 
-2012-03-23T18:45:28.000000Z
-1685
-vbhasin@google.com
+2012-06-21T18:03:30.000000Z
+2004
+gboyer@google.com
 
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-3a2cde9a091e11ebbb5047cf207d1de6
-2012-03-23T18:45:28.000000Z
-1685
+2012-07-01T04:04:08.000000Z
+a776a9028d4d58eec28909c48611c7c4
+2012-04-23T17:31:30.000000Z
+1778
 vbhasin@google.com
 has-props
 
@@ -58,7 +58,41 @@ has-props
 
 
 
-2681
+3491
+
+simpleresult.js
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+e7142ce52811547e6736cb69de259571
+2012-06-15T18:22:09.000000Z
+1979
+vbhasin@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5178
 
 chain_test.html
 file
@@ -66,10 +100,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-326ad100ac1c19ecffec6067a0bd0f5e
-2012-03-22T21:28:09.000000Z
-1679
+2012-07-01T04:04:08.000000Z
+18485ed3fa6fd559ce88a1037d001e95
+2012-06-01T23:04:04.000000Z
+1945
 vbhasin@google.com
 has-props
 
@@ -92,7 +126,7 @@ has-props
 
 
 
-4364
+4432
 
 wait_test.html
 file
@@ -100,10 +134,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-8c786a82daeff09125bbaeda3dcf426a
-2012-03-16T17:12:57.000000Z
-1663
+2012-07-01T04:04:08.000000Z
+18e75ed02af0ef82f197b8e21f5a2491
+2012-05-25T01:06:35.000000Z
+1914
 vbhasin@google.com
 has-props
 
@@ -126,7 +160,7 @@ has-props
 
 
 
-4543
+5658
 
 transform.js
 file
@@ -134,10 +168,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-4f9c4e5bcd31d4b3b5284fe0f7ad942f
-2012-03-22T21:53:38.000000Z
-1680
+2012-07-01T04:04:08.000000Z
+e210adf465ced2e218fd4e86c1ccfc60
+2012-06-01T23:04:04.000000Z
+1945
 vbhasin@google.com
 has-props
 
@@ -160,7 +194,41 @@ has-props
 
 
 
-2034
+2696
+
+deferredadaptor.js
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+47c1aeb41a03b02c3115db8bf6f89967
+2012-06-21T18:03:30.000000Z
+2004
+gboyer@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1742
 
 combine.js
 file
@@ -168,10 +236,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-315ed2be0ad145c3dedf1652dbc946e9
-2012-03-23T18:45:28.000000Z
-1685
+2012-07-01T04:04:08.000000Z
+56812bd75ca8b7ec4c6ef6960dff1a0f
+2012-05-25T01:06:35.000000Z
+1914
 vbhasin@google.com
 has-props
 
@@ -194,7 +262,75 @@ has-props
 
 
 
-2904
+4027
+
+result.js
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+1924e078499c72c952f4e6b9b675e58c
+2012-06-15T18:22:09.000000Z
+1979
+vbhasin@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3008
+
+simpleresult_test.html
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+b37549a0f082705facc2e357bf9a14a7
+2012-06-15T18:22:09.000000Z
+1979
+vbhasin@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7886
 
 chain.js
 file
@@ -202,10 +338,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-1502bcb9d71d533e2f0f738acf8167f8
-2012-03-22T21:28:09.000000Z
-1679
+2012-07-01T04:04:08.000000Z
+7fe37ee752034c7c0fc24ef1207d0619
+2012-06-01T23:04:04.000000Z
+1945
 vbhasin@google.com
 has-props
 
@@ -228,7 +364,7 @@ has-props
 
 
 
-3473
+4763
 
 transform_test.html
 file
@@ -236,10 +372,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-1b16abedaed4e12d6068083eedab0290
-2012-03-22T21:53:38.000000Z
-1680
+2012-07-01T04:04:08.000000Z
+2c5974efffbac9fb739322258b62fa4b
+2012-06-01T23:04:04.000000Z
+1945
 vbhasin@google.com
 has-props
 
@@ -262,7 +398,41 @@ has-props
 
 
 
-3641
+3699
+
+deferredadaptor_test.html
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+2f5d0925db6c570f6d3dbf8c74a4b32e
+2012-05-25T01:06:35.000000Z
+1914
+vbhasin@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1882
 
 result
 dir
@@ -273,10 +443,10 @@ file
 
 
 
-2012-04-12T19:51:48.000000Z
-f29ffb43821b1c16a1e887c0ef57e539
-2012-03-23T18:45:28.000000Z
-1685
+2012-07-01T04:04:08.000000Z
+2d577625321d1a42d1629f6405d7d14d
+2012-05-25T01:06:35.000000Z
+1914
 vbhasin@google.com
 has-props
 
@@ -299,5 +469,5 @@ has-props
 
 
 
-5834
+5844
 

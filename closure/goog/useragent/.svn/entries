@@ -1,14 +1,14 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/useragent
 http://closure-library.googlecode.com/svn
 
 
 
-2012-02-23T01:42:36.000000Z
-1603
+2012-05-11T21:46:33.000000Z
+1854
 nicksantos@google.com
 
 
@@ -230,17 +230,17 @@ has-props
 
 4773
 
-flash_test.html
+platform.js
 file
 
 
 
 
 2012-02-16T10:46:36.000000Z
-0b12a7a5618f195a32d6528d0db77088
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+74460c752bbedb834696b3c47adf9fab
+2011-07-23T01:45:10.000000Z
+1147
+joonlee@google.com
 has-props
 
 
@@ -262,41 +262,7 @@ has-props
 
 
 
-977
-
-useragent_test.html
-file
-
-
-
-
-2012-03-16T10:55:37.000000Z
-a42f25a976456cede90a237f7280b6e0
-2012-02-22T19:41:21.000000Z
-1598
-nnaze@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11004
+2271
 
 adobereader_test.html
 file
@@ -332,17 +298,17 @@ has-props
 
 990
 
-platform.js
+useragent_test.html
 file
 
 
 
 
-2012-02-16T10:46:36.000000Z
-74460c752bbedb834696b3c47adf9fab
-2011-07-23T01:45:10.000000Z
-1147
-joonlee@google.com
+2012-03-16T10:55:37.000000Z
+a42f25a976456cede90a237f7280b6e0
+2012-02-22T19:41:21.000000Z
+1598
+nnaze@google.com
 has-props
 
 
@@ -364,16 +330,16 @@ has-props
 
 
 
-2271
+11004
 
-adobereader.js
+flash_test.html
 file
 
 
 
 
 2012-02-16T10:46:36.000000Z
-b02c8784e08df4b92b03985c30f23b01
+0b12a7a5618f195a32d6528d0db77088
 2011-04-12T20:35:47.000000Z
 850
 diegosalas@google.com
@@ -398,41 +364,7 @@ has-props
 
 
 
-2755
-
-useragent.js
-file
-
-
-
-
-2012-03-16T10:55:37.000000Z
-6e0c4001e0ba8338942c62449de07a95
-2012-01-28T02:22:00.000000Z
-1552
-brenneman@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14332
+977
 
 flash.js
 file
@@ -467,6 +399,74 @@ has-props
 
 
 4644
+
+useragent.js
+file
+
+
+
+
+2012-07-01T04:04:05.000000Z
+b4cb3cae28b67a2f28f45eb66a21fb7c
+2012-05-11T21:46:33.000000Z
+1854
+nicksantos@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14322
+
+adobereader.js
+file
+
+
+
+
+2012-02-16T10:46:36.000000Z
+b02c8784e08df4b92b03985c30f23b01
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2755
 
 picasa.js
 file

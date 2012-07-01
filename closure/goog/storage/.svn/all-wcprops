@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/!svn/ver/1591/trunk/closure/goog/storage
+/svn/!svn/ver/1926/trunk/closure/goog/storage
 END
 errorcode.js
 K 25
@@ -31,13 +31,13 @@ richstorage.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1302/trunk/closure/goog/storage/richstorage.js
+/svn/!svn/ver/1793/trunk/closure/goog/storage/richstorage.js
 END
 expiringstorage.js
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/1047/trunk/closure/goog/storage/expiringstorage.js
+/svn/!svn/ver/1926/trunk/closure/goog/storage/expiringstorage.js
 END
 storage_test.html
 K 25

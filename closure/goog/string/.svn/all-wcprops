@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 44
-/svn/!svn/ver/1713/trunk/closure/goog/string
+/svn/!svn/ver/1926/trunk/closure/goog/string
 END
 linkify.js
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/1608/trunk/closure/goog/string/linkify.js
+/svn/!svn/ver/1852/trunk/closure/goog/string/linkify.js
 END
 stringformat_test.html
 K 25
@@ -19,7 +19,7 @@ string.js
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1710/trunk/closure/goog/string/string.js
+/svn/!svn/ver/1870/trunk/closure/goog/string/string.js
 END
 stringbuffer_test.html
 K 25
@@ -31,19 +31,19 @@ path.js
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/1499/trunk/closure/goog/string/path.js
+/svn/!svn/ver/1862/trunk/closure/goog/string/path.js
 END
 linkify_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/1608/trunk/closure/goog/string/linkify_test.html
+/svn/!svn/ver/1852/trunk/closure/goog/string/linkify_test.html
 END
 string_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1710/trunk/closure/goog/string/string_test.html
+/svn/!svn/ver/1870/trunk/closure/goog/string/string_test.html
 END
 stringformat.js
 K 25
@@ -55,11 +55,11 @@ stringbuffer.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1713/trunk/closure/goog/string/stringbuffer.js
+/svn/!svn/ver/1926/trunk/closure/goog/string/stringbuffer.js
 END
 path_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/!svn/ver/850/trunk/closure/goog/string/path_test.html
+V 59
+/svn/!svn/ver/1862/trunk/closure/goog/string/path_test.html
 END

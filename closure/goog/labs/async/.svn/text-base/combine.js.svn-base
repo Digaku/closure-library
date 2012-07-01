@@ -16,6 +16,39 @@
  * @fileoverview Defines static 'combine' functions that provide a convenient
  * way to wait on multiple asynchronous Results.
  *
+ * Example:
+ *  <pre>
+ *
+ *  var result1 = xhr.get('testdata/xhr_test_text.data');
+ *
+ *  // Get a second independent Result.
+ *  var result2 = xhr.getJson('testdata/xhr_test_json.data');
+ *
+ *  // Create a Result that resolves when both prior results resolve.
+ *  var combinedResult = goog.labs.async.combine.onSuccess(result1, result2);
+ *
+ *  // Process data after successful resolution of both results.
+ *  goog.labs.async.wait.onSuccess(combinedResult, function(results) {
+ *    var textData = results[0].getValue();
+ *    var jsonData = results[1].getValue();
+ *    assertEquals('Just some data.', textData);
+ *    assertEquals('ok', jsonData['stat']);
+ *  });
+ *
+ *  // Handle errors when either or both results failed.
+ *  goog.labs.async.wait.onError(combinedResult, function(combined) {
+ *    var results = combined.getError();
+ *
+ *    if (results[0].getState() == goog.labs.async.Result.State.ERROR) {
+ *      alert('result1 failed');
+ *    }
+ *
+ *    if (results[1].getState() == goog.labs.async.Result.State.ERROR) {
+ *      alert('result2 failed');
+ *    }
+ *  });
+ *  </pre>
+ *
  */
 
 
@@ -23,7 +56,7 @@ goog.provide('goog.labs.async.combine');
 
 goog.require('goog.array');
 goog.require('goog.labs.async.Result');
-goog.require('goog.labs.async.ResultBase');
+goog.require('goog.labs.async.SimpleResult');
 goog.require('goog.labs.async.wait');
 
 
@@ -38,7 +71,7 @@ goog.require('goog.labs.async.wait');
  */
 goog.labs.async.combine = function(var_args) {
   var results = goog.array.clone(arguments);
-  var combinedResult = new goog.labs.async.ResultBase();
+  var combinedResult = new goog.labs.async.SimpleResult();
 
   var isResolved = function(res) {
     return res.getState() != goog.labs.async.Result.State.PENDING;
@@ -69,7 +102,7 @@ goog.labs.async.combine = function(var_args) {
  *     an array of values of the given Result objects.
  */
 goog.labs.async.combine.onSuccess = function(var_args) {
-  var combinedResult = new goog.labs.async.ResultBase();
+  var combinedResult = new goog.labs.async.SimpleResult();
 
   var resolvedSuccessfully = function(res) {
     return res.getState() == goog.labs.async.Result.State.SUCCESS;
@@ -79,7 +112,7 @@ goog.labs.async.combine.onSuccess = function(var_args) {
       goog.labs.async.combine.apply(goog.labs.async.combine, arguments),
       // The combined result never ERRORs
       function(res) {
-        var results = res.getValue();
+        var results = /** @type {Array} */ (res.getValue());
         if (goog.array.every(results, resolvedSuccessfully)) {
           combinedResult.setValue(results);
         } else {

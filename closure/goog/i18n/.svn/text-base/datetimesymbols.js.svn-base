@@ -238,6 +238,7 @@ goog.i18n.DateTimeSymbols_am = {
  * Date/time formatting symbols for locale ar.
  */
 goog.i18n.DateTimeSymbols_ar = {
+  ZERODIGIT: 0x0660,
   ERAS: ['ق.م', 'م'],
   ERANAMES: ['قبل الميلاد', 'ميلادي'],
   NARROWMONTHS: ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك',
@@ -328,6 +329,7 @@ goog.i18n.DateTimeSymbols_bg = {
  * Date/time formatting symbols for locale bn.
  */
 goog.i18n.DateTimeSymbols_bn = {
+  ZERODIGIT: 0x09E6,
   ERAS: ['খৃষ্টপূর্ব', 'খৃষ্টাব্দ'],
   ERANAMES: ['খৃষ্টপূর্ব', 'খৃষ্টাব্দ'],
   NARROWMONTHS: ['জা', 'ফে', 'মা', 'এ', 'মে', 'জুন',
@@ -500,7 +502,7 @@ goog.i18n.DateTimeSymbols_cs = {
   QUARTERS: ['1. čtvrtletí', '2. čtvrtletí', '3. čtvrtletí',
       '4. čtvrtletí'],
   AMPMS: ['dop.', 'odp.'],
-  DATEFORMATS: ['EEEE, d. MMMM y', 'd. MMMM y', 'd.M.yyyy', 'dd.MM.yy'],
+  DATEFORMATS: ['EEEE, d. MMMM y', 'd. MMMM y', 'd. M. yyyy', 'dd.MM.yy'],
   TIMEFORMATS: ['H:mm:ss zzzz', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
   FIRSTDAYOFWEEK: 0,
   WEEKENDRANGE: [5, 6],
@@ -839,7 +841,7 @@ goog.i18n.DateTimeSymbols_en_IE = {
   QUARTERS: ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
   AMPMS: ['a.m.', 'p.m.'],
   DATEFORMATS: ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/yyyy'],
-  TIMEFORMATS: ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+  TIMEFORMATS: ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
   FIRSTDAYOFWEEK: 0,
   WEEKENDRANGE: [5, 6],
   FIRSTWEEKCUTOFFDAY: 3
@@ -989,7 +991,7 @@ goog.i18n.DateTimeSymbols_es = {
   QUARTERS: ['1er trimestre', '2º trimestre', '3er trimestre',
       '4º trimestre'],
   AMPMS: ['a.m.', 'p.m.'],
-  DATEFORMATS: ['EEEE d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y',
+  DATEFORMATS: ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y',
       'dd/MM/yyyy', 'dd/MM/yy'],
   TIMEFORMATS: ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
   FIRSTDAYOFWEEK: 6,
@@ -1027,7 +1029,7 @@ goog.i18n.DateTimeSymbols_es_419 = {
   QUARTERS: ['1er trimestre', '2º trimestre', '3er trimestre',
       '4º trimestre'],
   AMPMS: ['a.m.', 'p.m.'],
-  DATEFORMATS: ['EEEE d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y',
+  DATEFORMATS: ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y',
       'dd/MM/yyyy', 'dd/MM/yy'],
   TIMEFORMATS: ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
   FIRSTDAYOFWEEK: 6,
@@ -1114,6 +1116,7 @@ goog.i18n.DateTimeSymbols_eu = {
  * Date/time formatting symbols for locale fa.
  */
 goog.i18n.DateTimeSymbols_fa = {
+  ZERODIGIT: 0x06F0,
   ERAS: ['ق.م.', 'م.'],
   ERANAMES: ['قبل از میلاد', 'میلادی'],
   NARROWMONTHS: ['ژ', 'ف', 'م', 'آ', 'م', 'ژ', 'ژ', 'ا', 'س', 'ا',
@@ -1599,7 +1602,7 @@ goog.i18n.DateTimeSymbols_hr = {
   STANDALONENARROWWEEKDAYS: ['n', 'p', 'u', 's', 'č', 'p', 's'],
   SHORTQUARTERS: ['1kv', '2kv', '3kv', '4kv'],
   QUARTERS: ['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
-  AMPMS: ['prije podne', 'PM'],
+  AMPMS: ['AM', 'PM'],
   DATEFORMATS: ['EEEE, d. MMMM y.', 'd. MMMM y.', 'd. M. y.', 'd.M.y.'],
   TIMEFORMATS: ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
   FIRSTDAYOFWEEK: 0,
@@ -1673,7 +1676,7 @@ goog.i18n.DateTimeSymbols_id = {
   SHORTQUARTERS: ['K1', 'K2', 'K3', 'K4'],
   QUARTERS: ['kuartal pertama', 'kuartal kedua', 'kuartal ketiga',
       'kuartal keempat'],
-  AMPMS: ['pagi', 'malam'],
+  AMPMS: ['AM', 'PM'],
   DATEFORMATS: ['EEEE, dd MMMM yyyy', 'd MMMM yyyy', 'd MMM yyyy', 'dd/MM/yy'],
   TIMEFORMATS: ['H:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
   FIRSTDAYOFWEEK: 6,
@@ -1709,7 +1712,7 @@ goog.i18n.DateTimeSymbols_in = {
   SHORTQUARTERS: ['K1', 'K2', 'K3', 'K4'],
   QUARTERS: ['kuartal pertama', 'kuartal kedua', 'kuartal ketiga',
       'kuartal keempat'],
-  AMPMS: ['pagi', 'malam'],
+  AMPMS: ['AM', 'PM'],
   DATEFORMATS: ['EEEE, dd MMMM yyyy', 'd MMMM yyyy', 'd MMM yyyy', 'dd/MM/yy'],
   TIMEFORMATS: ['H:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
   FIRSTDAYOFWEEK: 6,
@@ -1866,7 +1869,7 @@ goog.i18n.DateTimeSymbols_ja = {
   QUARTERS: ['第1四半期', '第2四半期', '第3四半期',
       '第4四半期'],
   AMPMS: ['午前', '午後'],
-  DATEFORMATS: ['y年M月d日EEEE', 'y年M月d日', 'yyyy/MM/dd', 'yy/MM/dd'],
+  DATEFORMATS: ['y年M月d日EEEE', 'y年M月d日', 'yyyy/MM/dd', 'yyyy/MM/dd'],
   TIMEFORMATS: ['H時mm分ss秒 zzzz', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
   FIRSTDAYOFWEEK: 6,
   WEEKENDRANGE: [5, 6],
@@ -2585,8 +2588,9 @@ goog.i18n.DateTimeSymbols_ru = {
   STANDALONEMONTHS: ['Январь', 'Февраль', 'Март',
       'Апрель', 'Май', 'Июнь', 'Июль', 'Август',
       'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
-  SHORTMONTHS: ['янв', 'фев', 'мар', 'апр', 'мая', 'июн',
-      'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'],
+  SHORTMONTHS: ['янв.', 'февр.', 'марта', 'апр.', 'мая',
+      'июня', 'июля', 'авг.', 'сент.', 'окт.', 'нояб.',
+      'дек.'],
   STANDALONESHORTMONTHS: ['Янв.', 'Февр.', 'Март', 'Апр.',
       'Май', 'Июнь', 'Июль', 'Авг.', 'Сент.', 'Окт.',
       'Нояб.', 'Дек.'],
@@ -3328,7 +3332,7 @@ goog.i18n.DateTimeSymbols_zh_TW = {
   SHORTQUARTERS: ['1季', '2季', '3季', '4季'],
   QUARTERS: ['第1季', '第2季', '第3季', '第4季'],
   AMPMS: ['上午', '下午'],
-  DATEFORMATS: ['y年M月d日EEEE', 'y年M月d日', 'yyyy/M/d', 'yy/M/d'],
+  DATEFORMATS: ['y年M月d日EEEE', 'y年M月d日', 'yyyy/M/d', 'y/M/d'],
   TIMEFORMATS: ['zzzzah時mm分ss秒', 'zah時mm分ss秒', 'ah:mm:ss', 'ah:mm'],
   FIRSTDAYOFWEEK: 6,
   WEEKENDRANGE: [5, 6],

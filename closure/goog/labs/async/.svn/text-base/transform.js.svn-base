@@ -16,13 +16,33 @@
  * @fileoverview Defines a static 'transform' function that provide a convenient
  * way to transform results of asynchronous operations.
  *
+ * Example:
+ *  <pre>
+ *
+ *  var result = xhr.getJson('testdata/xhr_test_json.data');
+ *
+ *  // Transform contents of returned data using 'processJson' and create a
+ *  // transformed result to use returned JSON.
+ *  var transformedResult = goog.labs.async.transform(result, processJson);
+ *
+ *  // Attach success and failure handlers to the tranformed result.
+ *  goog.labs.async.wait.onSuccess(transformedResult, function(result) {
+ *    var jsonData = result.getValue();
+ *    assertEquals('ok', jsonData['stat']);
+ *  });
+ *
+ *  goog.labs.async.wait.onError(transformedResult, function(error) {
+ *    // Failed getJson call
+ *  });
+ *  </pre>
+ *
  */
 
 
 goog.provide('goog.labs.async.transform');
 
 goog.require('goog.labs.async.Result');
-goog.require('goog.labs.async.ResultBase');
+goog.require('goog.labs.async.SimpleResult');
 goog.require('goog.labs.async.wait');
 
 
@@ -36,7 +56,7 @@ goog.require('goog.labs.async.wait');
  *
  * @param {!goog.labs.async.Result} result The result whose value will be
  *     transformed.
- * @param {!function(*): *} transformer The transformer
+ * @param {!Function} transformer The transformer
  *     function. The return value of this function will become the value of the
  *     returned result.
  *
@@ -44,13 +64,13 @@ goog.require('goog.labs.async.wait');
  *     the returned value of the transformer function.
  */
 goog.labs.async.transform = function(result, transformer) {
-  var returnedResult = new goog.labs.async.ResultBase();
+  var returnedResult = new goog.labs.async.SimpleResult();
 
   goog.labs.async.wait(result, function(res) {
     if (res.getState() == goog.labs.async.Result.State.SUCCESS) {
       returnedResult.setValue(transformer(res.getValue()));
     } else {
-      returnedResult.setError();
+      returnedResult.setError(res.getError());
     }
   });
 

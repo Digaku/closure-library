@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/events
 http://closure-library.googlecode.com/svn
 
 
 
-2012-03-30T23:22:44.000000Z
-1703
-loreena@google.com
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2012-03-16T10:55:39.000000Z
-f9707dd4f451149d1d93e4ac985f78c4
-2012-02-29T20:24:19.000000Z
-1629
-magnusrk@google.com
+2012-07-01T04:04:06.000000Z
+7cce26d642d02bf1932759e57921e9e4
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-35649
+35808
 
 keycodes.js
 file
@@ -100,11 +100,11 @@ file
 
 
 
-2012-04-12T19:51:46.000000Z
-beef8fc6679ca32d3cd86558ff433c6d
-2012-03-30T23:22:44.000000Z
-1703
-loreena@google.com
+2012-07-01T04:04:06.000000Z
+e865687d0819c113fdff5645686729f1
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-2503
+2042
 
 imehandler.js
 file
@@ -270,11 +270,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-5d9432595f5fe10882c40e2b5f170e73
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:06.000000Z
+dbbb5031c1518a9092f572f80e8ca0ee
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -296,7 +296,7 @@ has-props
 
 
 
-3528
+3479
 
 eventhandler.js
 file
@@ -406,11 +406,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-e83f31223ee3e1d8b0d921c2a0686aa0
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:06.000000Z
+d9b3005da1548c0ede6a85b4dd332774
+2012-05-14T15:51:01.000000Z
+1859
+marja@google.com
 has-props
 
 
@@ -432,7 +432,7 @@ has-props
 
 
 
-3967
+4637
 
 keyhandler.js
 file
@@ -440,11 +440,11 @@ file
 
 
 
-2012-03-16T10:55:39.000000Z
-2df884f50b08870e291754a6333f54d2
-2012-02-06T15:36:27.000000Z
-1562
-mfrederick@google.com
+2012-07-01T04:04:06.000000Z
+8a1d388d7af584fc351e7a4c02da2945
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -466,7 +466,7 @@ has-props
 
 
 
-16258
+16209
 
 filedrophandler_test.html
 file
@@ -576,11 +576,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-e947f1968a1057723f8774284f8f89cd
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2012-07-01T04:04:06.000000Z
+ea6c1274f7e7e6f2730b5e3dd2595be2
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -602,7 +602,7 @@ has-props
 
 
 
-7340
+7291
 
 eventhandler_test.html
 file
@@ -678,11 +678,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-c0959401aae2bbc1f02c3d9b2c5fe012
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2012-07-01T04:04:06.000000Z
+7fad85dfe1e3fb509fae81dc918ca933
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -704,41 +704,7 @@ has-props
 
 
 
-17167
-
-actionhandler.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-e292ec17e31ff80e02896a57b2476bb1
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5696
+17118
 
 mousewheelhandler.js
 file
@@ -746,11 +712,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-9d7bea1cb3f5eaa6bb44057692f7deb2
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:06.000000Z
+251ce4f15713541ccf0ebfd6f840eff4
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -772,7 +738,41 @@ has-props
 
 
 
-9202
+9692
+
+actionhandler.js
+file
+
+
+
+
+2012-07-01T04:04:06.000000Z
+0802c96cb9153b8d013f149ab39c4830
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5595
 
 eventtarget_test.html
 file
@@ -780,11 +780,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
+2012-07-01T04:04:06.000000Z
 f6955c84a11f1b06b5a994f3c3e08ccb
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-06-21T09:05:39.000000Z
+2002
+marja@google.com
 has-props
 
 
@@ -814,11 +814,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-33c573262c827f77ec064307d68ee7b9
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:06.000000Z
+9cccd18a88602c3b15ad3a0769690107
+2012-05-23T22:57:17.000000Z
+1909
+chrishenry@google.com
 has-props
 
 
@@ -840,7 +840,7 @@ has-props
 
 
 
-4411
+4437
 
 event.js
 file
@@ -848,11 +848,11 @@ file
 
 
 
-2012-04-12T19:51:46.000000Z
-cc433473b73104f511936f84615c57cc
-2012-03-30T23:22:44.000000Z
-1703
-loreena@google.com
+2012-07-01T04:04:06.000000Z
+7e65641fa3cca231f74c5d4e559175ea
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -874,7 +874,7 @@ has-props
 
 
 
-3620
+3816
 
 eventwrapper.js
 file
@@ -916,11 +916,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-682c73bb7e9b61fe98f81295aae5ddbe
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:06.000000Z
+843e5c3539f01b3146a17f5a783666d6
+2012-04-16T17:51:14.000000Z
+1745
+dpapad@google.com
 has-props
 
 
@@ -942,7 +942,7 @@ has-props
 
 
 
-3418
+3546
 
 browserevent.js
 file
@@ -950,11 +950,11 @@ file
 
 
 
-2012-04-12T19:51:46.000000Z
-065f8e95b8835e403b0c332aaca02057
-2012-03-30T23:22:44.000000Z
-1703
-loreena@google.com
+2012-07-01T04:04:06.000000Z
+cb6b300675341d98172a21ee1572ad2a
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -976,7 +976,7 @@ has-props
 
 
 
-11850
+11681
 
 eventtarget.js
 file
@@ -984,11 +984,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
+2012-07-01T04:04:06.000000Z
 b1edfff77bede045cca05344248ea6a8
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-06-21T09:05:39.000000Z
+2002
+marja@google.com
 has-props
 
 
@@ -1018,11 +1018,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-8316943b4e17c123f79d6bf2d88f6b39
-2011-11-08T01:14:48.000000Z
-1375
-pupius@google.com
+2012-07-01T04:04:06.000000Z
+42b9062b8d2f6370a0af51fd61ac17fc
+2012-06-19T15:31:17.000000Z
+1993
+nicksantos@google.com
 has-props
 
 
@@ -1044,7 +1044,7 @@ has-props
 
 
 
-10702
+12891
 
 inputhandler.js
 file
@@ -1052,11 +1052,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-be821478d1a55151a081aee0ef560fe2
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:06.000000Z
+e94348930354946e4590b3b27991d7f5
+2012-06-26T11:00:55.000000Z
+2015
+marja@google.com
 has-props
 
 
@@ -1078,7 +1078,7 @@ has-props
 
 
 
-7367
+7063
 
 keycodes_test.html
 file
@@ -1188,11 +1188,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-f6cb05a79ae8d9d54a050bbc5dd5994e
-2011-06-30T15:18:40.000000Z
-1083
-nicksantos@google.com
+2012-07-01T04:04:06.000000Z
+7f5b4b4df9518b8aa5127e3312670732
+2012-05-18T19:22:36.000000Z
+1891
+mschidlowsky@google.com
 has-props
 
 
@@ -1214,5 +1214,5 @@ has-props
 
 
 
-10335
+11583
 

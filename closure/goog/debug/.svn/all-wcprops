@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/1698/trunk/closure/goog/debug
+/svn/!svn/ver/2020/trunk/closure/goog/debug
 END
 divconsole.js
 K 25
@@ -49,25 +49,25 @@ debugwindow.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/1607/trunk/closure/goog/debug/debugwindow.js
+/svn/!svn/ver/1882/trunk/closure/goog/debug/debugwindow.js
 END
 errorhandler_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1213/trunk/closure/goog/debug/errorhandler_test.html
+/svn/!svn/ver/1789/trunk/closure/goog/debug/errorhandler_test.html
 END
 fpsdisplay.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1668/trunk/closure/goog/debug/fpsdisplay.js
+/svn/!svn/ver/1957/trunk/closure/goog/debug/fpsdisplay.js
 END
 logger.js
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/1130/trunk/closure/goog/debug/logger.js
+/svn/!svn/ver/1882/trunk/closure/goog/debug/logger.js
 END
 gcdiagnostics.js
 K 25
@@ -85,7 +85,7 @@ fancywindow.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/1099/trunk/closure/goog/debug/fancywindow.js
+/svn/!svn/ver/1882/trunk/closure/goog/debug/fancywindow.js
 END
 errorhandlerweakdep.js
 K 25
@@ -93,17 +93,17 @@ svn:wc:ra_dav:version-url
 V 65
 /svn/!svn/ver/850/trunk/closure/goog/debug/errorhandlerweakdep.js
 END
-console_test.html
-K 25
-svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/935/trunk/closure/goog/debug/console_test.html
-END
 error.js
 K 25
 svn:wc:ra_dav:version-url
 V 52
 /svn/!svn/ver/1698/trunk/closure/goog/debug/error.js
+END
+console_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1741/trunk/closure/goog/debug/console_test.html
 END
 entrypointregistry_test.html
 K 25
@@ -117,17 +117,17 @@ svn:wc:ra_dav:version-url
 V 73
 /svn/!svn/ver/1162/trunk/closure/goog/debug/logrecordserializer_test.html
 END
+console.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1741/trunk/closure/goog/debug/console.js
+END
 logbuffer_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 62
 /svn/!svn/ver/850/trunk/closure/goog/debug/logbuffer_test.html
-END
-console.js
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/!svn/ver/1457/trunk/closure/goog/debug/console.js
 END
 entrypointregistry.js
 K 25
@@ -159,23 +159,23 @@ svn:wc:ra_dav:version-url
 V 58
 /svn/!svn/ver/985/trunk/closure/goog/debug/debug_test.html
 END
-logrecord.js
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/!svn/ver/850/trunk/closure/goog/debug/logrecord.js
-END
-tracer.js
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/!svn/ver/1154/trunk/closure/goog/debug/tracer.js
-END
 error_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 59
 /svn/!svn/ver/1698/trunk/closure/goog/debug/error_test.html
+END
+tracer.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1882/trunk/closure/goog/debug/tracer.js
+END
+logrecord.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/850/trunk/closure/goog/debug/logrecord.js
 END
 debug.js
 K 25
@@ -187,7 +187,7 @@ errorhandler.js
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1302/trunk/closure/goog/debug/errorhandler.js
+/svn/!svn/ver/2020/trunk/closure/goog/debug/errorhandler.js
 END
 enhanceerror_test.html
 K 25
@@ -198,8 +198,8 @@ END
 formatter.js
 K 25
 svn:wc:ra_dav:version-url
-V 55
-/svn/!svn/ver/850/trunk/closure/goog/debug/formatter.js
+V 56
+/svn/!svn/ver/1882/trunk/closure/goog/debug/formatter.js
 END
 errorreporter_test.html
 K 25

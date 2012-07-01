@@ -223,6 +223,14 @@ goog.ui.Dialog.prototype.contentEl_ = null;
 goog.ui.Dialog.prototype.buttonEl_ = null;
 
 
+/**
+ * The dialog's preferred ARIA role.
+ * @type {goog.dom.a11y.Role}
+ * @private
+ */
+goog.ui.Dialog.prototype.preferredAriaRole_ = goog.dom.a11y.Role.DIALOG;
+
+
 /** @override */
 goog.ui.Dialog.prototype.getCssClass = function() {
   return this.class_;
@@ -272,6 +280,28 @@ goog.ui.Dialog.prototype.getContent = function() {
 
 
 /**
+ * Returns the dialog's preferred ARIA role. This can be used to override the
+ * default dialog role, e.g. with an ARIA role of ALERTDIALOG for a simple
+ * warning or confirmation dialog.
+ * @return {goog.dom.a11y.Role} This dialog's preferred ARIA role.
+ */
+goog.ui.Dialog.prototype.getPreferredAriaRole = function() {
+  return this.preferredAriaRole_;
+};
+
+
+/**
+ * Sets the dialog's preferred ARIA role. This can be used to override the
+ * default dialog role, e.g. with an ARIA role of ALERTDIALOG for a simple
+ * warning or confirmation dialog.
+ * @param {goog.dom.a11y.Role} role This dialog's preferred ARIA role.
+ */
+goog.ui.Dialog.prototype.setPreferredAriaRole = function(role) {
+  this.preferredAriaRole_ = role;
+};
+
+
+/**
  * Renders if the DOM is not created.
  * @private
  */
@@ -291,6 +321,7 @@ goog.ui.Dialog.prototype.renderIfNoDom_ = function() {
  * the content area.  Renders if the DOM is not yet created.  Overrides
  * {@link goog.ui.Component#getContentElement}.
  * @return {Element} The content element.
+ * @override
  */
 goog.ui.Dialog.prototype.getContentElement = function() {
   this.renderIfNoDom_();
@@ -357,6 +388,7 @@ goog.ui.Dialog.prototype.getDialogElement = function() {
  * Returns the background mask element so that more complicated things can be
  * done with the background region.  Renders if the DOM is not yet created.
  * @return {Element} The background mask element.
+ * @override
  */
 goog.ui.Dialog.prototype.getBackgroundElement = function() {
   this.renderIfNoDom_();
@@ -519,7 +551,7 @@ goog.ui.Dialog.prototype.createDom = function() {
           goog.getCssName(this.class_, 'buttons')));
 
   this.titleId_ = this.titleEl_.id;
-  goog.dom.a11y.setRole(element, 'dialog');
+  goog.dom.a11y.setRole(element, this.getPreferredAriaRole());
   goog.dom.a11y.setState(element, 'labelledby', this.titleId_ || '');
   // If setContent() was called before createDom(), make sure the inner HTML of
   // the content element is initialized.
@@ -648,7 +680,7 @@ goog.ui.Dialog.prototype.enterDocument = function() {
       this.titleCloseEl_, goog.events.EventType.CLICK,
       this.onTitleCloseClick_);
 
-  goog.dom.a11y.setRole(this.getElement(), 'dialog');
+  goog.dom.a11y.setRole(this.getElement(), this.getPreferredAriaRole());
   if (this.titleTextEl_.id !== '') {
     goog.dom.a11y.setState(
         this.getElement(), 'labelledby', this.titleTextEl_.id);
@@ -679,6 +711,7 @@ goog.ui.Dialog.prototype.exitDocument = function() {
  * method returns, isVisible() will always return the new state, even
  * if there is a transition.
  * @param {boolean} visible Whether the dialog should be visible.
+ * @override
  */
 goog.ui.Dialog.prototype.setVisible = function(visible) {
   if (visible == this.isVisible()) {
@@ -713,6 +746,7 @@ goog.ui.Dialog.prototype.onHide = function() {
 
 /**
  * Focuses the dialog contents and the default dialog button if there is one.
+ * @override
  */
 goog.ui.Dialog.prototype.focus = function() {
   goog.base(this, 'focus');
@@ -1117,8 +1151,8 @@ goog.ui.Dialog.ButtonSet.prototype.cancelButton_ = null;
  * Adds a button to the button set.  Buttons will be displayed in the order they
  * are added.
  *
- * @param {string} key Key used to identify the button in events.
- * @param {string|Element} caption A string caption or a DOM node that can be
+ * @param {*} key Key used to identify the button in events.
+ * @param {*} caption A string caption or a DOM node that can be
  *     appended to a button element.
  * @param {boolean=} opt_isDefault Whether this button is the default button,
  *     Dialog will dispatch for this button if enter is pressed.
@@ -1126,16 +1160,17 @@ goog.ui.Dialog.ButtonSet.prototype.cancelButton_ = null;
  *    cancel.  If escape is pressed this button will fire.
  * @return {!goog.ui.Dialog.ButtonSet} The button set, to make it easy to chain
  *    "set" calls and build new ButtonSets.
+ * @override
  */
 goog.ui.Dialog.ButtonSet.prototype.set = function(key, caption,
     opt_isDefault, opt_isCancel) {
   goog.structs.Map.prototype.set.call(this, key, caption);
 
   if (opt_isDefault) {
-    this.defaultButton_ = key;
+    this.defaultButton_ = /** @type {?string} */ (key);
   }
   if (opt_isCancel) {
-    this.cancelButton_ = key;
+    this.cancelButton_ = /** @type {?string} */ (key);
   }
 
   return this;

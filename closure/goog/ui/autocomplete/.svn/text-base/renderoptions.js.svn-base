@@ -13,71 +13,23 @@
 // limitations under the License.
 
 /**
- * @fileoverview Options for rendering matches.
+ * @fileoverview This is a stub for backward compatibility.
+ * For actual documentation, please see {@link goog.ui.ac.RenderOptions}.
  *
  */
 
 goog.provide('goog.ui.AutoComplete.RenderOptions');
 
 goog.require('goog.ui.AutoComplete');
+goog.require('goog.ui.ac.RenderOptions');
 
 
 
+//TODO(user): Remove this after known usages are replaced.
 /**
- * A simple class that contains options for rendering a set of autocomplete
- * matches.  Used as an optional argument in the callback from the matcher.
+ * This is a stub for backward compatibility.
+ * For actual documentation, please see {@link goog.ui.ac.RenderOptions}.
  * @constructor
+ * @deprecated Use {@link goog.ui.ac.RenderOptions} instead.
  */
-goog.ui.AutoComplete.RenderOptions = function() {
-};
-
-
-/**
- * Whether the current highlighting is to be preserved when displaying the new
- * set of matches.
- * @type {boolean}
- * @private
- */
-goog.ui.AutoComplete.RenderOptions.prototype.preserveHilited_ = false;
-
-
-/**
- * Whether the first match is to be highlighted.  When undefined the autoHilite
- * flag of the autocomplete is used.
- * @type {boolean|undefined}
- * @private
- */
-goog.ui.AutoComplete.RenderOptions.prototype.autoHilite_;
-
-
-/**
- * @param {boolean} flag The new value for the preserveHilited_ flag.
- */
-goog.ui.AutoComplete.RenderOptions.prototype.setPreserveHilited =
-    function(flag) {
-  this.preserveHilited_ = flag;
-};
-
-
-/**
- * @return {boolean} The value of the preserveHilited_ flag.
- */
-goog.ui.AutoComplete.RenderOptions.prototype.getPreserveHilited = function() {
-  return this.preserveHilited_;
-};
-
-
-/**
- * @param {boolean} flag The new value for the autoHilite_ flag.
- */
-goog.ui.AutoComplete.RenderOptions.prototype.setAutoHilite = function(flag) {
-  this.autoHilite_ = flag;
-};
-
-
-/**
- * @return {boolean|undefined} The value of the autoHilite_ flag.
- */
-goog.ui.AutoComplete.RenderOptions.prototype.getAutoHilite = function() {
-  return this.autoHilite_;
-};
+goog.ui.AutoComplete.RenderOptions = goog.ui.ac.RenderOptions;

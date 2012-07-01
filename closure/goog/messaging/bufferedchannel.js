@@ -230,6 +230,7 @@ goog.messaging.BufferedChannel.prototype.registerDefaultService = function(
  *     Object, it is serialized to JSON before sending.  It's the responsibility
  *     of implementors of this class to perform the serialization.
  * @see goog.net.xpc.BufferedChannel.send
+ * @override
  */
 goog.messaging.BufferedChannel.prototype.send = function(serviceName, payload) {
   if (this.isPeerReady()) {
@@ -246,9 +247,9 @@ goog.messaging.BufferedChannel.prototype.send = function(serviceName, payload) {
  * Marks the channel's peer as ready, then sends buffered messages and nulls the
  * buffer.  Subsequent calls to setPeerReady_ have no effect.
  *
- * @param {string} peerKnowsWeKnowItsReady Passed by the peer to indicate
- *     whether it knows that we've received its ping and that it's ready.
- *     Non-empty if true, empty if false.
+ * @param {(!Object|string)} peerKnowsWeKnowItsReady Passed by the peer to
+ *     indicate whether it knows that we've received its ping and that it's
+ *     ready.  Non-empty if true, empty if false.
  * @private
  */
 goog.messaging.BufferedChannel.prototype.setPeerReady_ = function(

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/1472/trunk/closure/goog/gears
+/svn/!svn/ver/1899/trunk/closure/goog/gears
 END
 database.js
 K 25
@@ -39,23 +39,17 @@ svn:wc:ra_dav:version-url
 V 63
 /svn/!svn/ver/850/trunk/closure/goog/gears/urlcapture_test.html
 END
-loggerclient.js
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/!svn/ver/1472/trunk/closure/goog/gears/loggerclient.js
-END
 basestore_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 62
 /svn/!svn/ver/850/trunk/closure/goog/gears/basestore_test.html
 END
-fakeworkerpool_test.html
+loggerclient.js
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/svn/!svn/ver/1472/trunk/closure/goog/gears/fakeworkerpool_test.html
+V 59
+/svn/!svn/ver/1472/trunk/closure/goog/gears/loggerclient.js
 END
 managedresourcestore.js
 K 25
@@ -63,29 +57,29 @@ svn:wc:ra_dav:version-url
 V 67
 /svn/!svn/ver/1302/trunk/closure/goog/gears/managedresourcestore.js
 END
-logstore_test.html
-K 25
-svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/850/trunk/closure/goog/gears/logstore_test.html
-END
 statustype.js
 K 25
 svn:wc:ra_dav:version-url
 V 56
 /svn/!svn/ver/850/trunk/closure/goog/gears/statustype.js
 END
-urlcapture.js
+logstore_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/!svn/ver/850/trunk/closure/goog/gears/urlcapture.js
+V 61
+/svn/!svn/ver/850/trunk/closure/goog/gears/logstore_test.html
 END
 multipartformdata_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 71
 /svn/!svn/ver/1472/trunk/closure/goog/gears/multipartformdata_test.html
+END
+urlcapture.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/850/trunk/closure/goog/gears/urlcapture.js
 END
 basestore.js
 K 25
@@ -116,12 +110,6 @@ K 25
 svn:wc:ra_dav:version-url
 V 64
 /svn/!svn/ver/1472/trunk/closure/goog/gears/workerpool_test.html
-END
-fakeworkerpool.js
-K 25
-svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/1472/trunk/closure/goog/gears/fakeworkerpool.js
 END
 database_test.html
 K 25
@@ -157,7 +145,7 @@ workerchannel.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1302/trunk/closure/goog/gears/workerchannel.js
+/svn/!svn/ver/1899/trunk/closure/goog/gears/workerchannel.js
 END
 workerpool.js
 K 25

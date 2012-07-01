@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/async
 http://closure-library.googlecode.com/svn
 
 
 
-2012-01-04T13:41:02.000000Z
-1499
-dskloet@google.com
+2012-05-31T18:52:58.000000Z
+1938
+chrishenry@google.com
 
 
 
@@ -93,6 +93,40 @@ has-props
 
 
 4803
+
+animationdelay_test.html
+file
+
+
+
+
+2012-07-01T04:04:42.000000Z
+b10514931bd36751a0d303e80391f03c
+2012-05-31T18:52:58.000000Z
+1938
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2119
 
 conditionaldelay_test.html
 file
@@ -195,6 +229,40 @@ has-props
 
 
 4570
+
+animationdelay.js
+file
+
+
+
+
+2012-07-01T04:04:42.000000Z
+bb1c056402035e2bfdfa8b9f47668f18
+2012-05-31T18:52:58.000000Z
+1938
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7843
 
 conditionaldelay.js
 file

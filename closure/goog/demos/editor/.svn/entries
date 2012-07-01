@@ -1,7 +1,7 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/demos/editor
 http://closure-library.googlecode.com/svn
 
@@ -301,40 +301,6 @@ has-props
 
 3094
 
-deps.js
-file
-
-
-
-
-2012-02-16T10:46:33.000000Z
-149d8872b5761da0ae19ad046b9c5e14
-2011-09-21T02:12:56.000000Z
-1289
-bills@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1643
-
 helloworlddialog.js
 file
 
@@ -368,6 +334,40 @@ has-props
 
 
 5869
+
+deps.js
+file
+
+
+
+
+2012-02-16T10:46:33.000000Z
+149d8872b5761da0ae19ad046b9c5e14
+2011-09-21T02:12:56.000000Z
+1289
+bills@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1643
 
 equationeditor.js
 file

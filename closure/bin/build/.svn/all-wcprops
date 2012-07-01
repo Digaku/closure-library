@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/1611/trunk/closure/bin/build
+/svn/!svn/ver/1839/trunk/closure/bin/build
 END
 depswriter.py
 K 25
@@ -25,19 +25,19 @@ source_test.py
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1499/trunk/closure/bin/build/source_test.py
+/svn/!svn/ver/1812/trunk/closure/bin/build/source_test.py
 END
 source.py
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/1499/trunk/closure/bin/build/source.py
+/svn/!svn/ver/1812/trunk/closure/bin/build/source.py
 END
 closurebuilder.py
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1499/trunk/closure/bin/build/closurebuilder.py
+/svn/!svn/ver/1839/trunk/closure/bin/build/closurebuilder.py
 END
 treescan.py
 K 25

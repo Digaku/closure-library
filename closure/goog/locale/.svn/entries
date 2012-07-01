@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/locale
 http://closure-library.googlecode.com/svn
 
 
 
-2012-04-04T07:22:54.000000Z
-1715
-lararennie@google.com
+2012-04-20T19:42:59.000000Z
+1776
+eewald@google.com
 
 
 
@@ -304,11 +304,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-7cf4fbb5e7fc690993421f41f94573e6
-2011-11-14T17:58:19.000000Z
-1387
-nicksantos@google.com
+2012-07-01T04:04:05.000000Z
+f596570b5ee65373eb1596bd99f94aee
+2012-04-20T19:42:59.000000Z
+1776
+eewald@google.com
 has-props
 
 
@@ -330,7 +330,7 @@ has-props
 
 
 
-13607
+13569
 
 timezonedetection_test.html
 file

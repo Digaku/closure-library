@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/i18n
 http://closure-library.googlecode.com/svn
 
 
 
-2012-04-10T21:43:44.000000Z
-1728
-shanjian@google.com
+2012-06-25T10:34:41.000000Z
+2011
+davinci@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2012-04-12T19:51:47.000000Z
-4cbced3bade389395c87c254451035d4
-2012-04-10T21:43:44.000000Z
-1728
-shanjian@google.com
+2012-07-01T04:04:08.000000Z
+96b63cdb6346af3772c5f5f1257da0e7
+2012-06-12T21:56:21.000000Z
+1970
+roozbeh@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-171576
+171657
 
 charpickerdata.js
 file
@@ -100,10 +100,10 @@ file
 
 
 
-2012-04-12T19:51:47.000000Z
-c277fb6b7af57679df3f2396eeb87e1b
-2012-04-10T21:43:44.000000Z
-1728
+2012-07-01T04:04:08.000000Z
+bb6c6c2b12396e3c51667745dabdd391
+2012-05-01T21:18:35.000000Z
+1798
 shanjian@google.com
 has-props
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-78866
+78868
 
 datetimepatterns.js
 file
@@ -304,11 +304,11 @@ file
 
 
 
-2012-03-16T10:55:43.000000Z
-5f2bf6dc7c47083bb22c9b3ec94feb35
-2012-01-18T18:52:22.000000Z
-1526
-shanjian@google.com
+2012-07-01T04:04:08.000000Z
+ab5712183f0203d061948ad9e679fab8
+2012-06-19T23:34:09.000000Z
+1996
+kuzmin@google.com
 has-props
 
 
@@ -330,7 +330,7 @@ has-props
 
 
 
-20952
+21583
 
 numberformatsymbolsext.js
 file
@@ -338,10 +338,10 @@ file
 
 
 
-2012-04-12T19:51:47.000000Z
-dad9a357fcd22f7108f7936d2c56246e
-2012-04-10T21:43:44.000000Z
-1728
+2012-07-01T04:04:08.000000Z
+ba04db084321b3d17a5fe7188a6c6d89
+2012-05-01T21:18:35.000000Z
+1798
 shanjian@google.com
 has-props
 
@@ -364,7 +364,7 @@ has-props
 
 
 
-225316
+212934
 
 bidiformatter.js
 file
@@ -440,11 +440,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-958383f111064c9910cd5254b91cb2c7
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:08.000000Z
+6ea646f462388efaaa6be9a83ee9e7ae
+2012-06-12T21:56:21.000000Z
+1970
+roozbeh@google.com
 has-props
 
 
@@ -466,7 +466,7 @@ has-props
 
 
 
-23131
+24333
 
 bidi.js
 file
@@ -474,11 +474,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-6d6daa0c28f6586c3d1643dcbf463e48
-2011-10-18T09:31:40.000000Z
-1347
-aharon@google.com
+2012-07-01T04:04:08.000000Z
+5f61fce1485dbc323002f8d3e16a3a44
+2012-06-25T10:34:41.000000Z
+2011
+davinci@google.com
 has-props
 
 
@@ -500,7 +500,7 @@ has-props
 
 
 
-26424
+26724
 
 pluralrules.js
 file
@@ -536,40 +536,6 @@ has-props
 
 19005
 
-timezone_test.html
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-f88fb198379c7f4629f806508132ee68
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7374
-
 currency_test.html
 file
 
@@ -603,6 +569,40 @@ has-props
 
 
 6845
+
+timezone_test.html
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+f88fb198379c7f4629f806508132ee68
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7374
 
 bidiformatter_test.html
 file
@@ -672,6 +672,40 @@ has-props
 
 4311
 
+datetimesymbolsext.js
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+b26d489a8c04c59aa43f095c7676c4c8
+2012-06-12T21:56:21.000000Z
+1970
+roozbeh@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+722219
+
 charlistdecompressor_test.html
 file
 
@@ -705,74 +739,6 @@ has-props
 
 
 1610
-
-datetimesymbolsext.js
-file
-
-
-
-
-2012-04-12T19:51:47.000000Z
-40d6af77055eda43f3cc6bd86828b0d1
-2012-04-10T21:43:44.000000Z
-1728
-shanjian@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-751435
-
-datetimeparse.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-7e9103dd2dcc6fec763877e7455d4cd1
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-35541
 
 mime.js
 file
@@ -808,6 +774,40 @@ has-props
 
 3533
 
+datetimeparse.js
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+7e9103dd2dcc6fec763877e7455d4cd1
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+35541
+
 uchar_test.html
 file
 
@@ -841,40 +841,6 @@ has-props
 
 
 1661
-
-timezone.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-6dde9466fddc3d1303c759a86b93cf81
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11496
 
 currency.js
 file
@@ -910,17 +876,51 @@ has-props
 
 13132
 
+timezone.js
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+6dde9466fddc3d1303c759a86b93cf81
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11496
+
 datetimeformat_test.html
 file
 
 
 
 
-2012-02-16T10:46:34.000000Z
-199dd1ac6741b41aab07caf67daeb478
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:08.000000Z
+391ebd70f08acaea63926192860b4927
+2012-06-12T21:56:21.000000Z
+1970
+roozbeh@google.com
 has-props
 
 
@@ -942,41 +942,7 @@ has-props
 
 
 
-21523
-
-graphemebreak.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-ec9a53f1f0abf857dc7a0d1488d5f852
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7347
+24963
 
 messageformat.js
 file
@@ -1012,6 +978,74 @@ has-props
 
 20577
 
+graphemebreak.js
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+ec9a53f1f0abf857dc7a0d1488d5f852
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7347
+
+bidi_test.html
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+fb20e2333cdda2ed59363e07db84f837
+2012-05-07T15:51:45.000000Z
+1825
+aharon@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18997
+
 datetimepatternsext.js
 file
 
@@ -1046,51 +1080,17 @@ has-props
 
 208067
 
-bidi_test.html
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-d0a87523eb7eb0c55d3c31d0939cd9b2
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18785
-
 numberformat.js
 file
 
 
 
 
-2012-03-16T10:55:43.000000Z
-9588d61acfb64c61dabb44ad357e84ef
-2012-01-18T18:52:22.000000Z
-1526
-shanjian@google.com
+2012-07-01T04:04:08.000000Z
+cc5b72078f60a75dd11916f47117299e
+2012-06-19T23:34:09.000000Z
+1996
+kuzmin@google.com
 has-props
 
 
@@ -1112,7 +1112,7 @@ has-props
 
 
 
-25578
+26198
 
 uchar.js
 file

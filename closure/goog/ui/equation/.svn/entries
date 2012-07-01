@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/ui/equation
 http://closure-library.googlecode.com/svn
 
 
 
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2012-05-22T21:01:40.000000Z
+1896
+chrishenry@google.com
 
 
 
@@ -128,40 +128,6 @@ has-props
 
 1735
 
-arrowpalette.js
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-9cc4a48be69dcf4cb1e37e27fd9fa7c0
-2011-08-19T16:22:39.000000Z
-1236
-bills@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1520
-
 imagerenderer.js
 file
 
@@ -196,17 +162,17 @@ has-props
 
 5681
 
-equationeditordialog.js
+arrowpalette.js
 file
 
 
 
 
 2012-02-16T10:46:35.000000Z
-02a624202b7735d997d943c3a4a3b1ae
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+9cc4a48be69dcf4cb1e37e27fd9fa7c0
+2011-08-19T16:22:39.000000Z
+1236
+bills@google.com
 has-props
 
 
@@ -228,7 +194,7 @@ has-props
 
 
 
-3961
+1520
 
 greekpalette.js
 file
@@ -264,14 +230,14 @@ has-props
 
 1953
 
-menupalette.js
+equationeditordialog.js
 file
 
 
 
 
 2012-02-16T10:46:35.000000Z
-57c62210206b761e2486729f5a471d8b
+02a624202b7735d997d943c3a4a3b1ae
 2011-09-27T00:20:47.000000Z
 1302
 bmccann@google.com
@@ -296,7 +262,41 @@ has-props
 
 
 
-2789
+3961
+
+menupalette.js
+file
+
+
+
+
+2012-07-01T04:04:44.000000Z
+acb718992c676d84e4ffda0ccd5cfdbf
+2012-05-22T21:01:40.000000Z
+1896
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2802
 
 symbolpalette.js
 file
@@ -366,40 +366,6 @@ has-props
 
 1158
 
-comparisonpalette.js
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-1b30bba74c850942373a2db322ebe68c
-2011-08-19T16:22:39.000000Z
-1236
-bills@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1635
-
 palettemanager.js
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 5564
+
+comparisonpalette.js
+file
+
+
+
+
+2012-02-16T10:46:35.000000Z
+1b30bba74c850942373a2db322ebe68c
+2011-08-19T16:22:39.000000Z
+1236
+bills@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1635
 
 editorpane.js
 file
@@ -508,11 +508,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-b3d1347a5d81b52b1258e24cbb29ddbc
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2012-07-01T04:04:44.000000Z
+944b601a9247b4f0ae64bf26e77d7417
+2012-05-22T21:01:40.000000Z
+1896
+chrishenry@google.com
 has-props
 
 
@@ -534,5 +534,5 @@ has-props
 
 
 
-7978
+8017
 

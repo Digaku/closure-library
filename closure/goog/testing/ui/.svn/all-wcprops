@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/1293/trunk/closure/goog/testing/ui
+/svn/!svn/ver/1925/trunk/closure/goog/testing/ui
 END
 style_reference.html
 K 25
@@ -25,7 +25,7 @@ rendererasserts.js
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/1293/trunk/closure/goog/testing/ui/rendererasserts.js
+/svn/!svn/ver/1925/trunk/closure/goog/testing/ui/rendererasserts.js
 END
 style.js
 K 25

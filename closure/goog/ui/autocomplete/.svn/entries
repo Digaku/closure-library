@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/ui/autocomplete
 http://closure-library.googlecode.com/svn
 
 
 
-2012-04-10T01:36:57.000000Z
-1725
-lyczak@google.com
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 
 
 
@@ -25,6 +25,15 @@ lyczak@google.com
 
 
 0b95b8e8-c90f-11de-9d4f-f947ee5921c8
+
+
+
+
+
+
+
+
+((conflict renderer_test.html file update deleted edited (version http://closure-library.googlecode.com/svn 4 1732 trunk/closure/goog/ui/autocomplete/renderer_test.html file) (version http://closure-library.googlecode.com/svn 4 2020 trunk/closure/goog/ui/autocomplete/renderer_test.html none)))
 
 richremotearraymatcher.js
 file
@@ -32,11 +41,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-530053fdfbab5391acd46b8872713246
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:42.000000Z
+dbd5ea5b9ac9b1a04d55edfb0ad51067
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -58,7 +67,7 @@ has-props
 
 
 
-4835
+1638
 
 renderer.js
 file
@@ -66,11 +75,11 @@ file
 
 
 
-2012-04-12T19:51:55.000000Z
-669d4d3d8542487b95f38cde38a4d7d5
-2012-04-10T01:36:57.000000Z
-1725
-lyczak@google.com
+2012-07-01T04:04:42.000000Z
+1f7d8da938ad8f33db75c8706e692a69
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -92,75 +101,7 @@ has-props
 
 
 
-28910
-
-basic_test.html
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-5384b85c591883fc600c1214c6878f69
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5763
-
-arraymatcher_test.html
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-e792c7c50a9db876d4258b16dd147d8d
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3532
+2105
 
 basic.js
 file
@@ -168,11 +109,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-a66b5ae685d76f7b2d8217464cf5dd14
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:42.000000Z
+ce91608ea8c6c03d6d68c20a9062504f
+2012-05-23T10:27:35.000000Z
+1902
+adamwos@google.com
 has-props
 
 
@@ -194,7 +135,7 @@ has-props
 
 
 
-2001
+2419
 
 arraymatcher.js
 file
@@ -202,11 +143,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-f8e98d88fe32507137a4eaae930880b1
-2011-05-19T22:12:51.000000Z
-946
-ecattell@google.com
+2012-07-01T04:04:42.000000Z
+9bb6c2c6f65e121a630cb4885d66ace5
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -228,143 +169,7 @@ has-props
 
 
 
-4355
-
-inputhandler_test.html
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-6845c67be756575d33f1ce1f2b86ee92
-2011-12-08T21:25:08.000000Z
-1463
-mariakhomenko@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20640
-
-remotearraymatcher_test.html
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-3ecd6993282aedc1891168c491439c8e
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2128
-
-autocomplete_test.html
-file
-
-
-
-
-2012-04-12T19:51:55.000000Z
-c943e1a180320df6bff2b1582a6175c7
-2012-04-03T14:45:13.000000Z
-1712
-bramm@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21339
-
-remote.js
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-a5c91aad1d5da4c4cb7e223c30b1fd6a
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3770
+1313
 
 renderoptions.js
 file
@@ -372,11 +177,11 @@ file
 
 
 
-2012-04-12T19:51:55.000000Z
-c9e653e094fecbd8c62beb890fce6c23
-2012-04-03T14:45:13.000000Z
-1712
-bramm@google.com
+2012-07-01T04:04:42.000000Z
+d181675678222892aa7cfc4937129518
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -398,20 +203,41 @@ has-props
 
 
 
-2197
+1237
 
-renderer_test.html
+remote.js
 file
 
 
 
 
-
-70484e36040b4618b660651d73b1c985
-2011-12-09T20:02:10.000000Z
-1467
-esrauch@google.com
+2012-07-01T04:04:42.000000Z
+f15f029fcf629c7285cc5770d9f85f6a
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2056
 
 inputhandler.js
 file
@@ -419,11 +245,11 @@ file
 
 
 
-2012-03-16T10:58:08.000000Z
-120b9c39430596b1f06a4a0c7b482afa
-2012-01-05T15:40:37.000000Z
-1503
-dskloet@google.com
+2012-07-01T04:04:42.000000Z
+89ebe2ddb33ff616850652ac432147ef
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -445,7 +271,30 @@ has-props
 
 
 
-38889
+1968
+
+renderer_test.html
+file
+1732
+
+
+add
+
+70484e36040b4618b660651d73b1c985
+2011-12-09T20:02:10.000000Z
+1467
+esrauch@google.com
+has-props
+
+
+
+
+
+
+
+copied
+http://closure-library.googlecode.com/svn/trunk/closure/goog/ui/autocomplete/renderer_test.html
+1732
 
 remotearraymatcher.js
 file
@@ -453,11 +302,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-40e178b9b23de34578e0d9ce05fcb024
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2012-07-01T04:04:42.000000Z
+a1e47ff8462e2fa164d9619326c27e2c
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -479,7 +328,7 @@ has-props
 
 
 
-8741
+1382
 
 richremote.js
 file
@@ -487,11 +336,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-d7fdc09aec08eaf6c95946ca28a79739
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:42.000000Z
+d18b121cef9bfe20df839bec14462ae8
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -513,7 +362,7 @@ has-props
 
 
 
-4235
+2292
 
 autocomplete.js
 file
@@ -521,11 +370,11 @@ file
 
 
 
-2012-04-12T19:51:55.000000Z
-50406fc183ceba29512544ba9e9853dd
-2012-04-03T14:45:13.000000Z
-1712
-bramm@google.com
+2012-07-01T04:04:42.000000Z
+8ab77b9f30c1696e7b52b8edda3b54aa
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -547,7 +396,7 @@ has-props
 
 
 
-21338
+1730
 
 richinputhandler.js
 file
@@ -555,11 +404,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-c956036012209efc8c2cb76afd789639
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:42.000000Z
+684d18111134593432422011798117e8
+2012-05-31T09:26:55.000000Z
+1935
+adamwos@google.com
 has-props
 
 
@@ -581,5 +430,5 @@ has-props
 
 
 
-2200
+1703
 

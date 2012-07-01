@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/1731/trunk/closure/goog/testing/events
+/svn/!svn/ver/1984/trunk/closure/goog/testing/events
 END
 events.js
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/1731/trunk/closure/goog/testing/events/events.js
+/svn/!svn/ver/1984/trunk/closure/goog/testing/events/events.js
 END
 matchers.js
 K 25
@@ -30,8 +30,8 @@ END
 events_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/svn/!svn/ver/850/trunk/closure/goog/testing/events/events_test.html
+V 69
+/svn/!svn/ver/1984/trunk/closure/goog/testing/events/events_test.html
 END
 matchers_test.html
 K 25

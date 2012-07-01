@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/date
 http://closure-library.googlecode.com/svn
 
 
 
-2012-01-25T23:58:35.000000Z
-1541
-abednego@google.com
+2012-06-19T23:41:06.000000Z
+1997
+pdoyle@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2012-02-16T10:46:33.000000Z
-1cd8ae125e458f0cddca9b2963229315
-2011-05-18T23:34:28.000000Z
-944
-nnaze@google.com
+2012-07-01T04:04:07.000000Z
+21ea048394def174fe9ad43cb6db23c9
+2012-05-04T13:58:21.000000Z
+1819
+pallosp@google.com
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-53850
+54080
 
 utcdatetime.js
 file
@@ -66,11 +66,11 @@ file
 
 
 
-2012-02-16T10:46:33.000000Z
-c6f031a18fdb2d2fa764d5b68795f42c
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2012-07-01T04:04:07.000000Z
+286783a922d0243232dbc25d92eb9eb6
+2012-05-07T23:19:38.000000Z
+1829
+nicksantos@google.com
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-5218
+5232
 
 daterange.js
 file
@@ -134,11 +134,11 @@ file
 
 
 
-2012-02-16T10:46:33.000000Z
-e0fa87ae916566ebac095958501f4fff
-2011-12-08T19:12:56.000000Z
-1461
-jacobly@google.com
+2012-07-01T04:04:07.000000Z
+8c29e87d30fc351d4ceee2bb6b75f55d
+2012-06-19T23:41:06.000000Z
+1997
+pdoyle@google.com
 has-props
 
 
@@ -160,7 +160,7 @@ has-props
 
 
 
-13304
+13364
 
 date.js
 file
@@ -168,11 +168,11 @@ file
 
 
 
-2012-03-16T10:55:41.000000Z
-9a8f2914a7f4b99035dc46b7148a57fd
-2012-01-04T13:41:02.000000Z
-1499
-dskloet@google.com
+2012-07-01T04:04:07.000000Z
+b518bde3e91037fff770b0b642ae0917
+2012-05-30T18:03:43.000000Z
+1926
+chrishenry@google.com
 has-props
 
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-47501
+47940
 
 utcdatetime_test.html
 file
@@ -270,11 +270,11 @@ file
 
 
 
-2012-02-16T10:46:33.000000Z
-c54aa13f452bdf3513b23f05143d22af
-2011-12-08T19:12:56.000000Z
-1461
-jacobly@google.com
+2012-07-01T04:04:07.000000Z
+f028e1448cee69f1eb0fb0768ddbc8d9
+2012-06-19T23:41:06.000000Z
+1997
+pdoyle@google.com
 has-props
 
 
@@ -296,7 +296,7 @@ has-props
 
 
 
-5184
+5833
 
 datelike.js
 file

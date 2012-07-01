@@ -16,6 +16,22 @@
  * @fileoverview Defines static 'wait' functions that provide a convenient way
  * to wait on results of asynchronous operations.
  *
+ * Example:
+ * <pre>
+ *
+ *  var result = xhr.get('testdata/xhr_test_text.data');
+ *
+ *  // Attach success and failure handlers.
+ *  goog.labs.async.wait.onSuccess(result, function(result) {
+ *    var dataValue = result.getValue();
+ *    alert('value : ' + dataValue);
+ *  });
+ *
+ *  goog.labs.async.wait.onError(result, function(error) {
+ *   // Failed asynchronous call!
+ *  });
+ *  </pre>
+ *
  */
 
 
@@ -33,9 +49,10 @@ goog.require('goog.labs.async.Result');
  * @param {!goog.labs.async.Result} result The result to install the handlers.
  * @param {!function(!goog.labs.async.Result)} handler The handler to be called.
  *     The handler is passed the result object as the only parameter.
+ * @param {!Object=} opt_scope Optional scope for the handler.
  */
-goog.labs.async.wait = function(result, handler) {
-  result.wait(handler);
+goog.labs.async.wait = function(result, handler, opt_scope) {
+  result.wait(opt_scope ? goog.bind(handler, opt_scope) : handler);
 };
 
 
@@ -48,13 +65,15 @@ goog.labs.async.wait = function(result, handler) {
  * @param {!function(*, !goog.labs.async.Result)} handler The handler to be
  *     called. The handler is passed the result value and the result as
  *     parameters.
+ * @param {!Object=} opt_scope Optional scope for the handler.
  */
-goog.labs.async.wait.onSuccess = function(result, handler) {
-  result.wait(function(res) {
+goog.labs.async.wait.onSuccess = function(result, handler, opt_scope) {
+  goog.labs.async.wait(result, function(res) {
     if (res.getState() == goog.labs.async.Result.State.SUCCESS) {
-      handler(res.getValue(), res);
+      // 'this' refers to opt_scope
+      handler.call(this, res.getValue(), res);
     }
-  });
+  }, opt_scope);
 };
 
 
@@ -66,11 +85,13 @@ goog.labs.async.wait.onSuccess = function(result, handler) {
  * @param {!goog.labs.async.Result} result The result to install the handlers.
  * @param {!function(!goog.labs.async.Result)} handler The handler to be called.
  *     The handler is passed the result object as the only parameter.
+ * @param {!Object=} opt_scope Optional scope for the handler.
  */
-goog.labs.async.wait.onError = function(result, handler) {
-  result.wait(function(res) {
+goog.labs.async.wait.onError = function(result, handler, opt_scope) {
+  goog.labs.async.wait(result, function(res) {
     if (res.getState() == goog.labs.async.Result.State.ERROR) {
-      handler(res);
+      // 'this' refers to opt_scope
+      handler.call(this, res);
     }
-  });
+  }, opt_scope);
 };

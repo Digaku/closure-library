@@ -24,6 +24,7 @@ goog.provide('goog.style');
 
 
 goog.require('goog.array');
+goog.require('goog.asserts');
 goog.require('goog.dom');
 goog.require('goog.math.Box');
 goog.require('goog.math.Coordinate');
@@ -108,7 +109,7 @@ goog.style.getComputedStyle = function(element, property) {
     if (styles) {
       // element.style[..] is undefined for browser specific styles
       // as 'filter'.
-      return styles[property] || styles.getPropertyValue(property);
+      return styles[property] || styles.getPropertyValue(property) || '';
     }
   }
 
@@ -282,11 +283,7 @@ goog.style.getPosition = function(element) {
 goog.style.getClientViewportElement = function(opt_node) {
   var doc;
   if (opt_node) {
-    if (opt_node.nodeType == goog.dom.NodeType.DOCUMENT) {
-      doc = opt_node;
-    } else {
-      doc = goog.dom.getOwnerDocument(opt_node);
-    }
+    doc = goog.dom.getOwnerDocument(opt_node);
   } else {
     doc = goog.dom.getDocument();
   }
@@ -301,19 +298,58 @@ goog.style.getClientViewportElement = function(opt_node) {
 
 
 /**
+ * Calculates the viewport coordinates relative to the page/document
+ * containing the node. The viewport may be the browser viewport for
+ * non-iframe document, or the iframe container for iframe'd document.
+ * @param {!Document} doc The document to use as the reference point.
+ * @return {!goog.math.Coordinate} The page offset of the viewport.
+ */
+goog.style.getViewportPageOffset = function(doc) {
+  var body = doc.body;
+  var documentElement = doc.documentElement;
+  var scrollLeft = body.scrollLeft || documentElement.scrollLeft;
+  var scrollTop = body.scrollTop || documentElement.scrollTop;
+  return new goog.math.Coordinate(scrollLeft, scrollTop);
+};
+
+
+/**
+ * Determines whether getBoundingClientRect is supported for this element.
+ * @param {!Element} el The element to be measured.
+ * @return {boolean} Whether getBoundingClientRect is supported.
+ * @private
+ */
+goog.style.supportsGetBoundingClientRect_ = function(el) {
+  if (goog.userAgent.MOBILE && goog.userAgent.WEBKIT) {
+    // http://crbug.com/130651 -- Android Chrome's getBoundingClientRect
+    // incorrectly applies zoom in iframes.  To avoid adding a dependency to
+    // goog.userAgent.product, this is a little broader to apply to all mobile
+    // WebKit, so this will unfortunately slow down other mobile devices.  To
+    // mitigate the effect, we can still use getClientBoundingRect when not in
+    // an iframe.
+    var win = el.ownerDocument.defaultView;
+    if (win != win.top) {
+      return false;
+    }
+  }
+  return !!el.getBoundingClientRect;
+};
+
+
+/**
  * Gets the client rectangle of the DOM element.
  *
  * getBoundingClientRect is part of a new CSS object model draft (with a
  * long-time presence in IE), replacing the error-prone parent offset
  * computation and the now-deprecated Gecko getBoxObjectFor.
  *
- * This utility patches common browser bugs in getClientBoundingRect. It
- * will fail if getClientBoundingRect is unsupported.
+ * This utility patches common browser bugs in getBoundingClientRect. It
+ * will fail if getBoundingClientRect is unsupported.
  *
  * If the element is not in the DOM, the result is undefined, and an error may
  * be thrown depending on user agent.
  *
- * @param {Element} el The element whose bounding rectangle is being queried.
+ * @param {!Element} el The element whose bounding rectangle is being queried.
  * @return {Object} A native bounding rectangle with numerical left, top,
  *     right, and bottom.  Reported by Firefox to be of object type ClientRect.
  * @private
@@ -333,7 +369,7 @@ goog.style.getBoundingClientRect_ = function(el) {
     // In quirks mode, the offset can be determined by querying the body's
     // clientLeft/clientTop, but in standards mode, it is found by querying
     // the document element's clientLeft/clientTop.  Since we already called
-    // getClientBoundingRect we have already forced a reflow, so it is not
+    // getBoundingClientRect we have already forced a reflow, so it is not
     // too expensive just to query them all.
 
     // See: http://msdn.microsoft.com/en-us/library/ms536433(VS.85).aspx
@@ -542,6 +578,8 @@ goog.style.getClientLeftTop = function(el) {
 goog.style.getPageOffset = function(el) {
   var box, doc = goog.dom.getOwnerDocument(el);
   var positionStyle = goog.style.getStyle_(el, 'position');
+  // TODO(gboyer): Update the jsdoc in a way that doesn't break the universe.
+  goog.asserts.assertObject(el, 'Parameter is required');
 
   // NOTE(eae): Gecko pre 1.9 normally use getBoxObjectFor to calculate the
   // position. When invoked for an element with position absolute and a negative
@@ -566,8 +604,8 @@ goog.style.getPageOffset = function(el) {
     return pos;
   }
 
-  // IE and Gecko 1.9+.
-  if (el.getBoundingClientRect) {
+  // IE, Gecko 1.9+, and most modern WebKit.
+  if (goog.style.supportsGetBoundingClientRect_(el)) {
     box = goog.style.getBoundingClientRect_(el);
     // Must add the scroll coordinates in to get the absolute page offset
     // of element since getBoundingClientRect returns relative coordinates to
@@ -747,16 +785,20 @@ goog.style.getRelativePosition = function(a, b) {
 goog.style.getClientPosition = function(el) {
   var pos = new goog.math.Coordinate;
   if (el.nodeType == goog.dom.NodeType.ELEMENT) {
-    if (el.getBoundingClientRect) {  // IE and Gecko 1.9+
-      var box = goog.style.getBoundingClientRect_(/** @type {Element} */ (el));
+    el = /** @type {!Element} */ (el);
+    if (goog.style.supportsGetBoundingClientRect_(el)) {
+      // IE, Gecko 1.9+, and most modern WebKit
+      var box = goog.style.getBoundingClientRect_(el);
       pos.x = box.left;
       pos.y = box.top;
     } else {
-      var scrollCoord = goog.dom.getDomHelper(/** @type {Element} */ (el))
-          .getDocumentScroll();
-      var pageCoord = goog.style.getPageOffset(/** @type {Element} */ (el));
+      var scrollCoord = goog.dom.getDomHelper(el).getDocumentScroll();
+      var pageCoord = goog.style.getPageOffset(el);
       pos.x = pageCoord.x - scrollCoord.x;
       pos.y = pageCoord.y - scrollCoord.y;
+    }
+    if (goog.userAgent.GECKO && !goog.userAgent.isVersion(12)) {
+      pos = goog.math.Coordinate.sum(pos, goog.style.getCssTranslation(el));
     }
   } else {
     var isAbstractedEvent = goog.isFunction(el.getBrowserEvent);
@@ -1170,8 +1212,7 @@ goog.style.setStyles = function(element, stylesString) {
     // the style node works fine and ignores CSS that IE doesn't understand
     element.cssText = stylesString;
   } else {
-    var propToSet = goog.userAgent.WEBKIT ? 'innerText' : 'innerHTML';
-    element[propToSet] = stylesString;
+    element.innerHTML = stylesString;
   }
 };
 
@@ -1835,4 +1876,55 @@ goog.style.getScrollbarWidth = function(opt_className) {
   var width = outerDiv.offsetWidth - outerDiv.clientWidth;
   goog.dom.removeNode(outerDiv);
   return width;
+};
+
+
+/**
+ * Regular expression to extract x and y translation components from a CSS
+ * transform Matrix representation.
+ *
+ * @type {!RegExp}
+ * @const
+ * @private
+ */
+goog.style.MATRIX_TRANSLATION_REGEX_ =
+    new RegExp('matrix\\([0-9\\.\\-]+, [0-9\\.\\-]+, ' +
+               '[0-9\\.\\-]+, [0-9\\.\\-]+, ' +
+               '([0-9\\.\\-]+)p?x?, ([0-9\\.\\-]+)p?x?\\)');
+
+
+/**
+ * Returns the x,y translation component of any CSS transforms applied to the
+ * element, in pixels.
+ *
+ * @param {!Element} element The element to get the translation of.
+ * @return {!goog.math.Coordinate} The CSS translation of the element in px.
+ */
+goog.style.getCssTranslation = function(element) {
+  var property;
+  if (goog.userAgent.IE) {
+    property = '-ms-transform';
+  } else if (goog.userAgent.WEBKIT) {
+    property = '-webkit-transform';
+  } else if (goog.userAgent.OPERA) {
+    property = '-o-transform';
+  } else if (goog.userAgent.GECKO) {
+    property = '-moz-transform';
+  }
+  var transform;
+  if (property) {
+    transform = goog.style.getStyle_(element, property);
+  }
+  if (!transform) {
+    transform = goog.style.getStyle_(element, 'transform');
+  }
+  if (!transform) {
+    return new goog.math.Coordinate(0, 0);
+  }
+  var matches = transform.match(goog.style.MATRIX_TRANSLATION_REGEX_);
+  if (!matches) {
+    return new goog.math.Coordinate(0, 0);
+  }
+  return new goog.math.Coordinate(parseFloat(matches[1]),
+                                  parseFloat(matches[2]));
 };

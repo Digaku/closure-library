@@ -270,6 +270,7 @@ goog.ui.ComboBox.prototype.exitDocument = function() {
 /**
  * Combo box currently can't decorate elements.
  * @return {boolean} The value false.
+ * @override
  */
 goog.ui.ComboBox.prototype.canDecorate = function() {
   return false;
@@ -388,6 +389,14 @@ goog.ui.ComboBox.prototype.getMenu = function() {
 
 
 /**
+ * @return {Element} The input element.
+ */
+goog.ui.ComboBox.prototype.getInputElement = function() {
+  return this.input_;
+};
+
+
+/**
  * @return {number} The number of visible items in the menu.
  * @private
  */
@@ -432,6 +441,9 @@ goog.ui.ComboBox.prototype.getMatchFunction = function() {
  */
 goog.ui.ComboBox.prototype.setDefaultText = function(text) {
   this.defaultText_ = text;
+  if (this.labelInput_) {
+    this.labelInput_.setLabel(this.defaultText_);
+  }
 };
 
 
@@ -553,8 +565,9 @@ goog.ui.ComboBox.prototype.maybeShowMenu_ = function(showAll) {
     goog.Timer.callOnce(this.clearDismissTimer_, 1, this);
 
     this.showMenu_();
-    this.positionMenu();
   }
+
+  this.positionMenu();
 };
 
 
@@ -876,11 +889,13 @@ goog.ui.ComboBox.prototype.isItemSticky_ = function(item) {
  * @param {Object=} opt_data Identifying data for the menu item.
  * @param {goog.dom.DomHelper=} opt_domHelper Optional dom helper used for dom
  *     interactions.
+ * @param {goog.ui.MenuItemRenderer=} opt_renderer Optional renderer.
  * @constructor
  * @extends {goog.ui.MenuItem}
  */
-goog.ui.ComboBoxItem = function(content, opt_data, opt_domHelper) {
-  goog.ui.MenuItem.call(this, content, opt_data, opt_domHelper);
+goog.ui.ComboBoxItem = function(content, opt_data, opt_domHelper,
+    opt_renderer) {
+  goog.ui.MenuItem.call(this, content, opt_data, opt_domHelper, opt_renderer);
 };
 goog.inherits(goog.ui.ComboBoxItem, goog.ui.MenuItem);
 

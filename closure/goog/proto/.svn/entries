@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/proto
 http://closure-library.googlecode.com/svn
 
 
 
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-06-01T18:58:48.000000Z
+1943
+chrishenry@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-b0c8224f2c57537599e7ca7c944dcdcf
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:10.000000Z
+8c3852c29ec6ba80a1aeda022b2faf14
+2012-06-01T18:58:48.000000Z
+1943
+chrishenry@google.com
 has-props
 
 

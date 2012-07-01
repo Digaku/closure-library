@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/1541/trunk/closure/goog/date
+/svn/!svn/ver/1997/trunk/closure/goog/date
 END
 date_test.html
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/!svn/ver/944/trunk/closure/goog/date/date_test.html
+V 57
+/svn/!svn/ver/1819/trunk/closure/goog/date/date_test.html
 END
 utcdatetime.js
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1302/trunk/closure/goog/date/utcdatetime.js
+/svn/!svn/ver/1829/trunk/closure/goog/date/utcdatetime.js
 END
 daterange.js
 K 25
@@ -25,13 +25,13 @@ relative.js
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1461/trunk/closure/goog/date/relative.js
+/svn/!svn/ver/1997/trunk/closure/goog/date/relative.js
 END
 date.js
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/1499/trunk/closure/goog/date/date.js
+/svn/!svn/ver/1926/trunk/closure/goog/date/date.js
 END
 utcdatetime_test.html
 K 25
@@ -49,7 +49,7 @@ relative_test.html
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/1461/trunk/closure/goog/date/relative_test.html
+/svn/!svn/ver/1997/trunk/closure/goog/date/relative_test.html
 END
 datelike.js
 K 25

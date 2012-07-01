@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/graphics
 http://closure-library.googlecode.com/svn
 
 
 
-2012-02-21T20:29:56.000000Z
-1597
-pdoyle@google.com
+2012-06-12T00:04:52.000000Z
+1968
+johnlenz@google.com
 
 
 
@@ -25,108 +25,6 @@ pdoyle@google.com
 
 
 0b95b8e8-c90f-11de-9d4f-f947ee5921c8
-
-pathelement.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-200070693948fe70bb910077f06e6bed
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1844
-
-paths_test.html
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-afc14cc6e88b8fba549134586311512c
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2694
-
-font.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-2da9ff3f2a44e9922a120771255029dd
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1549
 
 groupelement.js
 file
@@ -162,14 +60,14 @@ has-props
 
 1799
 
-stroke.js
+font.js
 file
 
 
 
 
 2012-02-16T10:46:34.000000Z
-998b943583f576e9ca2846e016a5926f
+2da9ff3f2a44e9922a120771255029dd
 2011-12-13T22:20:28.000000Z
 1472
 ccalabro@google.com
@@ -194,19 +92,19 @@ has-props
 
 
 
-1501
+1549
 
-rectelement.js
+paths_test.html
 file
 
 
 
 
 2012-02-16T10:46:34.000000Z
-2a2ade28659e156542a4972b1c9bafa4
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+afc14cc6e88b8fba549134586311512c
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
 has-props
 
 
@@ -228,19 +126,19 @@ has-props
 
 
 
-2096
+2694
 
-ellipseelement.js
+pathelement.js
 file
 
 
 
 
-2012-02-16T10:46:34.000000Z
-88a02cb59aa2026599558b0ab88d9f29
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:10.000000Z
+a164ad03554229e034579f5908dc2d3c
+2012-05-15T12:31:48.000000Z
+1864
+nicksantos@google.com
 has-props
 
 
@@ -262,7 +160,7 @@ has-props
 
 
 
-2128
+1845
 
 svggraphics_test.html
 file
@@ -298,14 +196,14 @@ has-props
 
 2370
 
-vmlelement.js
+ellipseelement.js
 file
 
 
 
 
 2012-02-16T10:46:34.000000Z
-f1c6c0c9b0cd6b9308f2eea6e0f58fb7
+88a02cb59aa2026599558b0ab88d9f29
 2011-12-13T22:20:28.000000Z
 1472
 ccalabro@google.com
@@ -330,7 +228,143 @@ has-props
 
 
 
-12048
+2128
+
+rectelement.js
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+2a2ade28659e156542a4972b1c9bafa4
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2096
+
+stroke.js
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+998b943583f576e9ca2846e016a5926f
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1501
+
+vmlelement.js
+file
+
+
+
+
+2012-07-01T04:04:10.000000Z
+2b0d573a869c0c58708a4aa70232b81e
+2012-05-22T23:15:10.000000Z
+1901
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12206
+
+solidfill_test.html
+file
+
+
+
+
+2012-07-01T04:04:10.000000Z
+ad221a6bd3fd5b34d72055ab0332a0ab
+2012-04-27T08:42:22.000000Z
+1787
+bingham@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1433
 
 svgelement.js
 file
@@ -338,11 +372,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-e43a2389ad6e178669caceeca95c79bf
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:10.000000Z
+05269daffb4d2506a2dd7bb5d7fe3d24
+2012-05-22T23:15:10.000000Z
+1901
+chrishenry@google.com
 has-props
 
 
@@ -364,41 +398,7 @@ has-props
 
 
 
-8959
-
-strokeandfillelement.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-4badb251ebbd461092bfb26b842353bd
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3171
+9103
 
 affinetransform_test.html
 file
@@ -434,14 +434,14 @@ has-props
 
 12849
 
-vmlgraphics.js
+strokeandfillelement.js
 file
 
 
 
 
 2012-02-16T10:46:34.000000Z
-25d0a2688fe04d7a11e1c66b4a5ff0fe
+4badb251ebbd461092bfb26b842353bd
 2011-12-13T22:20:28.000000Z
 1472
 ccalabro@google.com
@@ -466,7 +466,7 @@ has-props
 
 
 
-29353
+3171
 
 paths.js
 file
@@ -502,17 +502,17 @@ has-props
 
 2777
 
-svggraphics.js
+vmlgraphics.js
 file
 
 
 
 
-2012-03-16T10:55:45.000000Z
-3411f8eaaa046a1a7efd780d799481cd
-2012-01-10T12:50:15.000000Z
-1508
-biancamm@google.com
+2012-07-01T04:04:10.000000Z
+49b1343a03d5316f2839d7a62fd97904
+2012-05-22T23:15:10.000000Z
+1901
+chrishenry@google.com
 has-props
 
 
@@ -534,7 +534,41 @@ has-props
 
 
 
-27011
+29535
+
+svggraphics.js
+file
+
+
+
+
+2012-07-01T04:04:10.000000Z
+2eabf11bc0a043432039264236c06214
+2012-05-22T23:15:10.000000Z
+1901
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27174
 
 solidfill.js
 file
@@ -542,11 +576,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-fb52a360a45f7283af06800e46ab0d62
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:10.000000Z
+d69b7b952261d69214d06ca79fa62a09
+2012-04-27T08:42:22.000000Z
+1787
+bingham@google.com
 has-props
 
 
@@ -568,7 +602,7 @@ has-props
 
 
 
-1777
+1810
 
 path_test.html
 file
@@ -610,11 +644,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-0b15229a1ef11434378dac7ffae2c06d
-2011-09-02T08:02:23.000000Z
-1268
-pallosp@google.com
+2012-07-01T04:04:10.000000Z
+9d3f1f9ef939b935e2c0793935af1f88
+2012-05-22T23:15:10.000000Z
+1901
+chrishenry@google.com
 has-props
 
 
@@ -636,7 +670,7 @@ has-props
 
 
 
-17816
+17829
 
 abstractgraphics.js
 file
@@ -644,47 +678,10 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-2a4351cfb538c283194d5177ecbac793
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13980
-
-ext
-dir
-
-canvaselement.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-74502a7a00ff7fe92cb77b17eb86f88e
-2011-05-11T20:41:33.000000Z
-919
+2012-07-01T04:04:10.000000Z
+adf92964337bfb9f185e6d06ca10ad5c
+2012-05-15T12:31:48.000000Z
+1864
 nicksantos@google.com
 has-props
 
@@ -707,7 +704,44 @@ has-props
 
 
 
-20401
+13981
+
+ext
+dir
+
+canvaselement.js
+file
+
+
+
+
+2012-07-01T04:04:10.000000Z
+e3a0c07d59c9cc3e27f204db3b6a663d
+2012-06-12T00:04:52.000000Z
+1968
+johnlenz@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20617
 
 fill.js
 file
@@ -817,11 +851,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-388f2f853ebc576be15328392cdc5e3a
-2011-09-27T00:20:47.000000Z
-1302
-bmccann@google.com
+2012-07-01T04:04:10.000000Z
+29915eecfbcbaabe2380f92bf95f0427
+2012-05-22T23:15:10.000000Z
+1901
+chrishenry@google.com
 has-props
 
 
@@ -843,7 +877,7 @@ has-props
 
 
 
-19809
+20006
 
 imageelement.js
 file
@@ -885,11 +919,11 @@ file
 
 
 
-2012-02-16T10:46:34.000000Z
-cee7ecbc14f2a7e3b422dfca261c84c3
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
+2012-07-01T04:04:10.000000Z
+f0a1b1b3d0a2523277970dd5ea550963
+2012-05-23T19:57:09.000000Z
+1908
+chrishenry@google.com
 has-props
 
 
@@ -911,7 +945,7 @@ has-props
 
 
 
-15822
+15821
 
 textelement.js
 file

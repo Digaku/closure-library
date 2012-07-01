@@ -1,15 +1,15 @@
 10
 
 dir
-1732
+2020
 http://closure-library.googlecode.com/svn/trunk/closure/goog/positioning
 http://closure-library.googlecode.com/svn
 
 
 
-2012-02-23T01:14:38.000000Z
-1602
-mschidlowsky@google.com
+2012-05-22T22:36:48.000000Z
+1900
+chrishenry@google.com
 
 
 
@@ -25,6 +25,40 @@ mschidlowsky@google.com
 
 
 0b95b8e8-c90f-11de-9d4f-f947ee5921c8
+
+viewportposition.js
+file
+
+
+
+
+2012-07-01T04:04:05.000000Z
+8efd259f0dd26132e7eefe0660da2e46
+2012-05-22T22:36:48.000000Z
+1900
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2413
 
 positioning_test_quirk.html
 file
@@ -60,17 +94,17 @@ has-props
 
 289
 
-viewportposition.js
+anchoredposition.js
 file
 
 
 
 
-2012-02-16T10:46:35.000000Z
-2df911babdfdec477ec13bab1a802549
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:05.000000Z
+50d38c30c6e6697b051f5bb5ce901354
+2012-05-22T22:36:48.000000Z
+1900
+chrishenry@google.com
 has-props
 
 
@@ -92,7 +126,7 @@ has-props
 
 
 
-2402
+3231
 
 anchoredviewportposition.js
 file
@@ -100,11 +134,11 @@ file
 
 
 
-2012-03-16T10:55:37.000000Z
-4644f233348e222cd6252261b6154a46
-2012-01-18T17:17:27.000000Z
-1524
-nicksantos@google.com
+2012-07-01T04:04:05.000000Z
+b8217a7921d6755158d66c5954fb4fd8
+2012-05-14T03:23:16.000000Z
+1858
+frankxue@google.com
 has-props
 
 
@@ -126,41 +160,7 @@ has-props
 
 
 
-6010
-
-anchoredposition.js
-file
-
-
-
-
-2012-03-16T10:55:37.000000Z
-edeff6823c9f0dad9ef84a7f046f8c9c
-2011-12-29T22:38:37.000000Z
-1498
-ivaylobakalov@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3218
+6509
 
 positioning_test_standard.html
 file
@@ -304,11 +304,11 @@ file
 
 
 
-2012-03-16T10:55:37.000000Z
-a49d950ba6a193f8658412fa05b70b79
-2012-02-23T01:14:38.000000Z
-1602
-mschidlowsky@google.com
+2012-07-01T04:04:05.000000Z
+dc451c6aa28717db974ca5e86a377b10
+2012-05-14T03:23:16.000000Z
+1858
+frankxue@google.com
 has-props
 
 
@@ -330,7 +330,7 @@ has-props
 
 
 
-44186
+47754
 
 viewportclientposition_test.html
 file
@@ -366,17 +366,17 @@ has-props
 
 6754
 
-positioning_test_iframe1.html
+clientposition_test.html
 file
 
 
 
 
-2012-02-16T10:46:35.000000Z
-8d1d5994f30123c50380c390998dd806
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:05.000000Z
+ab4e2d541b4b0cbbe6e4482f1ff7e854
+2012-05-11T22:56:41.000000Z
+1856
+chrishenry@google.com
 has-props
 
 
@@ -398,7 +398,7 @@ has-props
 
 
 
-611
+507
 
 menuanchoredposition.js
 file
@@ -434,6 +434,40 @@ has-props
 
 2984
 
+positioning_test_iframe1.html
+file
+
+
+
+
+2012-02-16T10:46:35.000000Z
+8d1d5994f30123c50380c390998dd806
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+611
+
 positioning_test_iframe2.html
 file
 
@@ -467,40 +501,6 @@ has-props
 
 
 456
-
-anchoredviewportposition_test.html
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-d698bfb889e71dd61d2ad17d44c07aad
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4102
 
 anchoredposition_test.html
 file
@@ -536,17 +536,17 @@ has-props
 
 2432
 
-positioning.js
+anchoredviewportposition_test.html
 file
 
 
 
 
-2012-03-16T10:55:37.000000Z
-561413206fa54ddd47823cd544cf0a92
-2012-02-23T01:14:38.000000Z
-1602
-mschidlowsky@google.com
+2012-02-16T10:46:35.000000Z
+d698bfb889e71dd61d2ad17d44c07aad
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
 has-props
 
 
@@ -568,7 +568,75 @@ has-props
 
 
 
-19170
+4102
+
+positioning.js
+file
+
+
+
+
+2012-07-01T04:04:05.000000Z
+a5ddd28484324c414a672816e6a8070c
+2012-05-14T03:23:16.000000Z
+1858
+frankxue@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20180
+
+clientposition_test.js
+file
+
+
+
+
+2012-07-01T04:04:05.000000Z
+5e3f9ea9ba5b9bc0c2a5e37f024328aa
+2012-05-11T22:56:41.000000Z
+1856
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3730
 
 viewportclientposition.js
 file
@@ -576,11 +644,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-ea286dd954e897c81d8f35b58e9b1d8f
-2011-08-23T19:00:40.000000Z
-1244
-nicksantos@google.com
+2012-07-01T04:04:05.000000Z
+d2e15e34d157bdc8cf90a821d26422d8
+2012-05-22T22:36:48.000000Z
+1900
+chrishenry@google.com
 has-props
 
 
@@ -602,7 +670,7 @@ has-props
 
 
 
-4500
+4513
 
 absoluteposition.js
 file
@@ -610,11 +678,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-d352eb59a50b4b007a0ed00a469bdaaf
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:05.000000Z
+4baa6eaa3029def71ea53835adf7a606
+2012-05-22T22:36:48.000000Z
+1900
+chrishenry@google.com
 has-props
 
 
@@ -636,7 +704,7 @@ has-props
 
 
 
-2814
+2827
 
 clientposition.js
 file
@@ -644,11 +712,11 @@ file
 
 
 
-2012-02-16T10:46:35.000000Z
-1b2405c75a9160522aaa7aa698883959
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:05.000000Z
+a0cfe8188418c15dcb4f399f8fa8c4e8
+2012-05-22T22:36:48.000000Z
+1900
+chrishenry@google.com
 has-props
 
 
@@ -670,5 +738,5 @@ has-props
 
 
 
-2871
+3300
 

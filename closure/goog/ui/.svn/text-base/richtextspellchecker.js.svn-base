@@ -138,6 +138,7 @@ goog.ui.RichTextSpellChecker.prototype.invalidWordCssText =
  *
  * @throws {Error} Not supported. Use decorate.
  * @see #decorate
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.createDom = function() {
   throw Error('Render not supported for goog.ui.RichTextSpellChecker.');
@@ -148,6 +149,7 @@ goog.ui.RichTextSpellChecker.prototype.createDom = function() {
  * Decorates the element for the UI component.
  *
  * @param {Element} element Element to decorate.
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.decorateInternal = function(element) {
   this.setElementInternal(element);
@@ -162,9 +164,7 @@ goog.ui.RichTextSpellChecker.prototype.decorateInternal = function(element) {
 };
 
 
-/**
- * Called when the component's element is known to be in the document.
- */
+/** @override */
 goog.ui.RichTextSpellChecker.prototype.enterDocument = function() {
   goog.ui.RichTextSpellChecker.superClass_.enterDocument.call(this);
   this.initSuggestionsMenu();
@@ -173,6 +173,7 @@ goog.ui.RichTextSpellChecker.prototype.enterDocument = function() {
 
 /**
  * Checks spelling for all text and displays correction UI.
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.check = function() {
   this.blockReadyEvents();
@@ -438,6 +439,7 @@ goog.ui.RichTextSpellChecker.prototype.processNode_ = function(node) {
  * @param {string} word Word to process.
  * @param {goog.spell.SpellCheck.WordStatus} status Status of the word.
  * @protected
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.processWord = function(node, word,
                                                               status) {
@@ -452,6 +454,7 @@ goog.ui.RichTextSpellChecker.prototype.processWord = function(node, word,
  * @param {Node} node Node containing separator.
  * @param {string} text Text to process.
  * @protected
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.processRange = function(node, text) {
   // The text does not change, it only gets split, so if the lengths are the
@@ -491,6 +494,7 @@ goog.ui.RichTextSpellChecker.prototype.createWordElement_ = function(word,
  * @param {string} word Word to update status for.
  * @param {goog.spell.SpellCheck.WordStatus} status Status of word.
  * @protected
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.updateElement = function(el, word,
     status) {
@@ -505,6 +509,7 @@ goog.ui.RichTextSpellChecker.prototype.updateElement = function(el, word,
 
 /**
  * Hides correction UI.
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.resume = function() {
   goog.ui.RichTextSpellChecker.superClass_.resume.call(this);
@@ -584,6 +589,7 @@ goog.ui.RichTextSpellChecker.prototype.restoreNode_ = function(node) {
  * @param {goog.spell.SpellCheck.WordStatus} status Status of the word.
  * @return {Object} Properties to apply to word element.
  * @protected
+ * @override
  */
 goog.ui.RichTextSpellChecker.prototype.getElementProperties =
     function(status) {

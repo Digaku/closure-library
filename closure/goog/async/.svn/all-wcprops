@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/1499/trunk/closure/goog/async
+/svn/!svn/ver/1938/trunk/closure/goog/async
 END
 delay_test.html
 K 25
@@ -14,6 +14,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 55
 /svn/!svn/ver/1302/trunk/closure/goog/async/throttle.js
+END
+animationdelay_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1938/trunk/closure/goog/async/animationdelay_test.html
 END
 conditionaldelay_test.html
 K 25
@@ -32,6 +38,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 52
 /svn/!svn/ver/1499/trunk/closure/goog/async/delay.js
+END
+animationdelay.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1938/trunk/closure/goog/async/animationdelay.js
 END
 conditionaldelay.js
 K 25
