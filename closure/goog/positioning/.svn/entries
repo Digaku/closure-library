@@ -1,7 +1,7 @@
 10
 
 dir
-2020
+2021
 http://closure-library.googlecode.com/svn/trunk/closure/goog/positioning
 http://closure-library.googlecode.com/svn
 
@@ -25,40 +25,6 @@ chrishenry@google.com
 
 
 0b95b8e8-c90f-11de-9d4f-f947ee5921c8
-
-viewportposition.js
-file
-
-
-
-
-2012-07-01T04:04:05.000000Z
-8efd259f0dd26132e7eefe0660da2e46
-2012-05-22T22:36:48.000000Z
-1900
-chrishenry@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2413
 
 positioning_test_quirk.html
 file
@@ -94,14 +60,14 @@ has-props
 
 289
 
-anchoredposition.js
+viewportposition.js
 file
 
 
 
 
 2012-07-01T04:04:05.000000Z
-50d38c30c6e6697b051f5bb5ce901354
+8efd259f0dd26132e7eefe0660da2e46
 2012-05-22T22:36:48.000000Z
 1900
 chrishenry@google.com
@@ -126,7 +92,7 @@ has-props
 
 
 
-3231
+2413
 
 anchoredviewportposition.js
 file
@@ -161,6 +127,40 @@ has-props
 
 
 6509
+
+anchoredposition.js
+file
+
+
+
+
+2012-07-01T04:04:05.000000Z
+50d38c30c6e6697b051f5bb5ce901354
+2012-05-22T22:36:48.000000Z
+1900
+chrishenry@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3231
 
 positioning_test_standard.html
 file
@@ -332,40 +332,6 @@ has-props
 
 47754
 
-viewportclientposition_test.html
-file
-
-
-
-
-2012-02-16T10:46:35.000000Z
-4a21d4b8c8004dce04b6600196744549
-2011-12-13T22:20:28.000000Z
-1472
-ccalabro@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6754
-
 clientposition_test.html
 file
 
@@ -400,17 +366,17 @@ has-props
 
 507
 
-menuanchoredposition.js
+viewportclientposition_test.html
 file
 
 
 
 
-2012-03-16T10:55:37.000000Z
-c40d01dc14af53d192b971840620e06e
-2012-01-18T17:17:27.000000Z
-1524
-nicksantos@google.com
+2012-02-16T10:46:35.000000Z
+4a21d4b8c8004dce04b6600196744549
+2011-12-13T22:20:28.000000Z
+1472
+ccalabro@google.com
 has-props
 
 
@@ -432,7 +398,7 @@ has-props
 
 
 
-2984
+6754
 
 positioning_test_iframe1.html
 file
@@ -467,6 +433,40 @@ has-props
 
 
 611
+
+menuanchoredposition.js
+file
+
+
+
+
+2012-03-16T10:55:37.000000Z
+c40d01dc14af53d192b971840620e06e
+2012-01-18T17:17:27.000000Z
+1524
+nicksantos@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2984
 
 positioning_test_iframe2.html
 file

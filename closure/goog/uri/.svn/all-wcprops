@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/1980/trunk/closure/goog/uri
+/svn/!svn/ver/2021/trunk/closure/goog/uri
 END
 uri_test.html
 K 25
@@ -19,7 +19,7 @@ uri.js
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/1980/trunk/closure/goog/uri/uri.js
+/svn/!svn/ver/2021/trunk/closure/goog/uri/uri.js
 END
 utils.js
 K 25

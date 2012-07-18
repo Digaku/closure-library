@@ -1,7 +1,7 @@
 10
 
 dir
-2020
+2021
 http://closure-library.googlecode.com/svn/trunk/closure/goog/i18n
 http://closure-library.googlecode.com/svn
 
@@ -536,40 +536,6 @@ has-props
 
 19005
 
-currency_test.html
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-59715662d3857636f0036d8e6f72de5b
-2011-11-07T17:56:39.000000Z
-1374
-shanjian@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6845
-
 timezone_test.html
 file
 
@@ -603,6 +569,40 @@ has-props
 
 
 7374
+
+currency_test.html
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+59715662d3857636f0036d8e6f72de5b
+2011-11-07T17:56:39.000000Z
+1374
+shanjian@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6845
 
 bidiformatter_test.html
 file
@@ -672,40 +672,6 @@ has-props
 
 4311
 
-datetimesymbolsext.js
-file
-
-
-
-
-2012-07-01T04:04:08.000000Z
-b26d489a8c04c59aa43f095c7676c4c8
-2012-06-12T21:56:21.000000Z
-1970
-roozbeh@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-722219
-
 charlistdecompressor_test.html
 file
 
@@ -740,17 +706,17 @@ has-props
 
 1610
 
-mime.js
+datetimesymbolsext.js
 file
 
 
 
 
-2012-02-16T10:46:34.000000Z
-d2d7b7284ef9f8d765977301f0f292eb
-2011-04-12T20:35:47.000000Z
-850
-diegosalas@google.com
+2012-07-01T04:04:08.000000Z
+b26d489a8c04c59aa43f095c7676c4c8
+2012-06-12T21:56:21.000000Z
+1970
+roozbeh@google.com
 has-props
 
 
@@ -772,7 +738,7 @@ has-props
 
 
 
-3533
+722219
 
 datetimeparse.js
 file
@@ -808,6 +774,40 @@ has-props
 
 35541
 
+mime.js
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+d2d7b7284ef9f8d765977301f0f292eb
+2011-04-12T20:35:47.000000Z
+850
+diegosalas@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3533
+
 uchar_test.html
 file
 
@@ -841,40 +841,6 @@ has-props
 
 
 1661
-
-currency.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-4b519d51a8db377569c9779f1f09c539
-2011-11-07T17:56:39.000000Z
-1374
-shanjian@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13132
 
 timezone.js
 file
@@ -910,6 +876,40 @@ has-props
 
 11496
 
+currency.js
+file
+
+
+
+
+2012-02-16T10:46:34.000000Z
+4b519d51a8db377569c9779f1f09c539
+2011-11-07T17:56:39.000000Z
+1374
+shanjian@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13132
+
 datetimeformat_test.html
 file
 
@@ -943,40 +943,6 @@ has-props
 
 
 24963
-
-messageformat.js
-file
-
-
-
-
-2012-02-16T10:46:34.000000Z
-6bfd473fa317dd959906afb62ef7c079
-2011-09-20T18:25:15.000000Z
-1288
-umesh@google.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20577
 
 graphemebreak.js
 file
@@ -1012,17 +978,17 @@ has-props
 
 7347
 
-bidi_test.html
+messageformat.js
 file
 
 
 
 
-2012-07-01T04:04:08.000000Z
-fb20e2333cdda2ed59363e07db84f837
-2012-05-07T15:51:45.000000Z
-1825
-aharon@google.com
+2012-02-16T10:46:34.000000Z
+6bfd473fa317dd959906afb62ef7c079
+2011-09-20T18:25:15.000000Z
+1288
+umesh@google.com
 has-props
 
 
@@ -1044,7 +1010,7 @@ has-props
 
 
 
-18997
+20577
 
 datetimepatternsext.js
 file
@@ -1079,6 +1045,40 @@ has-props
 
 
 208067
+
+bidi_test.html
+file
+
+
+
+
+2012-07-01T04:04:08.000000Z
+fb20e2333cdda2ed59363e07db84f837
+2012-05-07T15:51:45.000000Z
+1825
+aharon@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18997
 
 numberformat.js
 file
