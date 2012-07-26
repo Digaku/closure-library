@@ -97,6 +97,10 @@ goog.ui.Loading.prototype.disposeInternal = function(){
 	this.restoreAll_();
 };
 
+goog.ui.Loading.prototype.getWrapper = function(){
+    return this.wrapper_;
+}
+
 
 goog.exportSymbol('goog.ui.Loading', goog.ui.Loading);
 
