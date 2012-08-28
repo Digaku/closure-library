@@ -191,6 +191,13 @@ goog.ui.CharCounter.prototype.checkLength_ = function() {
   }
 };
 
+/**
+ * shortcut to update display.
+ */
+goog.ui.CharCounter.prototype.update = function(){
+    this.checkLength_();
+}
+
 
 /** @override */
 goog.ui.CharCounter.prototype.disposeInternal = function() {
