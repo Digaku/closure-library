@@ -14,7 +14,7 @@ goog.require('goog.ui.Component');
  * @constructor
  * @extends {goog.ui.Component}
  */
-goog.ui.Loading = function(elm_or_id, opt_base_url, opt_place_inner, opt_center, opt_domHelpers){
+goog.ui.Loading = function(elm_or_id, opt_base_url, opt_place_inner, opt_center, opt_addClass, opt_domHelpers){
 	goog.ui.Component.call(this, opt_domHelpers);
 	
 	var elm;
@@ -25,6 +25,8 @@ goog.ui.Loading = function(elm_or_id, opt_base_url, opt_place_inner, opt_center,
 	else{
 		elm = elm_or_id;
 	}
+
+    this.addClass_ = opt_addClass
 	
 	this.orig_elm = elm;
 	this.base_url_ = opt_base_url;
@@ -41,6 +43,10 @@ goog.ui.Loading.prototype.decorateInternal = function(element){
 	
 	var wrapper = this.dom_.createElement(this.opt_center ? 'div' : 'span'),
 		anim = this.dom_.createElement('span');
+
+    if(this.addClass_){
+        goog.dom.classes.add(wrapper, this.addClass_)
+    }
 
     // copy wrapper style from orig elm style
     wrapper.style.cssText = this.orig_elm.style.cssText;
