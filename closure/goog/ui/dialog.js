@@ -75,8 +75,7 @@ goog.require('goog.userAgent');
  *     as a class name prefix for related elements; defaults to modal-dialog.
  * @param {boolean=} opt_useIframeMask Work around windowed controls z-index
  *     issue by using an iframe instead of a div for bg element.
- * @param {goog.dom.DomHelper=} opt_domHelper Optional DOM helper; see {@link
- *     goog.ui.Component} for semantics.
+ * @param {goog.dom.DomHelper=} opt_domHelper Optional DOM helper; see {@link goog.ui.Component} for semantics.
  * @extends {goog.ui.ModalPopup}
  */
 goog.ui.Dialog = function(opt_class, opt_useIframeMask, opt_domHelper) {
@@ -1101,8 +1100,7 @@ goog.ui.Dialog.EventType = {
 /**
  * A button set defines the behaviour of a set of buttons that the dialog can
  * show.  Uses the {@link goog.structs.Map} interface.
- * @param {goog.dom.DomHelper=} opt_domHelper Optional DOM helper; see {@link
- *    goog.ui.Component} for semantics.
+ * @param {goog.dom.DomHelper=} opt_domHelper Optional DOM helper; see {@link goog.ui.Component} for semantics.
  * @constructor
  * @extends {goog.structs.Map}
  */
