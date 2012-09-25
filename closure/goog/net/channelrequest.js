@@ -974,10 +974,20 @@ goog.net.ChannelRequest.prototype.sendUsingImgTag = function(uri) {
 goog.net.ChannelRequest.prototype.imgTagGet_ = function() {
   var eltImg = new Image();
   eltImg.src = this.baseUri_;
+  eltImg.onload = eltImg.onerror = goog.bind(this.imgTagComplete_, this);
   this.requestStartTime_ = goog.now();
   this.ensureWatchDogTimer_();
 };
 
+/**
+ * Callback when the image request is complete
+ *
+ * @private
+ */
+goog.net.ChannelRequest.prototype.imgTagComplete_ = function() {
+  this.cancelWatchDogTimer_();
+  this.channel_.onRequestComplete(this);
+}
 
 /**
  * Cancels the request no matter what the underlying transport is.

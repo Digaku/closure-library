@@ -92,44 +92,26 @@ goog.net.tmpnetwork.testLoadImage = function(url, timeout, callback) {
   var channelDebug = new goog.net.ChannelDebug();
   channelDebug.debug('TestLoadImage: loading ' + url);
   var img = new Image();
-  img.onload = function() {
-    try {
-      channelDebug.debug('TestLoadImage: loaded');
-      goog.net.tmpnetwork.clearImageCallbacks_(img);
-      callback(true);
-    } catch (e) {
-      channelDebug.dumpException(e);
-    }
-  };
-  img.onerror = function() {
-    try {
-      channelDebug.debug('TestLoadImage: error');
-      goog.net.tmpnetwork.clearImageCallbacks_(img);
-      callback(false);
-    } catch (e) {
-      channelDebug.dumpException(e);
-    }
-  };
-  img.onabort = function() {
-    try {
-      channelDebug.debug('TestLoadImage: abort');
-      goog.net.tmpnetwork.clearImageCallbacks_(img);
-      callback(false);
-    } catch (e) {
-      channelDebug.dumpException(e);
-    }
-  };
-  img.ontimeout = function() {
-    try {
-      channelDebug.debug('TestLoadImage: timeout');
-      goog.net.tmpnetwork.clearImageCallbacks_(img);
-      callback(false);
-    } catch (e) {
-      channelDebug.dumpException(e);
-    }
+  var timer = null;
+  createHandler = function(result, message) {
+    return function() {
+      try {
+        channelDebug.debug('TestLoadImage: ' + message);
+        goog.net.tmpnetwork.clearImageCallbacks_(img);
+        goog.global.clearTimeout(timer);
+        callback(result);
+      } catch (e) {
+        channelDebug.dumpException(e);
+      }
+    };
   };
 
-  goog.global.setTimeout(function() {
+  img.onload = createHandler(true, 'loaded');
+  img.onerror = createHandler(false, 'error');
+  img.onabort = createHandler(false, 'abort');
+  img.ontimeout = createHandler(false, 'timeout');
+
+  timer = goog.global.setTimeout(function() {
     if (img.ontimeout) {
       img.ontimeout();
     }
