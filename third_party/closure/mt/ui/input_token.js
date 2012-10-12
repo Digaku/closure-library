@@ -153,8 +153,8 @@ mt.ui.InputToken = (function() {
     elm.appendChild(this.itemsWrappers_);
     this.inputElm_ = this.dom_.createDom("input");
     goog.style.setStyle(this.inputElm_, {
-      "float": "float",
-      "left": "left",
+      "float": "left",
+      "left": "0px",
       'type': 'text',
       'width': '140px'
     });
