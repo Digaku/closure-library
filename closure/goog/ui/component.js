@@ -318,8 +318,8 @@ goog.ui.Component.setDefaultRightToLeft = function(rightToLeft) {
 
 
 /**
- * Unique ID of the component, lazily initialized in {@link
- * goog.ui.Component#getId} if needed.  This property is strictly private and
+ * Unique ID of the component, lazily initialized in {@link goog.ui.Component#getId} if needed.
+ * This property is strictly private and
  * must not be accessed directly outside of this class!
  * @type {?string}
  * @private
