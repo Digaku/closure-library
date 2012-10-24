@@ -487,8 +487,7 @@ goog.ui.Control.prototype.canDecorate = function(element) {
 
 
 /**
- * Decorates the given element with this component. Overrides {@link
- * goog.ui.Component#decorateInternal} by delegating DOM manipulation
+ * Decorates the given element with this component. Overrides {@link goog.ui.Component#decorateInternal} by delegating DOM manipulation
  * to the control's renderer.
  * @param {Element} element Element to decorate.
  * @protected
@@ -972,8 +971,7 @@ goog.ui.Control.prototype.setOpen = function(open) {
 
 
 /**
- * Returns the component's state as a bit mask of {@link
- * goog.ui.Component.State}s.
+ * Returns the component's state as a bit mask of {@link goog.ui.Component.State}s.
  * @return {number} Bit mask representing component state.
  */
 goog.ui.Control.prototype.getState = function() {
