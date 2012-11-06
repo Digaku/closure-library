@@ -13,6 +13,9 @@ goog.require('goog.ui.Component');
  * @param opt_center {bool} whether on center position.
  * @constructor
  * @extends {goog.ui.Component}
+ * @param opt_place_inner
+ * @param opt_domHelpers
+ * @param opt_addClass
  */
 goog.ui.Loading = function(elm_or_id, opt_base_url, opt_place_inner, opt_center, opt_addClass, opt_domHelpers){
 	goog.ui.Component.call(this, opt_domHelpers);
